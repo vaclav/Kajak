@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="c643" modelUID="r:e43dfd95-c0a4-423f-843e-d196e5bbf5cf(JSKajak.structure)" version="-1" />
+    </dependencies>
+    <rename id="c643.3265739055509367567" type="CONCEPT" from="JSVarDeclaration" to="VarDeclaration" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="c643" modelUID="r:e43dfd95-c0a4-423f-843e-d196e5bbf5cf(JSKajak.structure)" version="0" />
+    </dependencies>
+    <rename id="c643.3265739055509541894" type="REFERENCE" from="reference" to="declaration" />
+  </StructureModification>
+</history>
+

@@ -1,0 +1,11 @@
+// Foo
+var a=10;
+var b=20;
+var draw = function() {
+background(255, 255, 255);
+fill(255, 0, 0);
+rect(a,b, 20, 30);
+a=a+10;
+b=b+20;
+
+};

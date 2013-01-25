@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="c2kz" modelUID="r:b567205c-7e17-4168-b413-945a6e17f37d(Kajak.structure)" version="-1" />
+    </dependencies>
+    <rename id="c2kz.3308300503039667427" type="CHILD" from="commands" to="body" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="c2kz" modelUID="r:b567205c-7e17-4168-b413-945a6e17f37d(Kajak.structure)" version="0" />
+    </dependencies>
+    <rename id="c2kz.3308300503039660367" type="CHILD" from="commands" to="body" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="c2kz" modelUID="r:b567205c-7e17-4168-b413-945a6e17f37d(Kajak.structure)" version="1" />
+    </dependencies>
+    <rename id="c2kz.3265739055509559116" type="CHILD" from="commands" to="body" />
+  </StructureModification>
+</history>
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="AbstractCommand_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Kajak.behavior.AbstractCommand_BehaviorDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="64" endPosition="0" unitName="Kajak.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="CommandList_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kajak.behavior.CommandList_BehaviorDescriptor" />
+  <unitInfo fileName="CommentLine_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kajak.behavior.CommentLine_BehaviorDescriptor" />
+  <unitInfo fileName="Direction_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Kajak.behavior.Direction_BehaviorDescriptor" />
+  <unitInfo fileName="Drop_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kajak.behavior.Drop_BehaviorDescriptor" />
+  <unitInfo fileName="East_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kajak.behavior.East_BehaviorDescriptor" />
+  <unitInfo fileName="EmptyLine_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kajak.behavior.EmptyLine_BehaviorDescriptor" />
+  <unitInfo fileName="Heading_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kajak.behavior.Heading_BehaviorDescriptor" />
+  <unitInfo fileName="IfStatement_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kajak.behavior.IfStatement_BehaviorDescriptor" />
+  <unitInfo fileName="IsMark_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kajak.behavior.IsMark_BehaviorDescriptor" />
+  <unitInfo fileName="IsWall_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kajak.behavior.IsWall_BehaviorDescriptor" />
+  <unitInfo fileName="LeftTurn_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kajak.behavior.LeftTurn_BehaviorDescriptor" />
+  <unitInfo fileName="LogicalExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Kajak.behavior.LogicalExpression_BehaviorDescriptor" />
+  <unitInfo fileName="North_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kajak.behavior.North_BehaviorDescriptor" />
+  <unitInfo fileName="Not_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kajak.behavior.Not_BehaviorDescriptor" />
+  <unitInfo fileName="Pick_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kajak.behavior.Pick_BehaviorDescriptor" />
+  <unitInfo fileName="Repeat_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kajak.behavior.Repeat_BehaviorDescriptor" />
+  <unitInfo fileName="RoutineCall_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kajak.behavior.RoutineCall_BehaviorDescriptor" />
+  <unitInfo fileName="RoutineDefinition_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="Kajak.behavior.RoutineDefinition_BehaviorDescriptor" />
+  <unitInfo fileName="Script_BehaviorDescriptor.java" startLine="12" startPosition="0" endLine="33" endPosition="0" unitName="Kajak.behavior.Script_BehaviorDescriptor" />
+  <unitInfo fileName="South_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kajak.behavior.South_BehaviorDescriptor" />
+  <unitInfo fileName="Step_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kajak.behavior.Step_BehaviorDescriptor" />
+  <unitInfo fileName="West_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kajak.behavior.West_BehaviorDescriptor" />
+  <unitInfo fileName="While_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kajak.behavior.While_BehaviorDescriptor" />
+</debugInfo>
+
