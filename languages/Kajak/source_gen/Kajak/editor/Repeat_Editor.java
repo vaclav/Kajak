@@ -115,6 +115,7 @@ public class Repeat_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_count");
+    BaseLanguageStyle_StyleSheet.getNumericLiteral(editorCell).apply(editorCell);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

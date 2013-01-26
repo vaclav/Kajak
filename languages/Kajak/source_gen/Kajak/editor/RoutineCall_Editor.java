@@ -15,7 +15,6 @@ import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.MPSFonts;
 
 public class RoutineCall_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -68,9 +67,10 @@ public class RoutineCall_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name");
+      KajakStyles_StyleSheet.getCommand(editorCell).apply(editorCell);
       {
         Style style = editorCell.getStyle();
-        style.set(StyleAttributes.FONT_STYLE, MPSFonts.ITALIC);
+        style.set(StyleAttributes.EDITABLE, false);
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();

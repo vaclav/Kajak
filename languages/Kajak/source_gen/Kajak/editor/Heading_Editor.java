@@ -12,6 +12,8 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.ConceptPropertyCellProvider;
+import jetbrains.mps.nodeEditor.style.Style;
+import jetbrains.mps.nodeEditor.style.StyleAttributes;
 
 public class Heading_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -50,6 +52,10 @@ public class Heading_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("conceptProperty_alias");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.EDITABLE, false);
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
