@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
-  <dependency className="Kajak.sandbox.sandbox.Demo" file="Demo.java">
+  <dependency className="Kajak.sandbox.sandbox.Karel" file="Karel.java">
+    <classNode dependClassName="JavaKajak.runtime.Direction" />
     <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="JavaKajak.runtime.KajakFrame" />
   </dependency>

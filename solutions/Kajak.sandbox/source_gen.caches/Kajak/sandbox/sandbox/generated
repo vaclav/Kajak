@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-6yj2yvvh2h64e8qyncze67bpnkb9dbx">
+<dependencies version="2" modelHash="-2wxj3qfq70y11v656anbbnasb6tk79l">
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
   <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kajak.generator.template.main@generator)" hash="bfkwipshma5z7v72t31vjiuconawba5" />
@@ -7,11 +7,11 @@
   <common hash="-11cmqb17yirvp84ooyf8mritgbbaee6">
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   </common>
-  <source id="3308300503039980203" name="Demo" hash="-8lktfj7ipocqwswn6jqp0cogz94z0jd">
+  <source id="3308300503039980203" name="Karel" hash="-59ihg47t4j95s26nyn47xx1jhaj4beu">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kajak.generator.template.main@generator)" />
-    <file name="Demo.java" />
+    <file name="Karel.java" />
   </source>
   <source id="7446293342517103305" name="Sample" hash="-ef3bt6tiqgq1l58hqgn8buwzcmvzai4">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
