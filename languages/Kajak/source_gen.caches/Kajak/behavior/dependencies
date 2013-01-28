@@ -14,6 +14,7 @@
     <classNode dependClassName="Kajak.behavior.EmptyLine_BehaviorDescriptor" />
     <classNode dependClassName="Kajak.behavior.Heading_BehaviorDescriptor" />
     <classNode dependClassName="Kajak.behavior.IfStatement_BehaviorDescriptor" />
+    <classNode dependClassName="Kajak.behavior.IsFull_BehaviorDescriptor" />
     <classNode dependClassName="Kajak.behavior.IsMark_BehaviorDescriptor" />
     <classNode dependClassName="Kajak.behavior.IsWall_BehaviorDescriptor" />
     <classNode dependClassName="Kajak.behavior.LeftTurn_BehaviorDescriptor" />
@@ -78,6 +79,12 @@
   </dependency>
   <dependency className="Kajak.behavior.IfStatement_BehaviorDescriptor" file="IfStatement_BehaviorDescriptor.java">
     <classNode dependClassName="Kajak.behavior.AbstractCommand_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="Kajak.behavior.IsFull_BehaviorDescriptor" file="IsFull_BehaviorDescriptor.java">
+    <classNode dependClassName="Kajak.behavior.LogicalExpression_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />

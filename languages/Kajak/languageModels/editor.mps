@@ -102,6 +102,10 @@
       <property name="name" nameId="tpck.1169194664001" value="RemoveNot" />
       <link role="applicableConcept" roleId="tpc2.1139535219968" targetNodeId="c2kz.3308300503039654064" resolveInfo="Not" />
     </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="859008965969439770">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="Logical" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="c2kz.859008965969439768" resolveInfo="IsFull" />
+    </node>
   </roots>
   <root id="3265739055509559117">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="3265739055509559119">
@@ -780,6 +784,11 @@
           </node>
         </node>
       </node>
+    </node>
+  </root>
+  <root id="859008965969439770">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_ConceptProperty" typeId="tpc2.1137553248617" id="859008965969439773">
+      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
     </node>
   </root>
 </model>

@@ -7,42 +7,42 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted;
 
 public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor {
-  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"Kajak.structure.CommandList", "Kajak.structure.CommentLine", "Kajak.structure.Drop", "Kajak.structure.East", "Kajak.structure.EmptyLine", "Kajak.structure.Heading", "Kajak.structure.IfStatement", "Kajak.structure.IsMark", "Kajak.structure.IsWall", "Kajak.structure.LeftTurn", "Kajak.structure.North", "Kajak.structure.Not", "Kajak.structure.Pick", "Kajak.structure.Repeat", "Kajak.structure.RoutineCall", "Kajak.structure.RoutineDefinition", "Kajak.structure.Script", "Kajak.structure.South", "Kajak.structure.Step", "Kajak.structure.West", "Kajak.structure.While"};
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"Kajak.structure.CommandList", "Kajak.structure.CommentLine", "Kajak.structure.Drop", "Kajak.structure.East", "Kajak.structure.EmptyLine", "Kajak.structure.Heading", "Kajak.structure.IfStatement", "Kajak.structure.IsFull", "Kajak.structure.IsMark", "Kajak.structure.IsWall", "Kajak.structure.LeftTurn", "Kajak.structure.North", "Kajak.structure.Not", "Kajak.structure.Pick", "Kajak.structure.Repeat", "Kajak.structure.RoutineCall", "Kajak.structure.RoutineDefinition", "Kajak.structure.Script", "Kajak.structure.South", "Kajak.structure.Step", "Kajak.structure.West", "Kajak.structure.While"};
 
   public BehaviorAspectDescriptor() {
   }
 
   public BehaviorDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0a, fqName)) {
-      case 16:
+      case 17:
         return new Script_BehaviorDescriptor();
-      case 18:
+      case 19:
         return new Step_BehaviorDescriptor();
-      case 9:
+      case 10:
         return new LeftTurn_BehaviorDescriptor();
       case 6:
         return new IfStatement_BehaviorDescriptor();
-      case 8:
+      case 9:
         return new IsWall_BehaviorDescriptor();
-      case 11:
+      case 12:
         return new Not_BehaviorDescriptor();
-      case 13:
+      case 14:
         return new Repeat_BehaviorDescriptor();
-      case 20:
+      case 21:
         return new While_BehaviorDescriptor();
-      case 10:
+      case 11:
         return new North_BehaviorDescriptor();
       case 3:
         return new East_BehaviorDescriptor();
-      case 17:
+      case 18:
         return new South_BehaviorDescriptor();
-      case 19:
+      case 20:
         return new West_BehaviorDescriptor();
       case 5:
         return new Heading_BehaviorDescriptor();
-      case 15:
+      case 16:
         return new RoutineDefinition_BehaviorDescriptor();
-      case 14:
+      case 15:
         return new RoutineCall_BehaviorDescriptor();
       case 4:
         return new EmptyLine_BehaviorDescriptor();
@@ -50,12 +50,14 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new CommandList_BehaviorDescriptor();
       case 2:
         return new Drop_BehaviorDescriptor();
-      case 12:
+      case 13:
         return new Pick_BehaviorDescriptor();
-      case 7:
+      case 8:
         return new IsMark_BehaviorDescriptor();
       case 1:
         return new CommentLine_BehaviorDescriptor();
+      case 7:
+        return new IsFull_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }

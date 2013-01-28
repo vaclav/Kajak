@@ -128,6 +128,11 @@
       <property name="name" nameId="tpck.1169194664001" value="CommentLine" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="3265739055509559114" resolveInfo="AbstractCommand" />
     </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="859008965969439768">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="Logical" />
+      <property name="name" nameId="tpck.1169194664001" value="IsFull" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="3308300503039647681" resolveInfo="LogicalExpression" />
+    </node>
   </roots>
   <root id="3265739055509559110">
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3265739055509559116">
@@ -361,6 +366,12 @@
     </node>
     <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="6405700485436287814">
       <property name="value" nameId="tpce.1105725733873" value="#" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
+    </node>
+  </root>
+  <root id="859008965969439768">
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="859008965969439769">
+      <property name="value" nameId="tpce.1105725733873" value="full" />
       <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
     </node>
   </root>

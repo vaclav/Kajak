@@ -25,21 +25,7 @@ public class Sample extends KajakFrame {
         return;
       }
     }
-    turnLeft();
-    pause();
-    while (!(isWall())) {
-      if (canMove()) {
-        moveKaja();
-        pause();
-      } else {
-        reportError("Oops, There's a wall in front of me. I can't make a step forward.");
-        return;
-      }
-    }
-    if (isWall()) {
-      turnRight_routine();
-    } else {
-    }
+    fill_routine();
     if (canMove()) {
       moveKaja();
       pause();
@@ -49,10 +35,15 @@ public class Sample extends KajakFrame {
     }
   }
 
-  public void turnRight_routine() {
-    for (int indexVariable_kf1bs5_a0a = 0; indexVariable_kf1bs5_a0a < 3; indexVariable_kf1bs5_a0a++) {
-      turnLeft();
-      pause();
+  public void fill_routine() {
+    while (!(isFull())) {
+      if (!(isFull())) {
+        addMark();
+        pause();
+      } else {
+        reportError("Cannot drop. The cell is already full.");
+        return;
+      }
     }
   }
 

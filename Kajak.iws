@@ -29,25 +29,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8730dab3-4571-4ff5-829c-27c05e4af208" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/QueriesGenerated$1.class" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/QueriesGenerated$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/QueriesGenerated$2.class" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/QueriesGenerated$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/QueriesGenerated$3.class" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/QueriesGenerated$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/QueriesGenerated$4.class" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/QueriesGenerated$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/QueriesGenerated.class" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/QueriesGenerated.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/IsFull_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/IsFull_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/actions/QueriesGenerated.class" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/actions/QueriesGenerated.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/actions/trace.info" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/actions/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/BehaviorAspectDescriptor.class" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/BehaviorAspectDescriptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/trace.info" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/structure/StructureAspectDescriptor.class" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/structure/StructureAspectDescriptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/structure/trace.info" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/structure/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/actions/generated" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/actions/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/behavior/dependencies" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/behavior/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/behavior/generated" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/behavior/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/constraints/generated" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/constraints/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/editor/dependencies" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/editor/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/editor/generated" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/editor/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/generator/template/main/generated" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/generator/template/main/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/generator/template/main/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/intentions/generated" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/intentions/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/structure/generated" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/structure/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/actions/trace.info" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/actions/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/trace.info" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/structure/trace.info" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/structure/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Kajak.sandbox/classes_gen/Kajak/sandbox/sandbox/Sample.class" afterPath="$PROJECT_DIR$/solutions/Kajak.sandbox/classes_gen/Kajak/sandbox/sandbox/Sample.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Kajak.sandbox/classes_gen/Kajak/sandbox/sandbox/trace.info" afterPath="$PROJECT_DIR$/solutions/Kajak.sandbox/classes_gen/Kajak/sandbox/sandbox/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Kajak.sandbox/source_gen.caches/Kajak/sandbox/sandbox/dependencies" afterPath="$PROJECT_DIR$/solutions/Kajak.sandbox/source_gen.caches/Kajak/sandbox/sandbox/dependencies" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Kajak.sandbox/source_gen.caches/Kajak/sandbox/sandbox/generated" afterPath="$PROJECT_DIR$/solutions/Kajak.sandbox/source_gen.caches/Kajak/sandbox/sandbox/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Kajak.sandbox/source_gen/Kajak/sandbox/sandbox/trace.info" afterPath="$PROJECT_DIR$/solutions/Kajak.sandbox/source_gen/Kajak/sandbox/sandbox/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kajak.iws" afterPath="$PROJECT_DIR$/Kajak.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/generator/template/Kajak/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/Kajak/generator/template/Kajak/generator/template/main@generator.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/generator/template/main/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/generator/template/main/QueriesGenerated.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/languageModels/actions.mps" afterPath="$PROJECT_DIR$/languages/Kajak/languageModels/actions.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/Kajak/languageModels/editor.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/Kajak/languageModels/structure.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/actions/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/actions/QueriesGenerated.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/BehaviorAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/BehaviorAspectDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/structure/StructureAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/structure/StructureAspectDescriptor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Kajak.sandbox/models/Kajak/sandbox/sandbox.mps" afterPath="$PROJECT_DIR$/solutions/Kajak.sandbox/models/Kajak/sandbox/sandbox.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Kajak.sandbox/source_gen/Kajak/sandbox/sandbox/Dog.java" afterPath="$PROJECT_DIR$/solutions/Kajak.sandbox/source_gen/Kajak/sandbox/sandbox/Dog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Kajak.sandbox/source_gen/Kajak/sandbox/sandbox/Karel.java" afterPath="$PROJECT_DIR$/solutions/Kajak.sandbox/source_gen/Kajak/sandbox/sandbox/Karel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Kajak.sandbox/source_gen/Kajak/sandbox/sandbox/Sample.java" afterPath="$PROJECT_DIR$/solutions/Kajak.sandbox/source_gen/Kajak/sandbox/sandbox/Sample.java" />
     </list>
     <ignored path="Kajak.iws" />
@@ -82,11 +98,11 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="15" />
+                    <property name="caretXRelative" value="32" />
+                    <property name="caretX" value="63" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_udqu28_e0" cellNumber="0" isInList="false">
-                      <node model="r:1a01fdc1-6171-4a9b-86c9-e6b8bbdfe8af(Kajak.sandbox.sandbox)" id="7446293342517103305" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node model="r:1a01fdc1-6171-4a9b-86c9-e6b8bbdfe8af(Kajak.sandbox.sandbox)" id="859008965969454203" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -96,6 +112,92 @@
                 <selectionStack />
                 <folded />
               </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IsFull" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://Kajak.structure/IsFull">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <folded />
+              </memento>
+              <inspectorMemento viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <folded />
+              </inspectorMemento>
+              <node nodeId="859008965969439776" modelId="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kajak.generator.template.main@generator)" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Negate" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://Kajak.actions/Negate">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="319">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="8" />
+                    <property name="caretX" value="129" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="Constant_319n5h_c0" cellNumber="0" isInList="false">
+                      <node model="r:e775c65a-7441-44b3-a86c-5e79d49d5193(Kajak.actions)" id="7446293342517471085" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <folded />
+              </memento>
+              <inspectorMemento viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <folded />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://Kajak.generator.template.main@generator/main">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="520">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="233" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kajak.generator.template.main@generator)" id="859008965969439778" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <folded />
+              </memento>
+              <inspectorMemento viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <folded />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IsMark" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://Kajak.structure/IsMark">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <folded />
+              </memento>
+              <inspectorMemento viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <folded />
+              </inspectorMemento>
+              <node nodeId="6405700485436186605" modelId="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kajak.generator.template.main@generator)" />
             </state>
           </provider>
         </entry>
@@ -112,7 +214,7 @@
                 <selectionStack />
                 <folded />
               </inspectorMemento>
-              <node nodeId="859008965969369893" modelId="r:e775c65a-7441-44b3-a86c-5e79d49d5193(Kajak.actions)" />
+              <node nodeId="3308300503039667424" modelId="r:b567205c-7e17-4168-b413-945a6e17f37d(Kajak.structure)" />
             </state>
           </provider>
         </entry>
@@ -129,7 +231,7 @@
                 <selectionStack />
                 <folded />
               </inspectorMemento>
-              <node nodeId="3308300503040148312" modelId="r:e775c65a-7441-44b3-a86c-5e79d49d5193(Kajak.actions)" />
+              <node nodeId="3308300503039647678" modelId="r:b567205c-7e17-4168-b413-945a6e17f37d(Kajak.structure)" />
             </state>
           </provider>
         </entry>
@@ -146,7 +248,7 @@
                 <selectionStack />
                 <folded />
               </inspectorMemento>
-              <node nodeId="3308300503039660392" modelId="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kajak.generator.template.main@generator)" />
+              <node nodeId="3308300503039660364" modelId="r:b567205c-7e17-4168-b413-945a6e17f37d(Kajak.structure)" />
             </state>
           </provider>
         </entry>
@@ -181,49 +283,6 @@
                 <folded />
               </inspectorMemento>
               <node nodeId="3308300503039700882" modelId="r:b567205c-7e17-4168-b413-945a6e17f37d(Kajak.structure)" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Negate" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://Kajak.actions/Negate">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="272">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="32" />
-                    <property name="caretX" value="153" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node model="r:e775c65a-7441-44b3-a86c-5e79d49d5193(Kajak.actions)" id="7446293342517471146" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <folded />
-              </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <folded />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Heading" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://Kajak.structure/Heading">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <folded />
-              </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <folded />
-              </inspectorMemento>
-              <node nodeId="3308300503039683649" modelId="r:b567205c-7e17-4168-b413-945a6e17f37d(Kajak.structure)" />
             </state>
           </provider>
         </entry>
@@ -495,6 +554,46 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Kajak.actions">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Kajak">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Kajak.actions">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Logical">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Kajak">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="Kajak.editor">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -655,7 +754,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Java Application.Node Karel">
+  <component name="RunManager" selected="Java Application.Node Sample">
     <configuration default="false" name="Node Bar" type="Java Application" factoryName="Java" temporary="true">
       <MyState />
       <myNode>
@@ -686,31 +785,6 @@
       <myNode>
         <MyState>
           <option name="myNodeId" value="3308300503039980203" />
-          <option name="myModelId" value="r:1a01fdc1-6171-4a9b-86c9-e6b8bbdfe8af(Kajak.sandbox.sandbox)" />
-        </MyState>
-      </myNode>
-      <myRunParameters>
-        <MyState>
-          <option name="myJavaRunParameters">
-            <JavaRunParameters>
-              <option name="jrePath" />
-              <option name="programParameters" />
-              <option name="useAlternativeJre" value="false" />
-              <option name="vmOptions" />
-              <option name="workingDirectory" />
-            </JavaRunParameters>
-          </option>
-        </MyState>
-      </myRunParameters>
-      <RunnerSettings RunnerId="Default Runner" />
-      <ConfigurationWrapper RunnerId="Default Runner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Node Sample" type="Java Application" factoryName="Java" temporary="true">
-      <MyState />
-      <myNode>
-        <MyState>
-          <option name="myNodeId" value="7446293342517103305" />
           <option name="myModelId" value="r:1a01fdc1-6171-4a9b-86c9-e6b8bbdfe8af(Kajak.sandbox.sandbox)" />
         </MyState>
       </myNode>
@@ -781,6 +855,31 @@
       <ConfigurationWrapper RunnerId="Default Runner" />
       <method />
     </configuration>
+    <configuration default="false" name="Node Sample" type="Java Application" factoryName="Java" temporary="true">
+      <MyState />
+      <myNode>
+        <MyState>
+          <option name="myNodeId" value="7446293342517103305" />
+          <option name="myModelId" value="r:1a01fdc1-6171-4a9b-86c9-e6b8bbdfe8af(Kajak.sandbox.sandbox)" />
+        </MyState>
+      </myNode>
+      <myRunParameters>
+        <MyState>
+          <option name="myJavaRunParameters">
+            <JavaRunParameters>
+              <option name="jrePath" />
+              <option name="programParameters" />
+              <option name="useAlternativeJre" value="false" />
+              <option name="vmOptions" />
+              <option name="workingDirectory" />
+            </JavaRunParameters>
+          </option>
+        </MyState>
+      </myRunParameters>
+      <RunnerSettings RunnerId="Default Runner" />
+      <ConfigurationWrapper RunnerId="Default Runner" />
+      <method />
+    </configuration>
     <configuration default="true" type="Java Application" factoryName="Java">
       <MyState />
       <myNode>
@@ -810,9 +909,9 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Java Application.Node Bar" />
       <item index="1" class="java.lang.String" itemvalue="Java Application.Node Demo" />
-      <item index="2" class="java.lang.String" itemvalue="Java Application.Node Sample" />
-      <item index="3" class="java.lang.String" itemvalue="Java Application.Node Dog" />
-      <item index="4" class="java.lang.String" itemvalue="Java Application.Node Karel" />
+      <item index="2" class="java.lang.String" itemvalue="Java Application.Node Dog" />
+      <item index="3" class="java.lang.String" itemvalue="Java Application.Node Karel" />
+      <item index="4" class="java.lang.String" itemvalue="Java Application.Node Sample" />
     </list>
     <configuration name="&lt;template&gt;" type="Application" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
@@ -872,7 +971,7 @@
     <frame x="0" y="22" width="1920" height="1178" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32963988" sideWeight="0.48339483" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32963988" sideWeight="0.48128623" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependendies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -888,16 +987,16 @@
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32999474" sideWeight="0.6703601" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.44544017" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.44333157" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993513" sideWeight="0.487612" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32963988" sideWeight="0.51291513" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32963988" sideWeight="0.5150237" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2705448" sideWeight="0.4227728" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2705448" sideWeight="0.42119136" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -954,7 +1053,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="while-to-if anf back transform added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed local variable name clashes in repeat" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -973,63 +1072,9 @@
     <MESSAGE value="Actions and intentions added" />
     <MESSAGE value="Samples updates" />
     <MESSAGE value="while-to-if anf back transform added" />
+    <MESSAGE value="Fixed local variable name clashes in repeat" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://Kajak.structure/AbstractCommand">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-          <node nodeId="3265739055509559114" modelId="r:b567205c-7e17-4168-b413-945a6e17f37d(Kajak.structure)" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://Kajak.structure/IsMark">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-          <node nodeId="6405700485436186598" modelId="r:b567205c-7e17-4168-b413-945a6e17f37d(Kajak.structure)" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://Kajak.structure/IsWall">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="99" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_689p1d_b0" cellNumber="0" isInList="false">
-                  <node model="r:18c202d7-badd-41dd-bd9e-9d42a045e4f4(Kajak.editor)" id="859008965969356655" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </inspectorMemento>
-          <node nodeId="3308300503039647788" modelId="r:b567205c-7e17-4168-b413-945a6e17f37d(Kajak.structure)" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://Kajak.structure/Not">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
@@ -1067,30 +1112,6 @@
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="property_name_1" cellNumber="0" isInList="false">
                   <node model="r:18c202d7-badd-41dd-bd9e-9d42a045e4f4(Kajak.editor)" id="7446293342517357220" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://Kajak.actions/Negate">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="272">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="32" />
-                <property name="caretX" value="153" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node model="r:e775c65a-7441-44b3-a86c-5e79d49d5193(Kajak.actions)" id="7446293342517471146" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1183,7 +1204,7 @@
             <selectionStack />
             <folded />
           </inspectorMemento>
-          <node nodeId="859008965969369893" modelId="r:e775c65a-7441-44b3-a86c-5e79d49d5193(Kajak.actions)" />
+          <node nodeId="3308300503039667424" modelId="r:b567205c-7e17-4168-b413-945a6e17f37d(Kajak.structure)" />
         </state>
       </provider>
     </entry>
@@ -1203,7 +1224,7 @@
             <selectionStack />
             <folded />
           </inspectorMemento>
-          <node nodeId="3308300503040148312" modelId="r:e775c65a-7441-44b3-a86c-5e79d49d5193(Kajak.actions)" />
+          <node nodeId="3308300503039647678" modelId="r:b567205c-7e17-4168-b413-945a6e17f37d(Kajak.structure)" />
         </state>
       </provider>
     </entry>
@@ -1218,7 +1239,7 @@
             <selectionStack />
             <folded />
           </inspectorMemento>
-          <node nodeId="3308300503039660392" modelId="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kajak.generator.template.main@generator)" />
+          <node nodeId="3308300503039660364" modelId="r:b567205c-7e17-4168-b413-945a6e17f37d(Kajak.structure)" />
         </state>
       </provider>
     </entry>
@@ -1246,6 +1267,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="mps://Kajak.generator.template.main@generator/main">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="520">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="233" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kajak.generator.template.main@generator)" id="859008965969439778" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://Kajak.structure/IsMark">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+          <node nodeId="6405700485436186605" modelId="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kajak.generator.template.main@generator)" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://Kajak.structure/IsFull">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+          <node nodeId="859008965969439776" modelId="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kajak.generator.template.main@generator)" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://Kajak.actions/Negate">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="319">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="8" />
+                <property name="caretX" value="129" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_319n5h_c0" cellNumber="0" isInList="false">
+                  <node model="r:e775c65a-7441-44b3-a86c-5e79d49d5193(Kajak.actions)" id="7446293342517471085" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
     <entry file="mps://Kajak.sandbox.sandbox/Sample">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -1253,11 +1352,11 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="15" />
+                <property name="caretXRelative" value="32" />
+                <property name="caretX" value="63" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_udqu28_e0" cellNumber="0" isInList="false">
-                  <node model="r:1a01fdc1-6171-4a9b-86c9-e6b8bbdfe8af(Kajak.sandbox.sandbox)" id="7446293342517103305" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node model="r:1a01fdc1-6171-4a9b-86c9-e6b8bbdfe8af(Kajak.sandbox.sandbox)" id="859008965969454203" />
                 </cellInfo>
               </stackElement>
             </selectionStack>

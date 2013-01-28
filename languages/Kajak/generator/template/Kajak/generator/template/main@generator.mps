@@ -129,6 +129,11 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="command" />
       <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="c2kz.6405700485436287811" resolveInfo="CommentLine" />
     </node>
+    <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="859008965969439776">
+      <property name="name" nameId="tpck.1169194664001" value="reduce_IsFull" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="command" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="c2kz.859008965969439768" resolveInfo="IsFull" />
+    </node>
   </roots>
   <root id="3308300503039570163">
     <node role="mappingLabel" roleId="tpf8.1200911492601" type="tpf8.MappingLabelDeclaration" typeId="tpf8.1200911316486" id="3308300503039701243">
@@ -164,6 +169,12 @@
       <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="c2kz.6405700485436186598" resolveInfo="IsMark" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="6405700485436186607">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="6405700485436186605" resolveInfo="reduce_IsMark" />
+      </node>
+    </node>
+    <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="859008965969439774">
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="c2kz.859008965969439768" resolveInfo="IsFull" />
+      <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="859008965969439778">
+        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="859008965969439776" resolveInfo="reduce_IsFull" />
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="3308300503039647830">
@@ -1467,6 +1478,36 @@
             </node>
           </node>
           <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateFragment" typeId="tpf8.1095672379244" id="6405700485436287837" />
+        </node>
+      </node>
+    </node>
+  </root>
+  <root id="859008965969439776">
+    <node role="contentNode" roleId="tpf8.1092060348987" type="tpee.ClassConcept" typeId="tpee.1068390468198" id="859008965969439779">
+      <property name="nonStatic" nameId="tpee.521412098689998745" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="Foo" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="859008965969439780" />
+      <node role="constructor" roleId="tpee.1068390468201" type="tpee.ConstructorDeclaration" typeId="tpee.1068580123140" id="859008965969439781">
+        <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="859008965969439782" />
+        <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="859008965969439783" />
+        <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="859008965969439784" />
+      </node>
+      <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="859008965969439785">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="wd51.3308300503039473785" resolveInfo="KajakFrame" />
+      </node>
+      <node role="method" roleId="tpee.1107880067339" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="859008965969439786">
+        <property name="name" nameId="tpck.1169194664001" value="perform" />
+        <property name="isAbstract" nameId="tpee.1178608670077" value="false" />
+        <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="859008965969439787" />
+        <node role="visibility" roleId="tpee.1178549979242" type="tpee.ProtectedVisibility" typeId="tpee.1146644641414" id="859008965969439788" />
+        <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="859008965969439789">
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="859008965969439790">
+            <node role="condition" roleId="tpee.1068580123160" type="tpee.LocalInstanceMethodCall" typeId="tpee.3066917033203108594" id="859008965969439791">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="wd51.6405700485436169962" resolveInfo="isFull" />
+              <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateFragment" typeId="tpf8.1095672379244" id="859008965969439792" />
+            </node>
+            <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="859008965969439793" />
+          </node>
         </node>
       </node>
     </node>

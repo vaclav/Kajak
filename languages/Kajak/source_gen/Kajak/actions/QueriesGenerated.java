@@ -104,7 +104,7 @@ public class QueriesGenerated {
       final SNode concept = SConceptOperations.findConceptDeclaration("Kajak.structure.LogicalExpression");
       Computable computable = new Computable() {
         public Object compute() {
-          return ListSequence.fromListAndArray(new ArrayList<String>(), "heading", "mark", "wall");
+          return ListSequence.fromListAndArray(new ArrayList<String>(), "heading", "mark", "full", "wall");
         }
       };
       Iterable<String> parameterObjects = (Iterable<String>) computable.compute();
@@ -117,6 +117,8 @@ public class QueriesGenerated {
               expression = SConceptOperations.createNewNode("Kajak.structure.Heading", null);
             } else if ((item).equals("mark")) {
               expression = SConceptOperations.createNewNode("Kajak.structure.IsMark", null);
+            } else if ((item).equals("full")) {
+              expression = SConceptOperations.createNewNode("Kajak.structure.IsFull", null);
             } else {
               expression = SConceptOperations.createNewNode("Kajak.structure.IsWall", null);
             }
