@@ -54,7 +54,7 @@ public class Heading_Editor extends DefaultNodeEditor {
     editorCell.setCellId("conceptProperty_alias");
     {
       Style style = editorCell.getStyle();
-      style.set(StyleAttributes.EDITABLE, false);
+      style.set(StyleAttributes.RT_ANCHOR_TAG, "ext_2_RTransform");
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

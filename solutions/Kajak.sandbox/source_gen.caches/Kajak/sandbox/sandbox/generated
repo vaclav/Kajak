@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-4v4knr9bto97z453v5yjevefk9fptjs">
+<dependencies version="2" modelHash="8xm7ayirtmgk384rcjz54sw6lxf2uvy">
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
   <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kajak.generator.template.main@generator)" hash="bfkwipshma5z7v72t31vjiuconawba5" />
@@ -13,7 +13,7 @@
     <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kajak.generator.template.main@generator)" />
     <file name="Karel.java" />
   </source>
-  <source id="7446293342517103305" name="Sample" hash="-6vobey6bf1kmqojrmaro1deqv1a81l4">
+  <source id="7446293342517103305" name="Sample" hash="-6or45ibas8co9zejpqxhejhcnkk15is">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kajak.generator.template.main@generator)" />

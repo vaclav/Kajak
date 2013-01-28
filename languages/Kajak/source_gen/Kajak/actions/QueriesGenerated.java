@@ -6,6 +6,7 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.action.SideTransformPreconditionContext;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.List;
 import jetbrains.mps.smodel.action.INodeSubstituteAction;
 import jetbrains.mps.smodel.action.SideTransformActionsBuilderContext;
@@ -14,10 +15,15 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.smodel.action.AbstractSideTransformHintSubstituteAction;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
+import jetbrains.mps.util.Computable;
 
 public class QueriesGenerated {
   public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_IfStatement_3308300503040148314(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
     return ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getSourceNode(), "falseBranch", true), "commands", true)).isEmpty();
+  }
+
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_LogicalExpression_7446293342517448132(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return !(SNodeOperations.isInstanceOf(_context.getSourceNode(), "Kajak.structure.Not"));
   }
 
   public static List<INodeSubstituteAction> sideTransform_ActionsFactory_IfStatement_3308300503040148313(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
@@ -38,6 +44,67 @@ public class QueriesGenerated {
           return this.getMatchingText(pattern);
         }
       });
+    }
+    return result;
+  }
+
+  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_LogicalExpression_7446293342517269099(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
+    {
+      SNode concept = SConceptOperations.findConceptDeclaration("Kajak.structure.Not");
+      ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
+        public SNode doSubstitute(String pattern) {
+          SNode notNode = SNodeFactoryOperations.replaceWithNewChild(_context.getSourceNode(), "Kajak.structure.Not");
+          return SLinkOperations.setTarget(notNode, "original", _context.getSourceNode(), true);
+        }
+
+        public String getMatchingText(String pattern) {
+          return "not";
+        }
+
+        public String getVisibleMatchingText(String pattern) {
+          return this.getMatchingText(pattern);
+        }
+      });
+    }
+    return result;
+  }
+
+  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_LogicalExpression_7446293342517448131(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
+    {
+      final SNode concept = SConceptOperations.findConceptDeclaration("Kajak.structure.LogicalExpression");
+      Computable computable = new Computable() {
+        public Object compute() {
+          return ListSequence.fromListAndArray(new ArrayList<String>(), "heading", "mark", "wall");
+        }
+      };
+      Iterable<String> parameterObjects = (Iterable<String>) computable.compute();
+      assert parameterObjects != null;
+      for (final String item : parameterObjects) {
+        ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, item, _context.getSourceNode()) {
+          public SNode doSubstitute(String pattern) {
+            SNode expression;
+            if ((item).equals("heading")) {
+              expression = SConceptOperations.createNewNode("Kajak.structure.Heading", null);
+            } else if ((item).equals("mark")) {
+              expression = SConceptOperations.createNewNode("Kajak.structure.IsMark", null);
+            } else {
+              expression = SConceptOperations.createNewNode("Kajak.structure.IsWall", null);
+            }
+            SNode node = SNodeOperations.replaceWithAnother(_context.getSourceNode(), expression);
+            return node;
+          }
+
+          public String getMatchingText(String pattern) {
+            return (item);
+          }
+
+          public String getVisibleMatchingText(String pattern) {
+            return this.getMatchingText(pattern);
+          }
+        });
+      }
     }
     return result;
   }
