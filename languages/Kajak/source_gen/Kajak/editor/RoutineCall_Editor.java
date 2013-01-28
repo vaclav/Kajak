@@ -70,7 +70,7 @@ public class RoutineCall_Editor extends DefaultNodeEditor {
       KajakStyles_StyleSheet.getCommand(editorCell).apply(editorCell);
       {
         Style style = editorCell.getStyle();
-        style.set(StyleAttributes.EDITABLE, false);
+        style.set(StyleAttributes.EDITABLE, true);
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();

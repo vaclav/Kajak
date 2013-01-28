@@ -45,8 +45,6 @@ public class Karel extends KajakFrame {
 
   public void turnRight_routine() {
     for (int i = 0; i < 3; i++) {
-      turnLeft();
-      pause();
     }
   }
 

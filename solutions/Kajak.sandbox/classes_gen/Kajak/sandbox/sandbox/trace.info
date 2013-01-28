@@ -19,57 +19,55 @@
     <nodeInfo nodeId="7446293342517115878" fileName="Karel.java" startLine="40" startPosition="24" endLine="41" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="7446293342517115883" fileName="Karel.java" startLine="41" startPosition="21" endLine="42" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
     <nodeInfo nodeId="7446293342517115851" fileName="Karel.java" startLine="42" startPosition="27" endLine="43" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="7446293342517115872" fileName="Karel.java" startLine="47" startPosition="33" endLine="48" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7446293342517115872" fileName="Karel.java" startLine="48" startPosition="17" endLine="49" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3308300503039999978" fileName="Karel.java" startLine="53" startPosition="36" endLine="54" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3308300503039999978" fileName="Karel.java" startLine="54" startPosition="15" endLine="55" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3308300503039999980" fileName="Karel.java" startLine="55" startPosition="12" endLine="56" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3308300503039999980" fileName="Karel.java" startLine="56" startPosition="15" endLine="57" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3308300503039999982" fileName="Karel.java" startLine="61" startPosition="19" endLine="62" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3308300503039999983" fileName="Karel.java" startLine="64" startPosition="22" endLine="65" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3308300503039999983" fileName="Karel.java" startLine="65" startPosition="19" endLine="66" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3308300503039999983" fileName="Karel.java" startLine="67" startPosition="14" endLine="68" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3308300503039999983" fileName="Karel.java" startLine="68" startPosition="89" endLine="69" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3308300503040000154" fileName="Karel.java" startLine="70" startPosition="7" endLine="71" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3308300503039999987" fileName="Karel.java" startLine="72" startPosition="22" endLine="73" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3308300503039999987" fileName="Karel.java" startLine="73" startPosition="19" endLine="74" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3308300503039999987" fileName="Karel.java" startLine="75" startPosition="14" endLine="76" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3308300503039999987" fileName="Karel.java" startLine="76" startPosition="89" endLine="77" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3308300503039980203" fileName="Karel.java" startLine="82" startPosition="42" endLine="83" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3308300503039980203" fileName="Karel.java" startLine="83" startPosition="31" endLine="84" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3308300503039980203" fileName="Karel.java" startLine="84" startPosition="34" endLine="85" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3308300503039999978" fileName="Karel.java" startLine="51" startPosition="36" endLine="52" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3308300503039999978" fileName="Karel.java" startLine="52" startPosition="15" endLine="53" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3308300503039999980" fileName="Karel.java" startLine="53" startPosition="12" endLine="54" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3308300503039999980" fileName="Karel.java" startLine="54" startPosition="15" endLine="55" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3308300503039999982" fileName="Karel.java" startLine="59" startPosition="19" endLine="60" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3308300503039999983" fileName="Karel.java" startLine="62" startPosition="22" endLine="63" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3308300503039999983" fileName="Karel.java" startLine="63" startPosition="19" endLine="64" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3308300503039999983" fileName="Karel.java" startLine="65" startPosition="14" endLine="66" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3308300503039999983" fileName="Karel.java" startLine="66" startPosition="89" endLine="67" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3308300503040000154" fileName="Karel.java" startLine="68" startPosition="7" endLine="69" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3308300503039999987" fileName="Karel.java" startLine="70" startPosition="22" endLine="71" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3308300503039999987" fileName="Karel.java" startLine="71" startPosition="19" endLine="72" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3308300503039999987" fileName="Karel.java" startLine="73" startPosition="14" endLine="74" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3308300503039999987" fileName="Karel.java" startLine="74" startPosition="89" endLine="75" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3308300503039980203" fileName="Karel.java" startLine="80" startPosition="42" endLine="81" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3308300503039980203" fileName="Karel.java" startLine="81" startPosition="31" endLine="82" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3308300503039980203" fileName="Karel.java" startLine="82" startPosition="34" endLine="83" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3308300503039980203" fileName="Karel.java" startLine="8" startPosition="39" endLine="10" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Karel#()V" />
     <nodeInfo nodeId="7446293342517115864" fileName="Karel.java" startLine="27" startPosition="41" endLine="29" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="7446293342517115872" fileName="Karel.java" startLine="47" startPosition="33" endLine="49" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3308300503039999978" fileName="Karel.java" startLine="53" startPosition="36" endLine="55" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3308300503039999980" fileName="Karel.java" startLine="55" startPosition="12" endLine="57" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7446293342517115870" fileName="Karel.java" startLine="46" startPosition="35" endLine="48" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="3308300503039999978" fileName="Karel.java" startLine="51" startPosition="36" endLine="53" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3308300503039999980" fileName="Karel.java" startLine="53" startPosition="12" endLine="55" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="3308300503039999991" fileName="Karel.java" startLine="16" startPosition="10" endLine="19" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="7446293342517116119" fileName="Karel.java" startLine="23" startPosition="10" endLine="26" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="3308300503040050945" fileName="Karel.java" startLine="35" startPosition="12" endLine="38" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3308300503039999983" fileName="Karel.java" startLine="67" startPosition="12" endLine="70" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3308300503039999987" fileName="Karel.java" startLine="75" startPosition="12" endLine="78" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3308300503039999983" fileName="Karel.java" startLine="65" startPosition="12" endLine="68" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3308300503039999987" fileName="Karel.java" startLine="73" startPosition="12" endLine="76" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="7446293342517115854" fileName="Karel.java" startLine="26" startPosition="5" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="7446293342517115870" fileName="Karel.java" startLine="46" startPosition="35" endLine="50" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="3308300503039980203" fileName="Karel.java" startLine="81" startPosition="0" endLine="87" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
+    <nodeInfo nodeId="7446293342517115867" fileName="Karel.java" startLine="45" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="turnRight_routine#()V" />
+    <nodeInfo nodeId="3308300503039980203" fileName="Karel.java" startLine="79" startPosition="0" endLine="85" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
     <nodeInfo nodeId="3308300503039999991" fileName="Karel.java" startLine="12" startPosition="28" endLine="19" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="3308300503039999991" fileName="Karel.java" startLine="12" startPosition="28" endLine="19" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="7446293342517116119" fileName="Karel.java" startLine="19" startPosition="5" endLine="26" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="7446293342517116119" fileName="Karel.java" startLine="19" startPosition="5" endLine="26" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="3308300503040050945" fileName="Karel.java" startLine="31" startPosition="25" endLine="38" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="3308300503040050945" fileName="Karel.java" startLine="31" startPosition="25" endLine="38" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7446293342517115867" fileName="Karel.java" startLine="45" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="turnRight_routine#()V" />
-    <nodeInfo nodeId="3308300503039999976" fileName="Karel.java" startLine="52" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="turnAround_routine#()V" />
-    <nodeInfo nodeId="3308300503039999983" fileName="Karel.java" startLine="63" startPosition="12" endLine="70" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3308300503039999983" fileName="Karel.java" startLine="63" startPosition="12" endLine="70" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3308300503039999987" fileName="Karel.java" startLine="71" startPosition="23" endLine="78" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3308300503039999987" fileName="Karel.java" startLine="71" startPosition="23" endLine="78" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3308300503039999976" fileName="Karel.java" startLine="50" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="turnAround_routine#()V" />
+    <nodeInfo nodeId="3308300503039999983" fileName="Karel.java" startLine="61" startPosition="12" endLine="68" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3308300503039999983" fileName="Karel.java" startLine="61" startPosition="12" endLine="68" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3308300503039999987" fileName="Karel.java" startLine="69" startPosition="23" endLine="76" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3308300503039999987" fileName="Karel.java" startLine="69" startPosition="23" endLine="76" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="3308300503040050939" fileName="Karel.java" startLine="30" startPosition="5" endLine="39" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="3308300503039999970" fileName="Karel.java" startLine="63" startPosition="10" endLine="79" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3308300503039999970" fileName="Karel.java" startLine="60" startPosition="32" endLine="79" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3308300503039999968" fileName="Karel.java" startLine="59" startPosition="0" endLine="81" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="bounce_routine#()V" />
+    <nodeInfo nodeId="3308300503039999970" fileName="Karel.java" startLine="61" startPosition="10" endLine="77" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3308300503039999970" fileName="Karel.java" startLine="58" startPosition="32" endLine="77" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3308300503039999968" fileName="Karel.java" startLine="57" startPosition="0" endLine="79" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="bounce_routine#()V" />
     <nodeInfo nodeId="3308300503039980203" fileName="Karel.java" startLine="11" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="perform#()V" />
     <scopeInfo nodeId="3308300503039980203" fileName="Karel.java" startLine="9" startPosition="18" endLine="9" endPosition="18" />
-    <scopeInfo nodeId="3308300503039999970" fileName="Karel.java" startLine="61" startPosition="19" endLine="62" endPosition="27" />
+    <scopeInfo nodeId="7446293342517115870" fileName="Karel.java" startLine="47" startPosition="33" endLine="47" endPosition="33" />
+    <scopeInfo nodeId="3308300503039999970" fileName="Karel.java" startLine="59" startPosition="19" endLine="60" endPosition="27" />
     <scopeInfo nodeId="3308300503039980203" fileName="Karel.java" startLine="8" startPosition="39" endLine="10" endPosition="3" />
     <scopeInfo nodeId="3308300503039999991" fileName="Karel.java" startLine="13" startPosition="20" endLine="15" endPosition="14" />
     <scopeInfo nodeId="3308300503039999991" fileName="Karel.java" startLine="16" startPosition="12" endLine="18" endPosition="13" />
@@ -79,39 +77,37 @@
     <scopeInfo nodeId="7446293342517115864" fileName="Karel.java" startLine="27" startPosition="41" endLine="29" endPosition="14" />
     <scopeInfo nodeId="3308300503040050945" fileName="Karel.java" startLine="32" startPosition="22" endLine="34" endPosition="16" />
     <scopeInfo nodeId="3308300503040050945" fileName="Karel.java" startLine="35" startPosition="14" endLine="37" endPosition="15" />
-    <scopeInfo nodeId="7446293342517115870" fileName="Karel.java" startLine="47" startPosition="33" endLine="49" endPosition="14" />
-    <scopeInfo nodeId="7446293342517115872" fileName="Karel.java" startLine="47" startPosition="33" endLine="49" endPosition="14" />
-    <scopeInfo nodeId="3308300503039999978" fileName="Karel.java" startLine="53" startPosition="36" endLine="55" endPosition="12" />
-    <scopeInfo nodeId="3308300503039999980" fileName="Karel.java" startLine="55" startPosition="12" endLine="57" endPosition="12" />
-    <scopeInfo nodeId="3308300503039999983" fileName="Karel.java" startLine="64" startPosition="22" endLine="66" endPosition="16" />
-    <scopeInfo nodeId="3308300503039999983" fileName="Karel.java" startLine="67" startPosition="14" endLine="69" endPosition="15" />
-    <scopeInfo nodeId="3308300503039999987" fileName="Karel.java" startLine="72" startPosition="22" endLine="74" endPosition="16" />
-    <scopeInfo nodeId="3308300503039999987" fileName="Karel.java" startLine="75" startPosition="14" endLine="77" endPosition="15" />
-    <scopeInfo nodeId="3308300503039980203" fileName="Karel.java" startLine="82" startPosition="42" endLine="85" endPosition="17">
-      <varInfo nodeId="3308300503039980203" varName="script" />
-    </scopeInfo>
-    <scopeInfo nodeId="7446293342517115867" fileName="Karel.java" startLine="46" startPosition="35" endLine="50" endPosition="5" />
-    <scopeInfo nodeId="7446293342517115870" fileName="Karel.java" startLine="46" startPosition="35" endLine="50" endPosition="5">
+    <scopeInfo nodeId="7446293342517115867" fileName="Karel.java" startLine="46" startPosition="35" endLine="48" endPosition="5" />
+    <scopeInfo nodeId="7446293342517115870" fileName="Karel.java" startLine="46" startPosition="35" endLine="48" endPosition="5">
       <varInfo nodeId="7446293342517115870" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="3308300503039999976" fileName="Karel.java" startLine="53" startPosition="36" endLine="57" endPosition="12" />
-    <scopeInfo nodeId="3308300503039980203" fileName="Karel.java" startLine="81" startPosition="0" endLine="87" endPosition="0">
+    <scopeInfo nodeId="3308300503039999978" fileName="Karel.java" startLine="51" startPosition="36" endLine="53" endPosition="12" />
+    <scopeInfo nodeId="3308300503039999980" fileName="Karel.java" startLine="53" startPosition="12" endLine="55" endPosition="12" />
+    <scopeInfo nodeId="3308300503039999983" fileName="Karel.java" startLine="62" startPosition="22" endLine="64" endPosition="16" />
+    <scopeInfo nodeId="3308300503039999983" fileName="Karel.java" startLine="65" startPosition="14" endLine="67" endPosition="15" />
+    <scopeInfo nodeId="3308300503039999987" fileName="Karel.java" startLine="70" startPosition="22" endLine="72" endPosition="16" />
+    <scopeInfo nodeId="3308300503039999987" fileName="Karel.java" startLine="73" startPosition="14" endLine="75" endPosition="15" />
+    <scopeInfo nodeId="3308300503039980203" fileName="Karel.java" startLine="80" startPosition="42" endLine="83" endPosition="17">
+      <varInfo nodeId="3308300503039980203" varName="script" />
+    </scopeInfo>
+    <scopeInfo nodeId="3308300503039999976" fileName="Karel.java" startLine="51" startPosition="36" endLine="55" endPosition="12" />
+    <scopeInfo nodeId="7446293342517115867" fileName="Karel.java" startLine="45" startPosition="0" endLine="50" endPosition="0" />
+    <scopeInfo nodeId="3308300503039980203" fileName="Karel.java" startLine="79" startPosition="0" endLine="85" endPosition="0">
       <varInfo nodeId="3308300503039980203" varName="args" />
     </scopeInfo>
     <scopeInfo nodeId="3308300503039999991" fileName="Karel.java" startLine="12" startPosition="28" endLine="19" endPosition="5" />
     <scopeInfo nodeId="7446293342517116119" fileName="Karel.java" startLine="19" startPosition="5" endLine="26" endPosition="5" />
     <scopeInfo nodeId="3308300503040050939" fileName="Karel.java" startLine="31" startPosition="25" endLine="38" endPosition="7" />
     <scopeInfo nodeId="3308300503040050945" fileName="Karel.java" startLine="31" startPosition="25" endLine="38" endPosition="7" />
-    <scopeInfo nodeId="7446293342517115867" fileName="Karel.java" startLine="45" startPosition="0" endLine="52" endPosition="0" />
-    <scopeInfo nodeId="3308300503039999976" fileName="Karel.java" startLine="52" startPosition="0" endLine="59" endPosition="0" />
-    <scopeInfo nodeId="3308300503039999983" fileName="Karel.java" startLine="63" startPosition="12" endLine="70" endPosition="7" />
-    <scopeInfo nodeId="3308300503039999987" fileName="Karel.java" startLine="71" startPosition="23" endLine="78" endPosition="7" />
-    <scopeInfo nodeId="3308300503039999970" fileName="Karel.java" startLine="63" startPosition="12" endLine="78" endPosition="7" />
-    <scopeInfo nodeId="3308300503039999968" fileName="Karel.java" startLine="60" startPosition="32" endLine="79" endPosition="5" />
-    <scopeInfo nodeId="3308300503039999968" fileName="Karel.java" startLine="59" startPosition="0" endLine="81" endPosition="0" />
+    <scopeInfo nodeId="3308300503039999976" fileName="Karel.java" startLine="50" startPosition="0" endLine="57" endPosition="0" />
+    <scopeInfo nodeId="3308300503039999983" fileName="Karel.java" startLine="61" startPosition="12" endLine="68" endPosition="7" />
+    <scopeInfo nodeId="3308300503039999987" fileName="Karel.java" startLine="69" startPosition="23" endLine="76" endPosition="7" />
+    <scopeInfo nodeId="3308300503039999970" fileName="Karel.java" startLine="61" startPosition="12" endLine="76" endPosition="7" />
+    <scopeInfo nodeId="3308300503039999968" fileName="Karel.java" startLine="58" startPosition="32" endLine="77" endPosition="5" />
+    <scopeInfo nodeId="3308300503039999968" fileName="Karel.java" startLine="57" startPosition="0" endLine="79" endPosition="0" />
     <scopeInfo nodeId="3308300503039980203" fileName="Karel.java" startLine="12" startPosition="28" endLine="43" endPosition="40" />
     <scopeInfo nodeId="3308300503039980203" fileName="Karel.java" startLine="11" startPosition="0" endLine="45" endPosition="0" />
-    <unitInfo nodeId="3308300503039980203" fileName="Karel.java" startLine="8" startPosition="0" endLine="88" endPosition="0" unitName="Kajak.sandbox.sandbox.Karel" />
+    <unitInfo nodeId="3308300503039980203" fileName="Karel.java" startLine="8" startPosition="0" endLine="86" endPosition="0" unitName="Kajak.sandbox.sandbox.Karel" />
   </root>
   <root nodeId="7446293342517103305" modelId="r:1a01fdc1-6171-4a9b-86c9-e6b8bbdfe8af(Kajak.sandbox.sandbox)">
     <nodeInfo nodeId="7446293342517498509" fileName="Sample.java" startLine="12" startPosition="20" endLine="13" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
