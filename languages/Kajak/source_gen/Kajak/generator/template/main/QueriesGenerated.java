@@ -24,6 +24,10 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
 
+  public static Object propertyMacro_GetPropertyValue_859008965969411038(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return _context.createUniqueName("indexVariable", _context.getNode());
+  }
+
   public static Object propertyMacro_GetPropertyValue_3308300503039660463(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getInteger(_context.getNode(), "count");
   }

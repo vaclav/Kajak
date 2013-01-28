@@ -24,7 +24,7 @@ public class Dog extends KajakFrame {
   }
 
   public void lay_routine() {
-    for (int i = 0; i < 5; i++) {
+    for (int indexVariable_qku_a0a = 0; indexVariable_qku_a0a < 5; indexVariable_qku_a0a++) {
       if (canMove()) {
         moveKaja();
         pause();
@@ -41,7 +41,7 @@ public class Dog extends KajakFrame {
       return;
     }
     turnAround_routine();
-    for (int i = 0; i < 5; i++) {
+    for (int indexVariable_qku_d0a = 0; indexVariable_qku_d0a < 5; indexVariable_qku_d0a++) {
       if (canMove()) {
         moveKaja();
         pause();
@@ -101,14 +101,14 @@ public class Dog extends KajakFrame {
   }
 
   public void runArround_routine() {
-    for (int i = 0; i < 4; i++) {
+    for (int indexVariable_qku_a0e = 0; indexVariable_qku_a0e < 4; indexVariable_qku_a0e++) {
       run_routine();
       turnRight_routine();
     }
   }
 
   public void turnRight_routine() {
-    for (int i = 0; i < 3; i++) {
+    for (int indexVariable_qku_a0f = 0; indexVariable_qku_a0f < 3; indexVariable_qku_a0f++) {
       turnLeft();
       pause();
     }

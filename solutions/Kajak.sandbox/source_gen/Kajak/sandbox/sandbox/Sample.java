@@ -16,7 +16,7 @@ public class Sample extends KajakFrame {
       reportError("Oops, There's a wall in front of me. I can't make a step forward.");
       return;
     }
-    for (int i = 0; i < 5; i++) {
+    for (int indexVariable_kf1bs5_b0 = 0; indexVariable_kf1bs5_b0 < 5; indexVariable_kf1bs5_b0++) {
       if (canMove()) {
         moveKaja();
         pause();
@@ -50,7 +50,7 @@ public class Sample extends KajakFrame {
   }
 
   public void turnRight_routine() {
-    for (int i = 0; i < 3; i++) {
+    for (int indexVariable_kf1bs5_a0a = 0; indexVariable_kf1bs5_a0a < 3; indexVariable_kf1bs5_a0a++) {
       turnLeft();
       pause();
     }
