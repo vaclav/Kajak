@@ -37,29 +37,29 @@ public class Karel extends KajakFrame {
         return;
       }
     }
-    turnRight();
-    bounce();
+    turnRight_routine();
+    bounce_routine();
     // Routine definitions 
     // Bounces off the wall recursively 
   }
 
-  public void turnRight() {
+  public void turnRight_routine() {
     for (int i = 0; i < 3; i++) {
       turnLeft();
       pause();
     }
   }
 
-  public void turnAround() {
+  public void turnAround_routine() {
     turnLeft();
     pause();
     turnLeft();
     pause();
   }
 
-  public void bounce() {
+  public void bounce_routine() {
     if (isWall()) {
-      turnAround();
+      turnAround_routine();
     } else {
       if (canMove()) {
         moveKaja();
@@ -68,7 +68,7 @@ public class Karel extends KajakFrame {
         reportError("Oops, There's a wall in front of me. I can't make a step forward.");
         return;
       }
-      bounce();
+      bounce_routine();
       if (canMove()) {
         moveKaja();
         pause();

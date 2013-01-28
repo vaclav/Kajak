@@ -74,9 +74,9 @@
     <unitInfo nodeId="3308300503039970368" fileName="QueriesGenerated.java" startLine="101" startPosition="47" endLine="109" endPosition="5" unitName="Kajak.generator.template.main.QueriesGenerated$1" />
   </root>
   <root nodeId="3308300503039701203" modelId="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kajak.generator.template.main@generator)">
-    <nodeInfo nodeId="3308300503039701229" fileName="QueriesGenerated.java" startLine="31" startPosition="154" endLine="32" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3308300503039701229" fileName="QueriesGenerated.java" startLine="31" startPosition="154" endLine="32" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3308300503039907034" fileName="QueriesGenerated.java" startLine="83" startPosition="150" endLine="84" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <scopeInfo nodeId="3308300503039701228" fileName="QueriesGenerated.java" startLine="31" startPosition="154" endLine="32" endPosition="69" />
+    <scopeInfo nodeId="3308300503039701228" fileName="QueriesGenerated.java" startLine="31" startPosition="154" endLine="32" endPosition="82" />
     <scopeInfo nodeId="3308300503039907033" fileName="QueriesGenerated.java" startLine="83" startPosition="150" endLine="84" endPosition="71" />
   </root>
   <root nodeId="3308300503039701253" modelId="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kajak.generator.template.main@generator)">
