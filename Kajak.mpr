@@ -6,9 +6,7 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="${project}/languages/JSKajak/JSKajak.mpl" folder="" />
       <modulePath path="${project}/languages/Kajak/Kajak.mpl" />
-      <modulePath path="${project}/solutions/JSKajak.sandbox/sandbox.msd" folder="" />
       <modulePath path="${project}/solutions/JavaKajak/JavaKajak.msd" folder="" />
       <modulePath path="${project}/solutions/Kajak.sandbox/Kajak.sandbox.msd" />
     </projectModules>
