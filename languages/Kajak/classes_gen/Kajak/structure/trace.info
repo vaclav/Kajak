@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="Kajak_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="Kajak.structure.Kajak_Language" />
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="73" endPosition="0" unitName="Kajak.structure.StructureAspectDescriptor" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="77" endPosition="0" unitName="Kajak.structure.StructureAspectDescriptor" />
 </debugInfo>
 

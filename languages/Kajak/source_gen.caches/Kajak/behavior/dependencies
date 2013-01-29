@@ -18,10 +18,12 @@
     <classNode dependClassName="Kajak.behavior.IsMark_BehaviorDescriptor" />
     <classNode dependClassName="Kajak.behavior.IsWall_BehaviorDescriptor" />
     <classNode dependClassName="Kajak.behavior.LeftTurn_BehaviorDescriptor" />
+    <classNode dependClassName="Kajak.behavior.Library_BehaviorDescriptor" />
     <classNode dependClassName="Kajak.behavior.North_BehaviorDescriptor" />
     <classNode dependClassName="Kajak.behavior.Not_BehaviorDescriptor" />
     <classNode dependClassName="Kajak.behavior.Pick_BehaviorDescriptor" />
     <classNode dependClassName="Kajak.behavior.Repeat_BehaviorDescriptor" />
+    <classNode dependClassName="Kajak.behavior.Require_BehaviorDescriptor" />
     <classNode dependClassName="Kajak.behavior.RoutineCall_BehaviorDescriptor" />
     <classNode dependClassName="Kajak.behavior.RoutineDefinition_BehaviorDescriptor" />
     <classNode dependClassName="Kajak.behavior.Script_BehaviorDescriptor" />
@@ -107,6 +109,16 @@
     <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="Kajak.behavior.Library_BehaviorDescriptor" file="Library_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="Kajak.behavior.LogicalExpression_BehaviorDescriptor" file="LogicalExpression_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
@@ -132,6 +144,12 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="Kajak.behavior.Repeat_BehaviorDescriptor" file="Repeat_BehaviorDescriptor.java">
+    <classNode dependClassName="Kajak.behavior.AbstractCommand_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="Kajak.behavior.Require_BehaviorDescriptor" file="Require_BehaviorDescriptor.java">
     <classNode dependClassName="Kajak.behavior.AbstractCommand_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />

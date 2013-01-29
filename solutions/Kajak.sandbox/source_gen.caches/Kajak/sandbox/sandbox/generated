@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="euke8jwx9x4h0evwskhjx40f9zhtttr">
+<dependencies version="2" modelHash="dxhjvwe9ahp9b1ljoi4cqasfvbbt6uw">
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
-  <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kajak.generator.template.main@generator)" hash="e5spx61hljbqojglod63c0jsnz71soa" />
+  <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kajak.generator.template.main@generator)" hash="-aszcxeaojquobbn8ulio8cwb1dkzjku" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <common hash="-11cmqb17yirvp84ooyf8mritgbbaee6">
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
@@ -13,7 +13,8 @@
     <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kajak.generator.template.main@generator)" />
     <file name="Karel.java" />
   </source>
-  <source id="7446293342517103305" name="Sample" hash="1sf013hkh4rb1ky8vk0nxnmtfi2hug8">
+  <source id="7446293342517103305" name="Sample" hash="atruy9m4asbvob4ddra9rvmw91s01jr">
+    <dep root="4394627182934755441" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kajak.generator.template.main@generator)" />
@@ -24,6 +25,9 @@
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kajak.generator.template.main@generator)" />
     <file name="Dog.java" />
+  </source>
+  <source id="4394627182934755441" name="Common" hash="-9ivfv9xvvpgsxi1xpzv3df6yh8yeo38">
+    <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kajak.generator.template.main@generator)" />
   </source>
 </dependencies>
 

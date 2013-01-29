@@ -16,7 +16,7 @@
   <dep model="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-  <dep model="r:b567205c-7e17-4168-b413-945a6e17f37d(Kajak.structure)" hash="-5yaet6r55gp9es1pjy3jeay9ejgvb9h" />
+  <dep model="r:b567205c-7e17-4168-b413-945a6e17f37d(Kajak.structure)" hash="500171abaa1gyftyxpxpce6g7scsiwp" />
   <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
   <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
   <common hash="kslh0x6kjz9kxethxug59mu2yytlph">

@@ -8,7 +8,7 @@ import jetbrains.mps.smodel.runtime.impl.CompiledConceptDescriptor;
 import jetbrains.mps.smodel.runtime.interpreted.StructureAspectInterpreted;
 
 public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.StructureAspectDescriptor {
-  private static String[] stringSwitchCases_1htk8d_a0a0a = new String[]{"Kajak.structure.AbstractCommand", "Kajak.structure.CommandList", "Kajak.structure.CommentLine", "Kajak.structure.Direction", "Kajak.structure.Drop", "Kajak.structure.East", "Kajak.structure.EmptyLine", "Kajak.structure.Heading", "Kajak.structure.IfStatement", "Kajak.structure.IsFull", "Kajak.structure.IsMark", "Kajak.structure.IsWall", "Kajak.structure.LeftTurn", "Kajak.structure.LogicalExpression", "Kajak.structure.North", "Kajak.structure.Not", "Kajak.structure.Pick", "Kajak.structure.Repeat", "Kajak.structure.RoutineCall", "Kajak.structure.RoutineDefinition", "Kajak.structure.Script", "Kajak.structure.South", "Kajak.structure.Step", "Kajak.structure.West", "Kajak.structure.While"};
+  private static String[] stringSwitchCases_1htk8d_a0a0a = new String[]{"Kajak.structure.AbstractCommand", "Kajak.structure.CommandList", "Kajak.structure.CommentLine", "Kajak.structure.Direction", "Kajak.structure.Drop", "Kajak.structure.East", "Kajak.structure.EmptyLine", "Kajak.structure.Heading", "Kajak.structure.IfStatement", "Kajak.structure.IsFull", "Kajak.structure.IsMark", "Kajak.structure.IsWall", "Kajak.structure.LeftTurn", "Kajak.structure.Library", "Kajak.structure.LogicalExpression", "Kajak.structure.North", "Kajak.structure.Not", "Kajak.structure.Pick", "Kajak.structure.Repeat", "Kajak.structure.Require", "Kajak.structure.RoutineCall", "Kajak.structure.RoutineDefinition", "Kajak.structure.Script", "Kajak.structure.South", "Kajak.structure.Step", "Kajak.structure.West", "Kajak.structure.While"};
 
   public StructureAspectDescriptor() {
   }
@@ -42,28 +42,32 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 12:
         return new CompiledConceptDescriptor("Kajak.structure.LeftTurn", "Kajak.structure.AbstractCommand", false, new String[]{"Kajak.structure.AbstractCommand"}, new String[]{}, new String[]{});
       case 13:
-        return new CompiledConceptDescriptor("Kajak.structure.LogicalExpression", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("Kajak.structure.Library", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{});
       case 14:
-        return new CompiledConceptDescriptor("Kajak.structure.North", "Kajak.structure.Direction", false, new String[]{"Kajak.structure.Direction"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("Kajak.structure.LogicalExpression", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{});
       case 15:
-        return new CompiledConceptDescriptor("Kajak.structure.Not", "Kajak.structure.LogicalExpression", false, new String[]{"Kajak.structure.LogicalExpression"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("Kajak.structure.North", "Kajak.structure.Direction", false, new String[]{"Kajak.structure.Direction"}, new String[]{}, new String[]{});
       case 16:
-        return new CompiledConceptDescriptor("Kajak.structure.Pick", "Kajak.structure.AbstractCommand", false, new String[]{"Kajak.structure.AbstractCommand"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("Kajak.structure.Not", "Kajak.structure.LogicalExpression", false, new String[]{"Kajak.structure.LogicalExpression"}, new String[]{}, new String[]{});
       case 17:
-        return new CompiledConceptDescriptor("Kajak.structure.Repeat", "Kajak.structure.AbstractCommand", false, new String[]{"Kajak.structure.AbstractCommand"}, new String[]{"count"}, new String[]{});
+        return new CompiledConceptDescriptor("Kajak.structure.Pick", "Kajak.structure.AbstractCommand", false, new String[]{"Kajak.structure.AbstractCommand"}, new String[]{}, new String[]{});
       case 18:
-        return new CompiledConceptDescriptor("Kajak.structure.RoutineCall", "Kajak.structure.AbstractCommand", false, new String[]{"Kajak.structure.AbstractCommand"}, new String[]{}, new String[]{"definition"});
+        return new CompiledConceptDescriptor("Kajak.structure.Repeat", "Kajak.structure.AbstractCommand", false, new String[]{"Kajak.structure.AbstractCommand"}, new String[]{"count"}, new String[]{});
       case 19:
-        return new CompiledConceptDescriptor("Kajak.structure.RoutineDefinition", "Kajak.structure.AbstractCommand", false, new String[]{"Kajak.structure.AbstractCommand", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("Kajak.structure.Require", "Kajak.structure.AbstractCommand", false, new String[]{"Kajak.structure.AbstractCommand"}, new String[]{}, new String[]{"library"});
       case 20:
-        return new CompiledConceptDescriptor("Kajak.structure.Script", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.execution.util.structure.IMainClass"}, new String[]{"startX", "startY"}, new String[]{});
+        return new CompiledConceptDescriptor("Kajak.structure.RoutineCall", "Kajak.structure.AbstractCommand", false, new String[]{"Kajak.structure.AbstractCommand"}, new String[]{}, new String[]{"definition"});
       case 21:
-        return new CompiledConceptDescriptor("Kajak.structure.South", "Kajak.structure.Direction", false, new String[]{"Kajak.structure.Direction"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("Kajak.structure.RoutineDefinition", "Kajak.structure.AbstractCommand", false, new String[]{"Kajak.structure.AbstractCommand", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{});
       case 22:
-        return new CompiledConceptDescriptor("Kajak.structure.Step", "Kajak.structure.AbstractCommand", false, new String[]{"Kajak.structure.AbstractCommand"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("Kajak.structure.Script", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.execution.util.structure.IMainClass"}, new String[]{"startX", "startY"}, new String[]{});
       case 23:
-        return new CompiledConceptDescriptor("Kajak.structure.West", "Kajak.structure.Direction", false, new String[]{"Kajak.structure.Direction"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("Kajak.structure.South", "Kajak.structure.Direction", false, new String[]{"Kajak.structure.Direction"}, new String[]{}, new String[]{});
       case 24:
+        return new CompiledConceptDescriptor("Kajak.structure.Step", "Kajak.structure.AbstractCommand", false, new String[]{"Kajak.structure.AbstractCommand"}, new String[]{}, new String[]{});
+      case 25:
+        return new CompiledConceptDescriptor("Kajak.structure.West", "Kajak.structure.Direction", false, new String[]{"Kajak.structure.Direction"}, new String[]{}, new String[]{});
+      case 26:
         return new CompiledConceptDescriptor("Kajak.structure.While", "Kajak.structure.AbstractCommand", false, new String[]{"Kajak.structure.AbstractCommand"}, new String[]{}, new String[]{});
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);

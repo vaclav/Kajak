@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-3bqy1xx9qwl0aui96v0mw5v3ne18j49">
+<dependencies version="2" modelHash="-824fl6jye9ye5ltr1em9pvsqc9nfs6k">
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <common hash="-826kup89xqojegklztf7uhcqg63txqr">
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   </common>
-  <source id="3308300503039473785" name="KajakFrame" hash="8x7maxyqzy2rpbobm7ucnngr9v8qi6s">
+  <source id="3308300503039473785" name="KajakFrame" hash="d58kozanlg17o2r8jmvhrmcvhpfw5dj">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <file name="KajakFrame.java" />

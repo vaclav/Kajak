@@ -26,11 +26,34 @@ public class Sample extends KajakFrame {
       }
     }
     fill_routine();
+    // Imported library routines 
+    turnAround_library_routine_from_Common();
     if (canMove()) {
       moveKaja();
       pause();
     } else {
       reportError("Oops, There's a wall in front of me. I can't make a step forward.");
+      return;
+    }
+  }
+
+  public void turnAround_routine() {
+    fill_routine();
+  }
+
+  public void turnAround2_routine() {
+    if (!(isFull())) {
+      addMark();
+      pause();
+    } else {
+      reportError("Cannot drop. The cell is already full.");
+      return;
+    }
+    if (!(isFull())) {
+      addMark();
+      pause();
+    } else {
+      reportError("Cannot drop. The cell is already full.");
       return;
     }
   }
@@ -45,6 +68,20 @@ public class Sample extends KajakFrame {
         return;
       }
     }
+  }
+
+  public void turnRight_library_routine_from_Common() {
+    for (int indexVariable_gqivph_a0a = 0; indexVariable_gqivph_a0a < 3; indexVariable_gqivph_a0a++) {
+      turnLeft();
+      pause();
+    }
+  }
+
+  public void turnAround_library_routine_from_Common() {
+    turnLeft();
+    pause();
+    turnLeft();
+    pause();
   }
 
   public static void main(String[] args) {

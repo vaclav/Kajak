@@ -5,15 +5,18 @@ package JavaKajak.runtime;
 import javax.swing.JPanel;
 import java.awt.GridLayout;
 import javax.swing.JButton;
+import javax.swing.Icon;
 import javax.swing.UIManager;
 import javax.swing.plaf.metal.MetalLookAndFeel;
 import javax.swing.UnsupportedLookAndFeelException;
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import java.awt.Dimension;
 import java.awt.BorderLayout;
 import javax.swing.JOptionPane;
 import java.awt.Color;
 import javax.swing.SwingUtilities;
+import java.awt.Font;
 
 public abstract class KajakFrame {
   private static final int HEIGHT = 12;
@@ -28,6 +31,7 @@ public abstract class KajakFrame {
   private Direction direction = Direction.east;
   private final Cell[][] world = new Cell[HEIGHT][WIDTH];
   private final JButton[][] visuals = new JButton[HEIGHT][WIDTH];
+  private Icon karelIcon;
 
   public KajakFrame() {
   }
@@ -38,6 +42,7 @@ public abstract class KajakFrame {
     } catch (UnsupportedLookAndFeelException e) {
       throw new RuntimeException(e);
     }
+    karelIcon = new ImageIcon("JavaKajak/runtime/outputView.png");
     for (int i = 0; i < HEIGHT; i++) {
       for (int j = 0; j < WIDTH; j++) {
         boolean shouldBeWall = i == 0 || i == HEIGHT - 1 || j == 0 || j == WIDTH - 1;
@@ -186,7 +191,9 @@ public abstract class KajakFrame {
           SwingUtilities.invokeAndWait(new Runnable() {
             public void run() {
               currentVisual.setBackground(cellValue);
+              currentVisual.setIcon(karelIcon);
               currentVisual.setText(marksCaption);
+              currentVisual.setFont(new Font(currentVisual.getFont().getName(), Font.BOLD, 18));
             }
           });
         } catch (Exception e) {

@@ -5,18 +5,18 @@ package Kajak.generator.template.main;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.generator.template.MappingScriptContext;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.ITranslator2;
-import jetbrains.mps.internal.collections.runtime.IWhereFilter;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
 
 public class QueriesGenerated {
@@ -33,7 +33,13 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_3308300503039701227(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), "name") + "_routine";
+    if (SNodeOperations.getAncestor(_context.getNode(), "Kajak.structure.Script", false, false) != null) {
+      return SPropertyOperations.getString(_context.getNode(), "name") + "_routine";
+    } else if (SNodeOperations.getAncestor(_context.getNode(), "Kajak.structure.Library", false, false) != null) {
+      return SPropertyOperations.getString(_context.getNode(), "name") + "_library_routine_from_" + SPropertyOperations.getString(SNodeOperations.getAncestor(_context.getNode(), "Kajak.structure.Library", false, false), "name");
+    } else {
+      throw new IllegalArgumentException("The routine " + SPropertyOperations.getString(_context.getNode(), "name") + " seems to have no parent script nor library");
+    }
   }
 
   public static Object propertyMacro_GetPropertyValue_6405700485436287841(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -94,6 +100,18 @@ public class QueriesGenerated {
 
   public static Iterable sourceNodesQuery_3308300503039720845(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "definitions", true);
+  }
+
+  public static Iterable sourceNodesQuery_4394627182934963473(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNode(), "body", true), "commands", true)).where(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return SNodeOperations.isInstanceOf(it, "Kajak.structure.Require");
+      }
+    });
+  }
+
+  public static Iterable sourceNodesQuery_4394627182934963575(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(SLinkOperations.getTarget(SNodeOperations.cast(_context.getNode(), "Kajak.structure.Require"), "library", false), "difinitions", true);
   }
 
   public static Iterable sourceNodesQuery_3308300503039928825(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
