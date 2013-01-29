@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="-7z22wb9apy6gmzkain4lh3alhqcurs7">
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+  <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kaja.generator.template.main@generator)" hash="cdwpfd75vnznxhrrji45dx6tjxz5hnt" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+  <common hash="-10x2zjr1pbpf3zub6283c34i9f03g25">
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+  </common>
+  <source id="3308300503039980203" name="Karel" hash="-mfyvdrh9b3uajpvvv0bzfyazuba5rw">
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kaja.generator.template.main@generator)" />
+    <file name="Karel.java" />
+  </source>
+  <source id="7446293342517103305" name="Sample" hash="1ofns8d6xag313ksdqkz9y8c8e5prn4">
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kaja.generator.template.main@generator)" />
+    <file name="Sample.java" />
+  </source>
+  <source id="859008965969243552" name="Dog" hash="-65kbakmhrn01g8j5hra6xyj7ee62l13">
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kaja.generator.template.main@generator)" />
+    <file name="Dog.java" />
+  </source>
+  <source id="4394627182934755441" name="Common" hash="1y8fq4ht2n7t64jj36cqukfcoseoqww">
+    <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kaja.generator.template.main@generator)" />
+  </source>
+  <source id="4394627182935280567" name="Filling" hash="-6sfsudzb3tm1mwhmdn6r72s1tz82i2o">
+    <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kaja.generator.template.main@generator)" />
+  </source>
+</dependencies>
+

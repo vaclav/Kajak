@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="Kajak" uuid="049a08c5-1fe5-43cc-bd99-8b46d641d7f5" doNotGenerateAdapters="true">
+<language namespace="Kaja" uuid="049a08c5-1fe5-43cc-bd99-8b46d641d7f5" doNotGenerateAdapters="true">
   <models>
     <modelRoot path="${language_descriptor}/languageModels" />
   </models>
   <accessoryModels />
   <generators>
-    <generator name="" generatorUID="Kajak#3265739055509559144" uuid="e104ec4c-a001-4f8f-b6bf-654f6a062891">
+    <generator name="" generatorUID="Kaja#3265739055509559144" uuid="e104ec4c-a001-4f8f-b6bf-654f6a062891">
       <models>
         <modelRoot path="${language_descriptor}/generator/template" />
       </models>
@@ -13,7 +13,7 @@
         <generator generatorUID="985c8c6a-64b4-486d-a91e-7d4112742556(jetbrains.mps.baseLanguage#1129914002933)" />
       </external-templates>
       <dependencies>
-        <dependency reexport="false">5004e7d9-a353-4cb0-960a-68fc804bd95d(JavaKajak)</dependency>
+        <dependency reexport="false">5004e7d9-a353-4cb0-960a-68fc804bd95d(JavaKaja)</dependency>
         <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
       </dependencies>
       <usedLanguages>

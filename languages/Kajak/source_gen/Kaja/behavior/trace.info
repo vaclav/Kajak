@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="AbstractCommand_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Kaja.behavior.AbstractCommand_BehaviorDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="70" endPosition="0" unitName="Kaja.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="CommandList_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.CommandList_BehaviorDescriptor" />
+  <unitInfo fileName="CommentLine_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.CommentLine_BehaviorDescriptor" />
+  <unitInfo fileName="Direction_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Kaja.behavior.Direction_BehaviorDescriptor" />
+  <unitInfo fileName="Drop_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.Drop_BehaviorDescriptor" />
+  <unitInfo fileName="East_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.East_BehaviorDescriptor" />
+  <unitInfo fileName="EmptyLine_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.EmptyLine_BehaviorDescriptor" />
+  <unitInfo fileName="Heading_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.Heading_BehaviorDescriptor" />
+  <unitInfo fileName="IfStatement_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.IfStatement_BehaviorDescriptor" />
+  <unitInfo fileName="IsFull_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.IsFull_BehaviorDescriptor" />
+  <unitInfo fileName="IsMark_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.IsMark_BehaviorDescriptor" />
+  <unitInfo fileName="IsWall_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.IsWall_BehaviorDescriptor" />
+  <unitInfo fileName="LeftTurn_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.LeftTurn_BehaviorDescriptor" />
+  <unitInfo fileName="Library_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="Kaja.behavior.Library_BehaviorDescriptor" />
+  <unitInfo fileName="LogicalExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Kaja.behavior.LogicalExpression_BehaviorDescriptor" />
+  <unitInfo fileName="North_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.North_BehaviorDescriptor" />
+  <unitInfo fileName="Not_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.Not_BehaviorDescriptor" />
+  <unitInfo fileName="Pick_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.Pick_BehaviorDescriptor" />
+  <unitInfo fileName="Repeat_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.Repeat_BehaviorDescriptor" />
+  <unitInfo fileName="Require_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.Require_BehaviorDescriptor" />
+  <unitInfo fileName="RoutineCall_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.RoutineCall_BehaviorDescriptor" />
+  <unitInfo fileName="RoutineDefinition_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="Kaja.behavior.RoutineDefinition_BehaviorDescriptor" />
+  <unitInfo fileName="Script_BehaviorDescriptor.java" startLine="12" startPosition="0" endLine="33" endPosition="0" unitName="Kaja.behavior.Script_BehaviorDescriptor" />
+  <unitInfo fileName="South_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.South_BehaviorDescriptor" />
+  <unitInfo fileName="Step_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.Step_BehaviorDescriptor" />
+  <unitInfo fileName="West_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.West_BehaviorDescriptor" />
+  <unitInfo fileName="While_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.While_BehaviorDescriptor" />
+</debugInfo>
+

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kajak.generator.template.main@generator)">
+<model modelUID="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kaja.generator.template.main@generator)" version="0">
   <persistence version="7" />
   <language namespace="b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)" />
   <language namespace="d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)" />
   <language namespace="13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.lang.sharedConcepts)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="c2kz" modelUID="r:b567205c-7e17-4168-b413-945a6e17f37d(Kajak.structure)" version="3" />
-  <import index="wd51" modelUID="r:f5e9b11f-5073-4786-8ed1-a9e42307c3f8(JavaKajak.runtime)" version="-1" />
+  <import index="c2kz" modelUID="r:b567205c-7e17-4168-b413-945a6e17f37d(Kaja.structure)" version="4" />
+  <import index="wd51" modelUID="r:f5e9b11f-5073-4786-8ed1-a9e42307c3f8(JavaKaja.runtime)" version="-1" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" />
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(java.io@java_stub)" version="-1" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(java.lang@java_stub)" version="-1" />
@@ -312,7 +312,7 @@
       </node>
     </node>
     <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="3308300503039570181">
-      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="wd51.3308300503039473785" resolveInfo="KajakFrame" />
+      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="wd51.3308300503039473785" resolveInfo="KajaFrame" />
     </node>
     <node role="method" roleId="tpee.1107880067339" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="3308300503039571096">
       <property name="name" nameId="tpck.1169194664001" value="perform" />
@@ -522,7 +522,7 @@
         <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="3308300503039580726" />
       </node>
       <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="3308300503039580727">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="wd51.3308300503039473785" resolveInfo="KajakFrame" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="wd51.3308300503039473785" resolveInfo="KajaFrame" />
       </node>
       <node role="method" roleId="tpee.1107880067339" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="3308300503039580728">
         <property name="name" nameId="tpck.1169194664001" value="perform" />
@@ -603,7 +603,7 @@
         <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="3308300503039647654" />
       </node>
       <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="3308300503039647655">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="wd51.3308300503039473785" resolveInfo="KajakFrame" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="wd51.3308300503039473785" resolveInfo="KajaFrame" />
       </node>
     </node>
   </root>
@@ -618,7 +618,7 @@
         <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="3308300503039647818" />
       </node>
       <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="3308300503039647819">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="wd51.3308300503039473785" resolveInfo="KajakFrame" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="wd51.3308300503039473785" resolveInfo="KajaFrame" />
       </node>
       <node role="method" roleId="tpee.1107880067339" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="3308300503039647820">
         <property name="name" nameId="tpck.1169194664001" value="perform" />
@@ -648,7 +648,7 @@
         <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="3308300503039647841" />
       </node>
       <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="3308300503039647842">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="wd51.3308300503039473785" resolveInfo="KajakFrame" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="wd51.3308300503039473785" resolveInfo="KajaFrame" />
       </node>
       <node role="method" roleId="tpee.1107880067339" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="3308300503039647843">
         <property name="name" nameId="tpck.1169194664001" value="perform" />
@@ -1494,7 +1494,7 @@
         <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="6405700485436123147" />
       </node>
       <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6405700485436123148">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="wd51.3308300503039473785" resolveInfo="KajakFrame" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="wd51.3308300503039473785" resolveInfo="KajaFrame" />
       </node>
       <node role="method" roleId="tpee.1107880067339" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="6405700485436123149">
         <property name="name" nameId="tpck.1169194664001" value="perform" />
@@ -1554,7 +1554,7 @@
         <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="6405700485436170028" />
       </node>
       <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6405700485436170029">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="wd51.3308300503039473785" resolveInfo="KajakFrame" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="wd51.3308300503039473785" resolveInfo="KajaFrame" />
       </node>
       <node role="method" roleId="tpee.1107880067339" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="6405700485436170944">
         <property name="name" nameId="tpck.1169194664001" value="perform" />
@@ -1612,7 +1612,7 @@
         <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="6405700485436186613" />
       </node>
       <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6405700485436186614">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="wd51.3308300503039473785" resolveInfo="KajakFrame" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="wd51.3308300503039473785" resolveInfo="KajaFrame" />
       </node>
       <node role="method" roleId="tpee.1107880067339" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="6405700485436186615">
         <property name="name" nameId="tpck.1169194664001" value="perform" />
@@ -1669,7 +1669,7 @@
         <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="859008965969439784" />
       </node>
       <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="859008965969439785">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="wd51.3308300503039473785" resolveInfo="KajakFrame" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="wd51.3308300503039473785" resolveInfo="KajaFrame" />
       </node>
       <node role="method" roleId="tpee.1107880067339" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="859008965969439786">
         <property name="name" nameId="tpck.1169194664001" value="perform" />

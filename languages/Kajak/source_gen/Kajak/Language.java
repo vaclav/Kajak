@@ -11,14 +11,14 @@ import jetbrains.mps.generator.runtime.TemplateModule;
 import jetbrains.mps.generator.runtime.TemplateUtil;
 
 public class Language extends LanguageRuntime {
-  public static ModuleReference MODULE_REFERENCE = ModuleReference.fromString("049a08c5-1fe5-43cc-bd99-8b46d641d7f5(Kajak)");
+  public static ModuleReference MODULE_REFERENCE = ModuleReference.fromString("049a08c5-1fe5-43cc-bd99-8b46d641d7f5(Kaja)");
 
   public Language() {
 
   }
 
   public String getNamespace() {
-    return "Kajak";
+    return "Kaja";
   }
 
   @Override
@@ -32,6 +32,6 @@ public class Language extends LanguageRuntime {
   }
 
   public Collection<TemplateModule> getGenerators() {
-    return TemplateUtil.<TemplateModule>asCollection(TemplateUtil.createInterpretedGenerator(this, "e104ec4c-a001-4f8f-b6bf-654f6a062891(Kajak#3265739055509559144)"));
+    return TemplateUtil.<TemplateModule>asCollection(TemplateUtil.createInterpretedGenerator(this, "e104ec4c-a001-4f8f-b6bf-654f6a062891(Kaja#3265739055509559144)"));
   }
 }
