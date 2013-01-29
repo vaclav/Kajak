@@ -74,9 +74,9 @@ public class Library_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createRefNodeList_x0ve1k_d0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new Library_Editor.difinitionsListHandler_x0ve1k_d0(node, "difinitions", editorContext);
+    AbstractCellListHandler handler = new Library_Editor.definitionsListHandler_x0ve1k_d0(node, "definitions", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
-    editorCell.setCellId("refNodeList_difinitions");
+    editorCell.setCellId("refNodeList_definitions");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
@@ -106,8 +106,8 @@ public class Library_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static class difinitionsListHandler_x0ve1k_d0 extends RefNodeListHandler {
-    public difinitionsListHandler_x0ve1k_d0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class definitionsListHandler_x0ve1k_d0 extends RefNodeListHandler {
+    public definitionsListHandler_x0ve1k_d0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

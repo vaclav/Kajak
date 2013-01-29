@@ -16,16 +16,14 @@ public class Sample extends KajakFrame {
       reportError("Oops, There's a wall in front of me. I can't make a step forward.");
       return;
     }
-    for (int indexVariable_kf1bs5_b0 = 0; indexVariable_kf1bs5_b0 < 5; indexVariable_kf1bs5_b0++) {
-      if (canMove()) {
-        moveKaja();
-        pause();
-      } else {
-        reportError("Oops, There's a wall in front of me. I can't make a step forward.");
-        return;
-      }
+    fillup_from_library_Filling_routine();
+    if (canMove()) {
+      moveKaja();
+      pause();
+    } else {
+      reportError("Oops, There's a wall in front of me. I can't make a step forward.");
+      return;
     }
-    fill_routine();
     turnAround_from_library_Common_routine();
     if (canMove()) {
       moveKaja();
@@ -34,13 +32,20 @@ public class Sample extends KajakFrame {
       reportError("Oops, There's a wall in front of me. I can't make a step forward.");
       return;
     }
+    empty_from_library_Filling_routine();
+    if (canMove()) {
+      moveKaja();
+      pause();
+    } else {
+      reportError("Oops, There's a wall in front of me. I can't make a step forward.");
+      return;
+    }
+    turnAround_routine();
   }
 
   public void turnAround_routine() {
-    fill_routine();
-  }
-
-  public void turnAround2_routine() {
+    turnAround_from_library_Common_routine();
+    turnAround_from_library_Common_routine();
     if (!(isFull())) {
       addMark();
       pause();
@@ -57,7 +62,50 @@ public class Sample extends KajakFrame {
     }
   }
 
-  public void fill_routine() {
+  public void turnRight_from_library_Common_routine() {
+    for (int indexVariable_kf1bs5_a0b = 0; indexVariable_kf1bs5_a0b < 3; indexVariable_kf1bs5_a0b++) {
+      turnLeft();
+      pause();
+    }
+  }
+
+  public void turnAround_from_library_Common_routine() {
+    turnLeft();
+    pause();
+    turnLeft();
+    pause();
+  }
+
+  public void fetch_from_library_Common_routine() {
+    if (isMark()) {
+      if (isMark()) {
+        removeMark();
+        pause();
+      } else {
+        reportError("Nothing to pick. The cell is empty.");
+        return;
+      }
+      turnAround_from_library_Common_routine();
+    } else {
+      if (canMove()) {
+        moveKaja();
+        pause();
+      } else {
+        reportError("Oops, There's a wall in front of me. I can't make a step forward.");
+        return;
+      }
+      fetch_from_library_Common_routine();
+      if (canMove()) {
+        moveKaja();
+        pause();
+      } else {
+        reportError("Oops, There's a wall in front of me. I can't make a step forward.");
+        return;
+      }
+    }
+  }
+
+  public void fillup_from_library_Filling_routine() {
     while (!(isFull())) {
       if (!(isFull())) {
         addMark();
@@ -69,18 +117,16 @@ public class Sample extends KajakFrame {
     }
   }
 
-  public void turnRight_from_library_Common_routine() {
-    for (int indexVariable_kf1bs5_a0d = 0; indexVariable_kf1bs5_a0d < 3; indexVariable_kf1bs5_a0d++) {
-      turnLeft();
-      pause();
+  public void empty_from_library_Filling_routine() {
+    while (isMark()) {
+      if (isMark()) {
+        removeMark();
+        pause();
+      } else {
+        reportError("Nothing to pick. The cell is empty.");
+        return;
+      }
     }
-  }
-
-  public void turnAround_from_library_Common_routine() {
-    turnLeft();
-    pause();
-    turnLeft();
-    pause();
   }
 
   public static void main(String[] args) {

@@ -19,6 +19,10 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.internal.collections.runtime.ITranslator2;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
 import jetbrains.mps.internal.collections.runtime.Sequence;
+import java.util.Map;
+import jetbrains.mps.internal.collections.runtime.MapSequence;
+import java.util.HashMap;
+import jetbrains.mps.internal.collections.runtime.IMapping;
 
 public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_3308300503039570175(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -112,7 +116,7 @@ public class QueriesGenerated {
   }
 
   public static Iterable sourceNodesQuery_4394627182934963575(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return SLinkOperations.getTargets(SLinkOperations.getTarget(SNodeOperations.cast(_context.getNode(), "Kajak.structure.Require"), "library", false), "difinitions", true);
+    return SLinkOperations.getTargets(SLinkOperations.getTarget(SNodeOperations.cast(_context.getNode(), "Kajak.structure.Require"), "library", false), "definitions", true);
   }
 
   public static Iterable sourceNodesQuery_3308300503039928825(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
@@ -154,12 +158,17 @@ public class QueriesGenerated {
             return SNodeOperations.isInstanceOf(it, "Kajak.structure.Require");
           }
         });
+
         Sequence.fromIterable(requireCommands).visitAll(new IVisitor<SNode>() {
           public void visit(final SNode requireCommand) {
-            Iterable<SNode> definitions = SLinkOperations.getTargets(SLinkOperations.getTarget(SNodeOperations.cast(requireCommand, "Kajak.structure.Require"), "library", false), "difinitions", true);
+            Iterable<SNode> definitions = SLinkOperations.getTargets(SLinkOperations.getTarget(SNodeOperations.cast(requireCommand, "Kajak.structure.Require"), "library", false), "definitions", true);
+
+            final Map<SNode, SNode> newToOld = MapSequence.fromMap(new HashMap<SNode, SNode>());
+
             Sequence.fromIterable(definitions).visitAll(new IVisitor<SNode>() {
               public void visit(final SNode definition) {
                 final SNode copy = SNodeOperations.copyNode(definition);
+                MapSequence.fromMap(newToOld).put(copy, definition);
                 SPropertyOperations.set(copy, "name", SPropertyOperations.getString(definition, "name") + "_from_library_" + SPropertyOperations.getString(SLinkOperations.getTarget(SNodeOperations.cast(requireCommand, "Kajak.structure.Require"), "library", false), "name"));
                 ListSequence.fromList(SLinkOperations.getTargets(script, "definitions", true)).addElement(copy);
                 ListSequence.fromList(SNodeOperations.getDescendants(script, "Kajak.structure.RoutineCall", false, new String[]{})).where(new IWhereFilter<SNode>() {
@@ -174,6 +183,20 @@ public class QueriesGenerated {
               }
             });
             SNodeOperations.deleteNode(requireCommand);
+
+            MapSequence.fromMap(newToOld).visitAll(new IVisitor<IMapping<SNode, SNode>>() {
+              public void visit(final IMapping<SNode, SNode> entry) {
+                ListSequence.fromList(SNodeOperations.getDescendants(script, "Kajak.structure.RoutineCall", false, new String[]{})).where(new IWhereFilter<SNode>() {
+                  public boolean accept(SNode it) {
+                    return SLinkOperations.getTarget(it, "definition", false) == entry.value();
+                  }
+                }).visitAll(new IVisitor<SNode>() {
+                  public void visit(SNode it) {
+                    SLinkOperations.setTarget(it, "definition", entry.key(), false);
+                  }
+                });
+              }
+            });
           }
         });
       }

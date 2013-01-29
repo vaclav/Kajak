@@ -18,5 +18,11 @@
     </dependencies>
     <rename id="c2kz.3265739055509559116" type="CHILD" from="commands" to="body" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="c2kz" modelUID="r:b567205c-7e17-4168-b413-945a6e17f37d(Kajak.structure)" version="2" />
+    </dependencies>
+    <rename id="c2kz.4394627182934741783" type="CHILD" from="difinitions" to="definitions" />
+  </StructureModification>
 </history>
 

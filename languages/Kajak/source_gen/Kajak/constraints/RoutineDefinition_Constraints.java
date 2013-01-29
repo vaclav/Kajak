@@ -68,7 +68,7 @@ public class RoutineDefinition_Constraints extends BaseConstraintsDescriptor {
             });
             return Sequence.fromIterable(defs).count() <= 1;
           } else {
-            return ListSequence.fromList(SLinkOperations.getTargets(SNodeOperations.getAncestor(node, "Kajak.structure.Library", false, false), "difinitions", true)).where(new IWhereFilter<SNode>() {
+            return ListSequence.fromList(SLinkOperations.getTargets(SNodeOperations.getAncestor(node, "Kajak.structure.Library", false, false), "definitions", true)).where(new IWhereFilter<SNode>() {
               public boolean accept(SNode it) {
                 return (SPropertyOperations.getString(propertyValue)).equals(SPropertyOperations.getString(it, "name"));
               }

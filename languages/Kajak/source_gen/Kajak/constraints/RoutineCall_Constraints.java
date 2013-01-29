@@ -53,7 +53,7 @@ public class RoutineCall_Constraints extends BaseConstraintsDescriptor {
           @Override
           public Scope createScope(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
             {
-              final CompositeScope scope = new CompositeScope(SimpleRoleScope.forNamedElements(SNodeOperations.getAncestor(_context.getEnclosingNode(), "Kajak.structure.Script", true, false), SLinkOperations.findLinkDeclaration("Kajak.structure.Script", "definitions")), new Scope() {
+              final CompositeScope scope = new CompositeScope(SimpleRoleScope.forNamedElements(SNodeOperations.getAncestor(_context.getEnclosingNode(), "Kajak.structure.Script", true, false), SLinkOperations.findLinkDeclaration("Kajak.structure.Script", "definitions")), SimpleRoleScope.forNamedElements(SNodeOperations.getAncestor(_context.getEnclosingNode(), "Kajak.structure.Library", true, false), SLinkOperations.findLinkDeclaration("Kajak.structure.Library", "definitions")), new Scope() {
                 /**
                  * Returns all available elements in the scope.
                  * 
@@ -112,7 +112,7 @@ public class RoutineCall_Constraints extends BaseConstraintsDescriptor {
 
               ListSequence.fromList(SNodeOperations.getDescendants(SNodeOperations.getAncestor(_context.getEnclosingNode(), "Kajak.structure.Script", true, false), "Kajak.structure.Require", false, new String[]{})).visitAll(new IVisitor<SNode>() {
                 public void visit(SNode it) {
-                  scope.addScope(SimpleRoleScope.forNamedElements(SLinkOperations.getTarget(it, "library", false), SLinkOperations.findLinkDeclaration("Kajak.structure.Library", "difinitions")));
+                  scope.addScope(SimpleRoleScope.forNamedElements(SLinkOperations.getTarget(it, "library", false), SLinkOperations.findLinkDeclaration("Kajak.structure.Library", "definitions")));
                 }
               });
               return scope;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="500171abaa1gyftyxpxpce6g7scsiwp">
+<dependencies version="2" modelHash="4bep1obfrlekt6cchcmqrlrvtu5cmbs">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -9,7 +9,7 @@
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
   <dep model="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" />
-  <common hash="-b70kiqd06v3z7yamt6ubu20u0dxkyxy">
+  <common hash="33ei8jpe4v8ziqrzbeqdud68l7pebt8">
     <dep root="3265739055509559110" />
     <dep root="3265739055509559114" />
     <dep root="3265739055509559138" />
@@ -124,7 +124,7 @@
   <source id="859008965969439768" name="IsFull" hash="-8p01c6dxe0czv1lja6jgcl9vx7mu8g5">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="4394627182934741782" name="Library" hash="1m00t8pjdrh1393ctrkwqc22ztv9y87">
+  <source id="4394627182934741782" name="Library" hash="-b1h6cz2nox1wjyfrj6k8m1qbexjaph">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="4394627182934757449" name="Require" hash="-d0xsydeoqk9ccc84sdvomn6pn159ifl">
