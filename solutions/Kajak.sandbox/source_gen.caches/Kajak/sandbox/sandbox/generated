@@ -2,7 +2,7 @@
 <dependencies version="2" modelHash="eggioq9n492yfnlcvk6lot1sm921xc2">
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
-  <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kajak.generator.template.main@generator)" hash="-7qp3k1ueaexwt0iolah4iag6vpmpp2y" />
+  <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kajak.generator.template.main@generator)" hash="4xf6dppjsgwzmzbam5n98mee6raz7rn" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <common hash="-11cmqb17yirvp84ooyf8mritgbbaee6">
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />

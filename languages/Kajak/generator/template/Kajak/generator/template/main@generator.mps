@@ -88,6 +88,7 @@
       <property name="name" nameId="tpck.1169194664001" value="MoveRoutineDefinitions" />
       <property name="scriptKind" nameId="tpf8.1195595592106" value="pre_processing" />
       <property name="modifiesModel" nameId="tpf8.1195595611951" value="true" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="scripts" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="3308300503039701203">
       <property name="name" nameId="tpck.1169194664001" value="reduce_RoutineDefinition" />
@@ -103,9 +104,11 @@
       <property name="name" nameId="tpck.1169194664001" value="RemoveEmptyLines" />
       <property name="scriptKind" nameId="tpf8.1195595592106" value="pre_processing" />
       <property name="modifiesModel" nameId="tpf8.1195595611951" value="true" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="scripts" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="3308300503039928809">
       <property name="name" nameId="tpck.1169194664001" value="reduce_CommandList" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="command" />
       <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="c2kz.3308300503039896127" resolveInfo="CommandList" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="6405700485436123139">
@@ -137,6 +140,7 @@
       <property name="name" nameId="tpck.1169194664001" value="MoveLibraryRoutineDefinitions" />
       <property name="scriptKind" nameId="tpf8.1195595592106" value="pre_processing" />
       <property name="modifiesModel" nameId="tpf8.1195595611951" value="true" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="scripts" />
     </node>
   </roots>
   <root id="3308300503039570163">
