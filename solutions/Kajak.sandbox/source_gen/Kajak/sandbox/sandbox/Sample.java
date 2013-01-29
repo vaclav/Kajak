@@ -26,7 +26,7 @@ public class Sample extends KajakFrame {
       }
     }
     fill_routine();
-    // Imported library routines 
+
     turnAround_library_routine_from_Common();
     if (canMove()) {
       moveKaja();

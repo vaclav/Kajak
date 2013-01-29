@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-aszcxeaojquobbn8ulio8cwb1dkzjku">
+<dependencies version="2" modelHash="-7yaz3zpak8r29oal1ybswlt4o5s4rjw">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
   <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
@@ -53,7 +53,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="QueriesGenerated.java" />
   </common>
-  <source id="3308300503039570163" name="main" hash="1tqp6fhls3akaasifmb8cwnah63qk86">
+  <source id="3308300503039570163" name="main" hash="-52qy2fbithl8hmq72mrnnc84t60kgh9">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
   <source id="3308300503039570165" name="map_Script" hash="8kf58uuk1bb9zbbgzdclkz7c520ekan">
