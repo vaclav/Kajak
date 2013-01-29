@@ -9,6 +9,9 @@ public class Karel extends KajakFrame {
   }
 
   protected void perform() {
+    turnRight_from_library_Common_routine();
+    turnAround_from_library_Common_routine();
+    turnRight_routine();
     turnRight_routine();
     while (!(isMark())) {
       traceStep_routine();
@@ -49,6 +52,20 @@ public class Karel extends KajakFrame {
   }
 
   public void turnAround_routine() {
+    turnLeft();
+    pause();
+    turnLeft();
+    pause();
+  }
+
+  public void turnRight_from_library_Common_routine() {
+    for (int indexVariable_ligmp_a0e = 0; indexVariable_ligmp_a0e < 3; indexVariable_ligmp_a0e++) {
+      turnLeft();
+      pause();
+    }
+  }
+
+  public void turnAround_from_library_Common_routine() {
     turnLeft();
     pause();
     turnLeft();

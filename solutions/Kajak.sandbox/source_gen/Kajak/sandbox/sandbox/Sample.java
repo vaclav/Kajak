@@ -26,8 +26,7 @@ public class Sample extends KajakFrame {
       }
     }
     fill_routine();
-
-    turnAround_library_routine_from_Common();
+    turnAround_from_library_Common_routine();
     if (canMove()) {
       moveKaja();
       pause();
@@ -70,14 +69,14 @@ public class Sample extends KajakFrame {
     }
   }
 
-  public void turnRight_library_routine_from_Common() {
-    for (int indexVariable_gqivph_a0a = 0; indexVariable_gqivph_a0a < 3; indexVariable_gqivph_a0a++) {
+  public void turnRight_from_library_Common_routine() {
+    for (int indexVariable_kf1bs5_a0d = 0; indexVariable_kf1bs5_a0d < 3; indexVariable_kf1bs5_a0d++) {
       turnLeft();
       pause();
     }
   }
 
-  public void turnAround_library_routine_from_Common() {
+  public void turnAround_from_library_Common_routine() {
     turnLeft();
     pause();
     turnLeft();

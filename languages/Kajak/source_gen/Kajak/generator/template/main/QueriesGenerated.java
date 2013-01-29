@@ -18,6 +18,7 @@ import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.internal.collections.runtime.ITranslator2;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
+import jetbrains.mps.internal.collections.runtime.Sequence;
 
 public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_3308300503039570175(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -141,6 +142,40 @@ public class QueriesGenerated {
     ListSequence.fromList(SModelOperations.getNodes(_context.getModel(), "Kajak.structure.EmptyLine")).visitAll(new IVisitor<SNode>() {
       public void visit(SNode it) {
         SNodeOperations.deleteNode(it);
+      }
+    });
+  }
+
+  public static void mappingScript_CodeBlock_4394627182935101791(final IOperationContext operationContext, final MappingScriptContext _context) {
+    ListSequence.fromList(SModelOperations.getRoots(_context.getModel(), "Kajak.structure.Script")).visitAll(new IVisitor<SNode>() {
+      public void visit(final SNode script) {
+        final Iterable<SNode> requireCommands = ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(script, "body", true), "commands", true)).where(new IWhereFilter<SNode>() {
+          public boolean accept(SNode it) {
+            return SNodeOperations.isInstanceOf(it, "Kajak.structure.Require");
+          }
+        });
+        Sequence.fromIterable(requireCommands).visitAll(new IVisitor<SNode>() {
+          public void visit(final SNode requireCommand) {
+            Iterable<SNode> definitions = SLinkOperations.getTargets(SLinkOperations.getTarget(SNodeOperations.cast(requireCommand, "Kajak.structure.Require"), "library", false), "difinitions", true);
+            Sequence.fromIterable(definitions).visitAll(new IVisitor<SNode>() {
+              public void visit(final SNode definition) {
+                final SNode copy = SNodeOperations.copyNode(definition);
+                SPropertyOperations.set(copy, "name", SPropertyOperations.getString(definition, "name") + "_from_library_" + SPropertyOperations.getString(SLinkOperations.getTarget(SNodeOperations.cast(requireCommand, "Kajak.structure.Require"), "library", false), "name"));
+                ListSequence.fromList(SLinkOperations.getTargets(script, "definitions", true)).addElement(copy);
+                ListSequence.fromList(SNodeOperations.getDescendants(script, "Kajak.structure.RoutineCall", false, new String[]{})).where(new IWhereFilter<SNode>() {
+                  public boolean accept(SNode it) {
+                    return SLinkOperations.getTarget(it, "definition", false) == definition;
+                  }
+                }).visitAll(new IVisitor<SNode>() {
+                  public void visit(SNode it) {
+                    SLinkOperations.setTarget(it, "definition", copy, false);
+                  }
+                });
+              }
+            });
+            SNodeOperations.deleteNode(requireCommand);
+          }
+        });
       }
     });
   }
