@@ -129,4 +129,41 @@ public class QueriesGenerated {
     }
     return result;
   }
+
+  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_LogicalOperator_1904811872814419789(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
+    {
+      final SNode concept = SConceptOperations.findConceptDeclaration("Kaja.structure.LogicalExpression");
+      Computable computable = new Computable() {
+        public Object compute() {
+          return ListSequence.fromListAndArray(new ArrayList<String>(), "and", "or");
+        }
+      };
+      Iterable<String> parameterObjects = (Iterable<String>) computable.compute();
+      assert parameterObjects != null;
+      for (final String item : parameterObjects) {
+        ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, item, _context.getSourceNode()) {
+          public SNode doSubstitute(String pattern) {
+            SNode conjuction;
+            if ((item).equals("and")) {
+              conjuction = SNodeFactoryOperations.replaceWithNewChild(_context.getSourceNode(), "KajaAndOr.structure.And");
+            } else {
+              conjuction = SNodeFactoryOperations.replaceWithNewChild(_context.getSourceNode(), "KajaAndOr.structure.Or");
+            }
+            SLinkOperations.setTarget(conjuction, "left", SLinkOperations.getTarget(_context.getSourceNode(), "left", true), true);
+            return SLinkOperations.setTarget(conjuction, "right", SLinkOperations.getTarget(_context.getSourceNode(), "right", true), true);
+          }
+
+          public String getMatchingText(String pattern) {
+            return (item);
+          }
+
+          public String getVisibleMatchingText(String pattern) {
+            return this.getMatchingText(pattern);
+          }
+        });
+      }
+    }
+    return result;
+  }
 }
