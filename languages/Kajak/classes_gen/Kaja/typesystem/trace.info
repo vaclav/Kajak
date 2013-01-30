@@ -1,3 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo />
+<debugInfo>
+  <unitInfo fileName="TypesystemDescriptor.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="Kaja.typesystem.TypesystemDescriptor" />
+  <root nodeId="1904811872814114087" modelId="r:af5f8eb9-49c0-4279-87d3-3c80b1a56988(Kaja.typesystem)">
+    <nodeInfo nodeId="1904811872814128798" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="25" startPosition="130" endLine="26" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4394627182935027166" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="26" startPosition="25" endLine="27" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1904811872814114804" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="30" startPosition="41" endLine="31" endPosition="124" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4394627182935027547" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="36" startPosition="41" endLine="37" endPosition="124" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1904811872814128956" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="42" startPosition="7" endLine="43" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1904811872814128956" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="43" startPosition="60" endLine="44" endPosition="263" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1904811872814114087" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="49" startPosition="46" endLine="50" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1904811872814114087" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="54" startPosition="5" endLine="55" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1904811872814114087" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="55" startPosition="117" endLine="56" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1904811872814114087" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="60" startPosition="30" endLine="61" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1904811872814114087" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="21" startPosition="129" endLine="23" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RoutineUniqueness_NonTypesystemRule#()V" />
+    <nodeInfo nodeId="4394627182935027336" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="29" startPosition="173" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" />
+    <nodeInfo nodeId="4394627182935027543" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="35" startPosition="205" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" />
+    <nodeInfo nodeId="1904811872814128956" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="41" startPosition="50" endLine="45" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1904811872814114087" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="48" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1904811872814114087" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="53" startPosition="68" endLine="57" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1904811872814114087" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="59" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
+    <nodeInfo nodeId="1904811872814128825" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="28" startPosition="31" endLine="33" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1904811872814128872" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="34" startPosition="12" endLine="39" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4394627182935027454" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="34" startPosition="10" endLine="40" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1904811872814128900" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="40" startPosition="5" endLine="46" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1904811872814114087" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="52" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+    <nodeInfo nodeId="4394627182935027176" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="27" startPosition="111" endLine="40" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1904811872814114087" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="24" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+    <scopeInfo nodeId="1904811872814114087" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="22" startPosition="48" endLine="22" endPosition="48" />
+    <scopeInfo nodeId="4394627182935027337" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="30" startPosition="41" endLine="31" endPosition="124" />
+    <scopeInfo nodeId="4394627182935027544" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="36" startPosition="41" endLine="37" endPosition="124" />
+    <scopeInfo nodeId="1904811872814114087" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="49" startPosition="46" endLine="50" endPosition="46" />
+    <scopeInfo nodeId="1904811872814114087" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="60" startPosition="30" endLine="61" endPosition="17" />
+    <scopeInfo nodeId="1904811872814114087" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="21" startPosition="129" endLine="23" endPosition="3" />
+    <scopeInfo nodeId="1904811872814128956" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="42" startPosition="7" endLine="44" endPosition="263">
+      <varInfo nodeId="1904811872814128956" varName="_reporter_2309309498" />
+      <varInfo nodeId="1904811872814128956" varName="errorTarget" />
+    </scopeInfo>
+    <scopeInfo nodeId="1904811872814114087" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="54" startPosition="5" endLine="56" endPosition="45">
+      <varInfo nodeId="1904811872814114087" varName="b" />
+    </scopeInfo>
+    <scopeInfo nodeId="4394627182935027336" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="29" startPosition="173" endLine="33" endPosition="0">
+      <varInfo nodeId="4394627182935027336" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="4394627182935027543" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="35" startPosition="205" endLine="39" endPosition="0">
+      <varInfo nodeId="4394627182935027543" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="1904811872814128901" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="41" startPosition="50" endLine="45" endPosition="7" />
+    <scopeInfo nodeId="1904811872814114087" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="48" startPosition="0" endLine="52" endPosition="0" />
+    <scopeInfo nodeId="1904811872814114087" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="53" startPosition="68" endLine="57" endPosition="5" />
+    <scopeInfo nodeId="1904811872814114087" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="59" startPosition="0" endLine="63" endPosition="0" />
+    <scopeInfo nodeId="4394627182935027177" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="28" startPosition="31" endLine="33" endPosition="9" />
+    <scopeInfo nodeId="4394627182935027455" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="34" startPosition="12" endLine="39" endPosition="9" />
+    <scopeInfo nodeId="1904811872814114087" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="52" startPosition="0" endLine="59" endPosition="0">
+      <varInfo nodeId="1904811872814114087" varName="argument" />
+    </scopeInfo>
+    <scopeInfo nodeId="1904811872814114088" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="25" startPosition="130" endLine="46" endPosition="5">
+      <varInfo nodeId="1904811872814128799" varName="defs" />
+      <varInfo nodeId="4394627182935027167" varName="parentScript" />
+    </scopeInfo>
+    <scopeInfo nodeId="1904811872814114087" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="24" startPosition="0" endLine="48" endPosition="0">
+      <varInfo nodeId="1904811872814114087" varName="routineDefinition" />
+      <varInfo nodeId="1904811872814114087" varName="status" />
+      <varInfo nodeId="1904811872814114087" varName="typeCheckingContext" />
+    </scopeInfo>
+    <unitInfo nodeId="4394627182935027336" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="29" startPosition="150" endLine="33" endPosition="7" unitName="Kaja.typesystem.RoutineUniqueness_NonTypesystemRule$1" />
+    <unitInfo nodeId="4394627182935027543" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="35" startPosition="182" endLine="39" endPosition="7" unitName="Kaja.typesystem.RoutineUniqueness_NonTypesystemRule$2" />
+    <unitInfo nodeId="1904811872814114087" fileName="RoutineUniqueness_NonTypesystemRule.java" startLine="21" startPosition="0" endLine="64" endPosition="0" unitName="Kaja.typesystem.RoutineUniqueness_NonTypesystemRule" />
+  </root>
+</debugInfo>
 
