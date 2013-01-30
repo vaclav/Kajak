@@ -4,7 +4,6 @@ package JavaKaja.runtime;
 
 import javax.swing.JPanel;
 import java.awt.GridLayout;
-import javax.swing.JButton;
 import javax.swing.Icon;
 import javax.swing.UIManager;
 import javax.swing.plaf.metal.MetalLookAndFeel;
@@ -20,7 +19,7 @@ import java.awt.Font;
 
 public abstract class KajaFrame {
   private static final int HEIGHT = 12;
-  private static final int WIDTH = 18;
+  private static final int WIDTH = 16;
   private static final int CELL_SIZE = 70;
 
   protected final int width = CELL_SIZE * WIDTH;
@@ -30,7 +29,7 @@ public abstract class KajaFrame {
   private int col = 1;
   private Direction direction = Direction.east;
   private final Cell[][] world = new Cell[HEIGHT][WIDTH];
-  private final JButton[][] visuals = new JButton[HEIGHT][WIDTH];
+  private final VisualCell[][] visuals = new VisualCell[HEIGHT][WIDTH];
   private Icon karelIconNorth;
   private Icon karelIconEast;
   private Icon karelIconSouth;
@@ -55,7 +54,7 @@ public abstract class KajaFrame {
       for (int j = 0; j < WIDTH; j++) {
         boolean shouldBeWall = i == 0 || i == HEIGHT - 1 || j == 0 || j == WIDTH - 1;
         world[i][j] = new Cell(shouldBeWall);
-        JButton button = new JButton(" ");
+        VisualCell button = new VisualCell();
         button.setEnabled(false);
         visuals[i][j] = button;
         canvas.add(button);
@@ -185,7 +184,7 @@ public abstract class KajaFrame {
         Icon karelIcon = null;
 
         if (worldCell.isKaja()) {
-          cell = Color.BLUE;
+          cell = Color.LIGHT_GRAY;
           switch (direction) {
             case north:
               karelIcon = karelIconNorth;
@@ -203,7 +202,7 @@ public abstract class KajaFrame {
         if (worldCell.isWall()) {
           cell = Color.RED;
         }
-        final JButton currentVisual = visuals[i][j];
+        final VisualCell currentVisual = visuals[i][j];
         final Color cellValue = cell;
         int marks = worldCell.getMarks();
         final String marksCaption = (marks > 0 ?
@@ -216,7 +215,7 @@ public abstract class KajaFrame {
             public void run() {
               currentVisual.setBackground(cellValue);
               currentVisual.setIcon(cellIcon);
-              currentVisual.setText(marksCaption);
+              currentVisual.setMarks(marksCaption);
               currentVisual.setFont(new Font(currentVisual.getFont().getName(), Font.BOLD, 18));
             }
           });

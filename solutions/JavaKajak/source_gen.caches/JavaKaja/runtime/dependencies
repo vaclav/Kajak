@@ -7,6 +7,7 @@
   <dependency className="JavaKaja.runtime.KajaFrame" file="KajaFrame.java">
     <classNode dependClassName="JavaKaja.runtime.Cell" />
     <classNode dependClassName="JavaKaja.runtime.Direction" />
+    <classNode dependClassName="JavaKaja.runtime.VisualCell" />
     <classNode dependClassName="java.awt.BorderLayout" />
     <classNode dependClassName="java.awt.Color" />
     <classNode dependClassName="java.awt.Dimension" />
@@ -21,7 +22,6 @@
     <classNode dependClassName="java.lang.Thread" />
     <classNode dependClassName="javax.swing.Icon" />
     <classNode dependClassName="javax.swing.ImageIcon" />
-    <classNode dependClassName="javax.swing.JButton" />
     <classNode dependClassName="javax.swing.JFrame" />
     <classNode dependClassName="javax.swing.JOptionPane" />
     <classNode dependClassName="javax.swing.JPanel" />
@@ -29,6 +29,14 @@
     <classNode dependClassName="javax.swing.UIManager" />
     <classNode dependClassName="javax.swing.UnsupportedLookAndFeelException" />
     <classNode dependClassName="javax.swing.plaf.metal.MetalLookAndFeel" />
+  </dependency>
+  <dependency className="JavaKaja.runtime.VisualCell" file="VisualCell.java">
+    <classNode dependClassName="java.awt.BorderLayout" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="javax.swing.Icon" />
+    <classNode dependClassName="javax.swing.JLabel" />
+    <classNode dependClassName="javax.swing.border.LineBorder" />
+    <classNode extendsClassName="javax.swing.JPanel" />
   </dependency>
 </dependenciesRoot>
 

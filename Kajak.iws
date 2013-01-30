@@ -29,19 +29,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8730dab3-4571-4ff5-829c-27c05e4af208" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/kaja/kajaEast.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/kaja/kajaNorth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/kaja/kajaSouth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/kaja/kajaWest.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/images/kaja/kajaEast.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/images/kaja/kajaNorth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/images/kaja/kajaSouth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/images/kaja/kajaWest.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/kaja/outputView.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/JavaKajak/images/kaja/outputView.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/JavaKaja/runtime/VisualCell.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/source_gen/JavaKaja/runtime/VisualCell.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/JavaKaja/runtime/KajaFrame$1.class" afterPath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/JavaKaja/runtime/KajaFrame$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/JavaKaja/runtime/KajaFrame.class" afterPath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/JavaKaja/runtime/KajaFrame.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/JavaKaja/runtime/trace.info" afterPath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/JavaKaja/runtime/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/kaja/kajaEast.png" afterPath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/kaja/kajaEast.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/kaja/kajaNorth.png" afterPath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/kaja/kajaNorth.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/kaja/kajaSouth.png" afterPath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/kaja/kajaSouth.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/kaja/kajaWest.png" afterPath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/kaja/kajaWest.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/JavaKajak/images/kaja/kajaEast.png" afterPath="$PROJECT_DIR$/solutions/JavaKajak/images/kaja/kajaEast.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/JavaKajak/images/kaja/kajaNorth.png" afterPath="$PROJECT_DIR$/solutions/JavaKajak/images/kaja/kajaNorth.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/JavaKajak/images/kaja/kajaSouth.png" afterPath="$PROJECT_DIR$/solutions/JavaKajak/images/kaja/kajaSouth.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/JavaKajak/images/kaja/kajaWest.png" afterPath="$PROJECT_DIR$/solutions/JavaKajak/images/kaja/kajaWest.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/JavaKajak/source_gen.caches/JavaKaja/runtime/dependencies" afterPath="$PROJECT_DIR$/solutions/JavaKajak/source_gen.caches/JavaKaja/runtime/dependencies" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/JavaKajak/source_gen.caches/JavaKaja/runtime/generated" afterPath="$PROJECT_DIR$/solutions/JavaKajak/source_gen.caches/JavaKaja/runtime/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/JavaKajak/source_gen/JavaKaja/runtime/trace.info" afterPath="$PROJECT_DIR$/solutions/JavaKajak/source_gen/JavaKaja/runtime/trace.info" />
@@ -169,19 +169,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KajaFrame" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="KajaFrame" pinned="false" current="false" current-in-tab="false">
         <entry file="mps://JavaKajak.runtime/KajaFrame">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="2390">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="80" />
+                    <property name="caretX" value="279" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name_1" cellNumber="0" isInList="false">
+                      <node model="r:f5e9b11f-5073-4786-8ed1-a9e42307c3f8(JavaKaja.runtime)" id="3308300503039614358" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <folded />
+              </memento>
+              <inspectorMemento viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <folded />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VisualCell" pinned="false" current="true" current-in-tab="true">
+        <entry file="mps://JavaKaja.runtime/VisualCell">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="104" />
-                    <property name="caretX" value="591" />
+                    <property name="caretXRelative" value="8" />
+                    <property name="caretX" value="321" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_value" cellNumber="0" isInList="false">
-                      <node model="r:f5e9b11f-5073-4786-8ed1-a9e42307c3f8(JavaKaja.runtime)" id="1904811872813999942" />
+                    <cellInfo cellId="Constant_arlg9k_c0" cellNumber="0" isInList="false">
+                      <node model="r:f5e9b11f-5073-4786-8ed1-a9e42307c3f8(JavaKaja.runtime)" id="1904811872814061128" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -259,7 +285,7 @@
                 <selectionStack />
                 <folded />
               </inspectorMemento>
-              <node nodeId="4394627182934757713" modelId="r:6c66d6ce-c8f4-4daf-92c4-a518b78006a8(Kaja.constraints)" />
+              <node nodeId="4394627182934757449" modelId="r:b567205c-7e17-4168-b413-945a6e17f37d(Kaja.structure)" />
             </state>
           </provider>
         </entry>
@@ -402,32 +428,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="Kaja">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Kaja">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Kajak#3265739055509559144">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Kajak#3265739055509559144">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Kaja.generator.template.main">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -848,7 +848,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed to Kaja" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added an initial Kaja icon" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -877,6 +877,7 @@
     <MESSAGE value="Library proper copy and require constraints" />
     <MESSAGE value="Visual distinction of library calls" />
     <MESSAGE value="Renamed to Kaja" />
+    <MESSAGE value="Added an initial Kaja icon" />
   </component>
   <component name="editorHistoryManager">
     <entry file="mps://Kajak.structure/Repeat">
@@ -1008,7 +1009,7 @@
             <selectionStack />
             <folded />
           </inspectorMemento>
-          <node nodeId="4394627182934757713" modelId="r:6c66d6ce-c8f4-4daf-92c4-a518b78006a8(Kajak.constraints)" />
+          <node nodeId="4394627182934757449" modelId="r:b567205c-7e17-4168-b413-945a6e17f37d(Kaja.structure)" />
         </state>
       </provider>
     </entry>
@@ -1121,15 +1122,39 @@
     <entry file="mps://JavaKajak.runtime/KajaFrame">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="2070">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="80" />
+                <property name="caretX" value="279" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name_1" cellNumber="0" isInList="false">
+                  <node model="r:f5e9b11f-5073-4786-8ed1-a9e42307c3f8(JavaKaja.runtime)" id="3308300503039614358" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://JavaKaja.runtime/VisualCell">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="104" />
-                <property name="caretX" value="591" />
+                <property name="caretXRelative" value="8" />
+                <property name="caretX" value="321" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_value" cellNumber="0" isInList="false">
-                  <node model="r:f5e9b11f-5073-4786-8ed1-a9e42307c3f8(JavaKaja.runtime)" id="1904811872813999942" />
+                <cellInfo cellId="Constant_arlg9k_c0" cellNumber="0" isInList="false">
+                  <node model="r:f5e9b11f-5073-4786-8ed1-a9e42307c3f8(JavaKaja.runtime)" id="1904811872814061128" />
                 </cellInfo>
               </stackElement>
             </selectionStack>

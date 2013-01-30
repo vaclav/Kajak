@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="2g1yzwi9k7aqk8fdnsuuudyvknhbhcf">
+<dependencies version="2" modelHash="-czkck3gdhqegm72uvli4m20rmn2qie9">
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-  <common hash="-bhczb99b0lzg51brxjpe8tb06766m4a">
+  <common hash="-arqxoc3g7dd2n3fy150cfktyvx8gx7b">
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   </common>
-  <source id="3308300503039473785" name="KajaFrame" hash="-b6mxco1v7yqdrumuaja74k3gve8vm20">
+  <source id="3308300503039473785" name="KajaFrame" hash="-bahp61iykk5e2mapts44ropac6009kr">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <file name="KajaFrame.java" />
@@ -19,6 +19,11 @@
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <file name="Cell.java" />
+  </source>
+  <source id="1904811872814056520" name="VisualCell" hash="-jneqlx47ebpx0xxhqfsxip6fzx9tza">
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <file name="VisualCell.java" />
   </source>
 </dependencies>
 
