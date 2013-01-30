@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="d4dp3rne4ft1x95fmulboo0o2krnlqt">
+<dependencies version="2" modelHash="6h01pwzfrp2i3d32jnv7mlxfkfa4chk">
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
   <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kaja.generator.template.main@generator)" hash="cdwpfd75vnznxhrrji45dx6tjxz5hnt" />
@@ -7,7 +7,7 @@
   <common hash="-10x2zjr1pbpf3zub6283c34i9f03g25">
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   </common>
-  <source id="3308300503039980203" name="Karel" hash="-mfyvdrh9b3uajpvvv0bzfyazuba5rw">
+  <source id="3308300503039980203" name="Karel" hash="-5px0o12kh1j67anryqwls0qccnh9ut">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kaja.generator.template.main@generator)" />

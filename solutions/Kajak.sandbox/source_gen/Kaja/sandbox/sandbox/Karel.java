@@ -10,7 +10,6 @@ public class Karel extends KajaFrame {
 
   protected void perform() {
     turnRight_routine();
-    turnRight_routine();
     while (!(isMark())) {
       traceStep_routine();
     }
