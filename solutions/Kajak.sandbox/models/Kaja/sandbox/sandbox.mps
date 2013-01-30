@@ -2,8 +2,11 @@
 <model modelUID="r:1a01fdc1-6171-4a9b-86c9-e6b8bbdfe8af(Kaja.sandbox.sandbox)">
   <persistence version="7" />
   <language namespace="049a08c5-1fe5-43cc-bd99-8b46d641d7f5(Kaja)" />
+  <language namespace="4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)" />
+  <language namespace="44306fd2-ef94-4b56-9806-d9ab509536db(KajaAndOr)" />
   <import index="c2kz" modelUID="r:b567205c-7e17-4168-b413-945a6e17f37d(Kaja.structure)" version="4" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
+  <import index="6ms5" modelUID="r:d3eab93d-0231-40c7-b095-39bdf7a89e92(KajaAndOr.structure)" version="-1" implicit="yes" />
   <roots>
     <node type="c2kz.Script" typeId="c2kz.3265739055509559110" id="3308300503039980203">
       <property name="name" nameId="tpck.1169194664001" value="Karel" />
@@ -90,7 +93,24 @@
   <root id="7446293342517103305">
     <node role="body" roleId="c2kz.3265739055509559116" type="c2kz.CommandList" typeId="c2kz.3308300503039896127" id="7446293342517103306">
       <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.EmptyLine" typeId="c2kz.3308300503039740438" id="1904811872814155006" />
-      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.EmptyLine" typeId="c2kz.3308300503039740438" id="1904811872814155003" />
+      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.IfStatement" typeId="c2kz.3308300503039647678" id="1904811872814268019">
+        <node role="trueBranch" roleId="c2kz.3308300503039647684" type="c2kz.CommandList" typeId="c2kz.3308300503039896127" id="1904811872814268021" />
+        <node role="falseBranch" roleId="c2kz.3308300503039647685" type="c2kz.CommandList" typeId="c2kz.3308300503039896127" id="1904811872814268022" />
+        <node role="condition" roleId="c2kz.3308300503039647680" type="6ms5.And" typeId="6ms5.1904811872814253578" id="1904811872814327539">
+          <node role="left" roleId="6ms5.1904811872814253580" type="6ms5.Or" typeId="6ms5.1904811872814253755" id="1904811872814343058">
+            <node role="left" roleId="6ms5.1904811872814253580" type="c2kz.IsWall" typeId="c2kz.3308300503039647788" id="1904811872814343061" />
+            <node role="right" roleId="6ms5.1904811872814253581" type="c2kz.IsMark" typeId="c2kz.6405700485436186598" id="1904811872814327542" />
+          </node>
+          <node role="right" roleId="6ms5.1904811872814253581" type="6ms5.Or" typeId="6ms5.1904811872814253755" id="1904811872814373476">
+            <node role="left" roleId="6ms5.1904811872814253580" type="c2kz.Not" typeId="c2kz.3308300503039654064" id="1904811872814373480">
+              <node role="original" roleId="c2kz.3308300503039654067" type="c2kz.IsMark" typeId="c2kz.6405700485436186598" id="1904811872814373479" />
+            </node>
+            <node role="right" roleId="6ms5.1904811872814253581" type="c2kz.Heading" typeId="c2kz.3308300503039683649" id="1904811872814312759">
+              <node role="direction" roleId="c2kz.3308300503039683650" type="c2kz.North" typeId="c2kz.3308300503039675707" id="1904811872814312763" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.EmptyLine" typeId="c2kz.3308300503039740438" id="1904811872814155005" />
       <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.Step" typeId="c2kz.3265739055509559138" id="7446293342517498509" />
       <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.Require" typeId="c2kz.4394627182934757449" id="4394627182935306135">

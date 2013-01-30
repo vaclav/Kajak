@@ -10,6 +10,8 @@
   </dependencies>
   <usedLanguages>
     <usedLanguage>049a08c5-1fe5-43cc-bd99-8b46d641d7f5(Kaja)</usedLanguage>
+    <usedLanguage>44306fd2-ef94-4b56-9806-d9ab509536db(KajaAndOr)</usedLanguage>
+    <usedLanguage>4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)</usedLanguage>
   </usedLanguages>
 </solution>
 
