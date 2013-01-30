@@ -12,6 +12,7 @@
     <classNode dependClassName="java.awt.Dimension" />
     <classNode dependClassName="java.awt.Font" />
     <classNode dependClassName="java.awt.GridLayout" />
+    <classNode dependClassName="java.lang.ClassLoader" />
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.lang.InterruptedException" />
     <classNode dependClassName="java.lang.Runnable" />

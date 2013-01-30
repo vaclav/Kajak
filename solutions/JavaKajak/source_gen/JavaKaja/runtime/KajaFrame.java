@@ -21,7 +21,7 @@ import java.awt.Font;
 public abstract class KajaFrame {
   private static final int HEIGHT = 12;
   private static final int WIDTH = 18;
-  private static final int CELL_SIZE = 50;
+  private static final int CELL_SIZE = 70;
 
   protected final int width = CELL_SIZE * WIDTH;
   protected final int height = CELL_SIZE * HEIGHT;
@@ -31,7 +31,10 @@ public abstract class KajaFrame {
   private Direction direction = Direction.east;
   private final Cell[][] world = new Cell[HEIGHT][WIDTH];
   private final JButton[][] visuals = new JButton[HEIGHT][WIDTH];
-  private Icon karelIcon;
+  private Icon karelIconNorth;
+  private Icon karelIconEast;
+  private Icon karelIconSouth;
+  private Icon karelIconWest;
 
   public KajaFrame() {
   }
@@ -42,7 +45,12 @@ public abstract class KajaFrame {
     } catch (UnsupportedLookAndFeelException e) {
       throw new RuntimeException(e);
     }
-    karelIcon = new ImageIcon("kaja/outputView.png");
+    ClassLoader classLoader = getClass().getClassLoader();
+    karelIconNorth = new ImageIcon(classLoader.getResource("kaja/kajaNorth.png"));
+    karelIconEast = new ImageIcon(classLoader.getResource("kaja/kajaEast.png"));
+    karelIconSouth = new ImageIcon(classLoader.getResource("kaja/kajaSouth.png"));
+    karelIconWest = new ImageIcon(classLoader.getResource("kaja/kajaWest.png"));
+
     for (int i = 0; i < HEIGHT; i++) {
       for (int j = 0; j < WIDTH; j++) {
         boolean shouldBeWall = i == 0 || i == HEIGHT - 1 || j == 0 || j == WIDTH - 1;
@@ -174,8 +182,23 @@ public abstract class KajaFrame {
       for (int j = 0; j < WIDTH; j++) {
         Color cell = Color.WHITE;
         Cell worldCell = world[i][j];
+        Icon karelIcon = null;
+
         if (worldCell.isKaja()) {
           cell = Color.BLUE;
+          switch (direction) {
+            case north:
+              karelIcon = karelIconNorth;
+              break;
+            case east:
+              karelIcon = karelIconEast;
+              break;
+            case south:
+              karelIcon = karelIconSouth;
+              break;
+            default:
+              karelIcon = karelIconWest;
+          }
         }
         if (worldCell.isWall()) {
           cell = Color.RED;
@@ -187,11 +210,12 @@ public abstract class KajaFrame {
           "" + marks :
           ""
         );
+        final Icon cellIcon = karelIcon;
         try {
           SwingUtilities.invokeAndWait(new Runnable() {
             public void run() {
               currentVisual.setBackground(cellValue);
-              currentVisual.setIcon(karelIcon);
+              currentVisual.setIcon(cellIcon);
               currentVisual.setText(marksCaption);
               currentVisual.setFont(new Font(currentVisual.getFont().getName(), Font.BOLD, 18));
             }

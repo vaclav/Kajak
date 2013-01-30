@@ -29,499 +29,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8730dab3-4571-4ff5-829c-27c05e4af208" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/actions/QueriesGenerated$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/actions/QueriesGenerated$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/actions/QueriesGenerated$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/actions/QueriesGenerated$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/actions/QueriesGenerated$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/actions/QueriesGenerated$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/actions/QueriesGenerated.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/actions/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/AbstractCommand_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/BehaviorAspectDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/CommandList_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/CommentLine_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/Direction_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/Drop_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/East_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/EmptyLine_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/Heading_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/IfStatement_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/IsFull_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/IsMark_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/IsWall_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/LeftTurn_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/Library_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/LogicalExpression_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/North_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/Not_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/Pick_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/Repeat_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/Require_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/RoutineCall_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/RoutineDefinition_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/Script_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/South_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/Step_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/West_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/While_BehaviorDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/behavior/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/constraints/ConstraintsAspectDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/constraints/Require_Constraints$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/constraints/Require_Constraints$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/constraints/Require_Constraints$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/constraints/Require_Constraints$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/constraints/Require_Constraints$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/constraints/Require_Constraints$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/constraints/Require_Constraints$7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/constraints/Require_Constraints$8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/constraints/Require_Constraints.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/constraints/RoutineCall_Constraints$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/constraints/RoutineCall_Constraints$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/constraints/RoutineCall_Constraints$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/constraints/RoutineCall_Constraints$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/constraints/RoutineCall_Constraints$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/constraints/RoutineCall_Constraints$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/constraints/RoutineCall_Constraints$7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/constraints/RoutineCall_Constraints.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/constraints/RoutineDefinition_Constraints$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/constraints/RoutineDefinition_Constraints$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/constraints/RoutineDefinition_Constraints$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/constraints/RoutineDefinition_Constraints.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/constraints/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/CommandList_Editor$commandsListHandler_yxeg41_a0.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/CommandList_Editor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/CommentLine_Editor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/Drop_Editor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/East_Editor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/EmptyLine_Editor$ReplaceWith_AbstractCommand_cellMenu_a0a.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/EmptyLine_Editor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/Heading_Editor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/IfStatement_Editor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/IsFull_Editor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/IsMark_Editor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/IsWall_Editor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/KajakStyles_StyleSheet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/LeftTurn_Editor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/Library_Editor$definitionsListHandler_x0ve1k_d0.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/Library_Editor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/North_Editor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/Not_Editor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/Pick_Editor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/RemoveNot$RemoveNot_BACKSPACE.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/RemoveNot$RemoveNot_DELETE.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/RemoveNot.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/Repeat_Editor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/Require_Editor$_Inline_7hmin7_a1a.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/Require_Editor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/RoutineCall_Editor$_Inline_wwx4md_a0a.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/RoutineCall_Editor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/RoutineDefinition_Editor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/Script_Editor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/South_Editor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/Step_Editor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/West_Editor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/While_Editor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/editor/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/generator/template/main/QueriesGenerated$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/generator/template/main/QueriesGenerated$10.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/generator/template/main/QueriesGenerated$11.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/generator/template/main/QueriesGenerated$12.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/generator/template/main/QueriesGenerated$13.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/generator/template/main/QueriesGenerated$14.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/generator/template/main/QueriesGenerated$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/generator/template/main/QueriesGenerated$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/generator/template/main/QueriesGenerated$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/generator/template/main/QueriesGenerated$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/generator/template/main/QueriesGenerated$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/generator/template/main/QueriesGenerated$7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/generator/template/main/QueriesGenerated$8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/generator/template/main/QueriesGenerated$9.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/generator/template/main/QueriesGenerated.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/generator/template/main/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/intentions/ExtractRoutine_Intention.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/intentions/Foo_Intention.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/intentions/IntentionsDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/intentions/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/structure/Kaja_Language.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/structure/StructureAspectDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/structure/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/generator/template/Kajak/generator/template/main@generator.history" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/languageModels/actions.history" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/languageModels/behavior.history" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/languageModels/constraints.history" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/languageModels/editor.history" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/languageModels/intentions.history" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/languageModels/typesystem.history" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kaja/actions/dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kaja/actions/generated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kaja/behavior/dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kaja/behavior/generated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kaja/constraints/dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kaja/constraints/generated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kaja/editor/dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kaja/editor/generated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kaja/generator/template/main/dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kaja/generator/template/main/generated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kaja/intentions/dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kaja/intentions/generated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kaja/structure/dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kaja/structure/generated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kaja/typesystem/generated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/actions/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/constraints/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/generator/template/main/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/intentions/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/structure/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/JavaKaja/runtime/Cell.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/JavaKaja/runtime/Direction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/JavaKaja/runtime/KajaFrame$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/JavaKaja/runtime/KajaFrame.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/JavaKaja/runtime/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/kaja/outputView.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/images/kaja/outputView.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/source_gen.caches/JavaKaja/runtime/dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/source_gen.caches/JavaKaja/runtime/generated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/source_gen/JavaKaja/runtime/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Kajak.sandbox/classes_gen/Kaja/sandbox/sandbox/Dog.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Kajak.sandbox/classes_gen/Kaja/sandbox/sandbox/Karel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Kajak.sandbox/classes_gen/Kaja/sandbox/sandbox/Sample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Kajak.sandbox/classes_gen/Kaja/sandbox/sandbox/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Kajak.sandbox/source_gen.caches/Kaja/sandbox/sandbox/dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Kajak.sandbox/source_gen.caches/Kaja/sandbox/sandbox/generated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Kajak.sandbox/source_gen/Kaja/sandbox/sandbox/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/actions/QueriesGenerated.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/AbstractCommand_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/BehaviorAspectDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/CommandList_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/CommentLine_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/Direction_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/Drop_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/East_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/EmptyLine_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/Heading_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/IfStatement_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/IsFull_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/IsMark_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/IsWall_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/LeftTurn_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/Library_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/LogicalExpression_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/North_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/Not_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/Pick_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/Repeat_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/Require_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/RoutineCall_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/RoutineDefinition_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/Script_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/South_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/Step_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/West_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/behavior/While_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/constraints/ConstraintsAspectDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/constraints/Require_Constraints.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/constraints/RoutineCall_Constraints.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/constraints/RoutineDefinition_Constraints.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/CommandList_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/CommentLine_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/Drop_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/East_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/EmptyLine_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/Heading_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/IfStatement_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/IsFull_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/IsMark_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/IsWall_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/KajakStyles_StyleSheet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/LeftTurn_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/Library_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/North_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/Not_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/Pick_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/RemoveNot.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/Repeat_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/Require_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/RoutineCall_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/RoutineDefinition_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/Script_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/South_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/Step_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/West_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/editor/While_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/generator/template/main/QueriesGenerated.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/intentions/ExtractRoutine_Intention.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/intentions/Foo_Intention.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/intentions/IntentionsDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/structure/Kaja_Language.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/structure/StructureAspectDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/models/JavaKaja/runtime.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/source_gen/JavaKaja/runtime/Cell.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/source_gen/JavaKaja/runtime/Direction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/source_gen/JavaKaja/runtime/KajaFrame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Kajak.sandbox/models/Kaja/sandbox/sandbox.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Kajak.sandbox/source_gen/Kaja/sandbox/sandbox/Dog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Kajak.sandbox/source_gen/Kaja/sandbox/sandbox/Karel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Kajak.sandbox/source_gen/Kaja/sandbox/sandbox/Sample.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/actions/QueriesGenerated$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/actions/QueriesGenerated$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/actions/QueriesGenerated$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/actions/QueriesGenerated$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/actions/QueriesGenerated$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/actions/QueriesGenerated$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/actions/QueriesGenerated.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/actions/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/AbstractCommand_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/BehaviorAspectDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/CommandList_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/CommentLine_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/Direction_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/Drop_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/East_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/EmptyLine_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/Heading_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/IfStatement_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/IsFull_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/IsMark_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/IsWall_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/LeftTurn_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/Library_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/LogicalExpression_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/North_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/Not_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/Pick_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/Repeat_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/Require_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/RoutineCall_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/RoutineDefinition_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/Script_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/South_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/Step_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/West_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/While_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/behavior/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/constraints/ConstraintsAspectDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/constraints/Require_Constraints$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/constraints/Require_Constraints$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/constraints/Require_Constraints$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/constraints/Require_Constraints$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/constraints/Require_Constraints$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/constraints/Require_Constraints$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/constraints/Require_Constraints$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/constraints/Require_Constraints$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/constraints/Require_Constraints$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/constraints/Require_Constraints.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/constraints/RoutineCall_Constraints$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/constraints/RoutineCall_Constraints$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/constraints/RoutineCall_Constraints$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/constraints/RoutineCall_Constraints$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/constraints/RoutineCall_Constraints$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/constraints/RoutineCall_Constraints$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/constraints/RoutineCall_Constraints$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/constraints/RoutineCall_Constraints.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/constraints/RoutineDefinition_Constraints$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/constraints/RoutineDefinition_Constraints$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/constraints/RoutineDefinition_Constraints$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/constraints/RoutineDefinition_Constraints.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/constraints/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/CommandList_Editor$commandsListHandler_yxeg41_a0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/CommandList_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/CommentLine_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/Drop_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/East_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/EmptyLine_Editor$ReplaceWith_AbstractCommand_cellMenu_a0a.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/EmptyLine_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/Heading_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/IfStatement_Editor$falseBranchListHandler_eb7h0d_b4a.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/IfStatement_Editor$trueBranchListHandler_eb7h0d_d0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/IfStatement_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/IsFull_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/IsMark_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/IsWall_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/KajakStyles_StyleSheet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/LeftTurn_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/Library_Editor$definitionsListHandler_x0ve1k_d0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/Library_Editor$difinitionsListHandler_x0ve1k_d0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/Library_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/North_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/Not_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/Pick_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/RemoveNot$RemoveNot_BACKSPACE.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/RemoveNot$RemoveNot_DELETE.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/RemoveNot.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/Repeat_Editor$commandsListHandler_b86mo8_d0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/Repeat_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/Require_Editor$_Inline_7hmin7_a1a.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/Require_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/RoutineCall_Editor$_Inline_wwx4md_a0a.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/RoutineCall_Editor$_Inline_wwx4md_a1a.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/RoutineCall_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/RoutineDefinition_Editor$bodyListHandler_7lzh7e_d0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/RoutineDefinition_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/Script_Editor$commandsListHandler_udqu28_a2a.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/Script_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/South_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/Step_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/West_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/While_Editor$commandsListHandler_xklbgd_d0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/While_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/editor/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/QueriesGenerated$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/QueriesGenerated$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/QueriesGenerated$11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/QueriesGenerated$12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/QueriesGenerated$13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/QueriesGenerated$14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/QueriesGenerated$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/QueriesGenerated$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/QueriesGenerated$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/QueriesGenerated$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/QueriesGenerated$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/QueriesGenerated$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/QueriesGenerated$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/QueriesGenerated$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/QueriesGenerated.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/generator/template/main/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/intentions/ExtractRoutine_Intention.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/intentions/Foo_Intention.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/intentions/IntentionsDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/intentions/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/structure/Kajak_Language.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/structure/StructureAspectDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/structure/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/actions/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/actions/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/behavior/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/behavior/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/constraints/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/constraints/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/editor/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/editor/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/generator/template/main/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/generator/template/main/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/intentions/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/intentions/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/structure/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/structure/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/typesystem/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/actions/QueriesGenerated.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/actions/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/AbstractCommand_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/BehaviorAspectDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/CommandList_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/CommentLine_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/Direction_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/Drop_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/East_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/EmptyLine_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/Heading_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/IfStatement_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/IsFull_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/IsMark_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/IsWall_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/LeftTurn_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/Library_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/LogicalExpression_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/North_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/Not_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/Pick_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/Repeat_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/Require_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/RoutineCall_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/RoutineDefinition_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/Script_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/South_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/Step_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/West_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/While_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/behavior/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/constraints/ConstraintsAspectDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/constraints/Require_Constraints.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/constraints/RoutineCall_Constraints.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/constraints/RoutineDefinition_Constraints.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/constraints/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/CommandList_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/CommentLine_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/Drop_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/East_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/EmptyLine_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/Heading_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/IfStatement_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/IsFull_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/IsMark_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/IsWall_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/KajakStyles_StyleSheet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/LeftTurn_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/Library_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/North_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/Not_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/Pick_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/RemoveNot.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/Repeat_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/Require_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/RoutineCall_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/RoutineDefinition_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/Script_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/South_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/Step_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/West_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/While_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/editor/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/generator/template/main/QueriesGenerated.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/generator/template/main/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/intentions/ExtractRoutine_Intention.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/intentions/Foo_Intention.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/intentions/IntentionsDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/intentions/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/structure/Kajak_Language.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/structure/StructureAspectDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/structure/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/JavaKajak/runtime/Cell.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/JavaKajak/runtime/Direction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/JavaKajak/runtime/KajakFrame$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/JavaKajak/runtime/KajakFrame$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/JavaKajak/runtime/KajakFrame.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/JavaKajak/runtime/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/JavaKajak/models/JavaKajak/outputView.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/JavaKajak/models/JavaKajak/runtime.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/JavaKajak/source_gen.caches/JavaKajak/runtime/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/JavaKajak/source_gen.caches/JavaKajak/runtime/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/JavaKajak/source_gen/JavaKajak/runtime/Cell.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/JavaKajak/source_gen/JavaKajak/runtime/Direction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/JavaKajak/source_gen/JavaKajak/runtime/KajakFrame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/JavaKajak/source_gen/JavaKajak/runtime/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/Kajak.sandbox/classes_gen/Kajak/sandbox/sandbox/Dog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/Kajak.sandbox/classes_gen/Kajak/sandbox/sandbox/Karel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/Kajak.sandbox/classes_gen/Kajak/sandbox/sandbox/Sample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/Kajak.sandbox/classes_gen/Kajak/sandbox/sandbox/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/Kajak.sandbox/models/Kajak/sandbox/sandbox.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/Kajak.sandbox/source_gen.caches/Kajak/sandbox/sandbox/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/Kajak.sandbox/source_gen.caches/Kajak/sandbox/sandbox/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/Kajak.sandbox/source_gen/Kajak/sandbox/sandbox/Dog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/Kajak.sandbox/source_gen/Kajak/sandbox/sandbox/Karel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/Kajak.sandbox/source_gen/Kajak/sandbox/sandbox/Sample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/Kajak.sandbox/source_gen/Kajak/sandbox/sandbox/trace.info" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/typesystem/trace.info" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kaja/typesystem/trace.info" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/typesystem/dependencies" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kaja/typesystem/dependencies" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/typesystem/trace.info" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kaja/typesystem/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/Language.class" afterPath="$PROJECT_DIR$/languages/Kajak/classes_gen/Kajak/Language.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/languageModels/structure.history" afterPath="$PROJECT_DIR$/languages/Kajak/languageModels/structure.history" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/generated" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen.caches/Kajak/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/kaja/kajaEast.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/kaja/kajaNorth.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/kaja/kajaSouth.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/kaja/kajaWest.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/images/kaja/kajaEast.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/images/kaja/kajaNorth.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/images/kaja/kajaSouth.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/JavaKajak/images/kaja/kajaWest.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/kaja/outputView.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/JavaKajak/images/kaja/outputView.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/JavaKaja/runtime/KajaFrame$1.class" afterPath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/JavaKaja/runtime/KajaFrame$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/JavaKaja/runtime/KajaFrame.class" afterPath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/JavaKaja/runtime/KajaFrame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/JavaKaja/runtime/trace.info" afterPath="$PROJECT_DIR$/solutions/JavaKajak/classes_gen/JavaKaja/runtime/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/JavaKajak/source_gen.caches/JavaKaja/runtime/dependencies" afterPath="$PROJECT_DIR$/solutions/JavaKajak/source_gen.caches/JavaKaja/runtime/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/JavaKajak/source_gen.caches/JavaKaja/runtime/generated" afterPath="$PROJECT_DIR$/solutions/JavaKajak/source_gen.caches/JavaKaja/runtime/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/JavaKajak/source_gen/JavaKaja/runtime/trace.info" afterPath="$PROJECT_DIR$/solutions/JavaKajak/source_gen/JavaKaja/runtime/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kajak.iws" afterPath="$PROJECT_DIR$/Kajak.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/Kajak.mpl" afterPath="$PROJECT_DIR$/languages/Kajak/Kajak.mpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/generator/template/Kajak/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/Kajak/generator/template/Kajak/generator/template/main@generator.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/languageModels/actions.mps" afterPath="$PROJECT_DIR$/languages/Kajak/languageModels/actions.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/languageModels/behavior.mps" afterPath="$PROJECT_DIR$/languages/Kajak/languageModels/behavior.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/languageModels/constraints.mps" afterPath="$PROJECT_DIR$/languages/Kajak/languageModels/constraints.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/Kajak/languageModels/editor.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/languageModels/intentions.mps" afterPath="$PROJECT_DIR$/languages/Kajak/languageModels/intentions.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/Kajak/languageModels/structure.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/languageModels/typesystem.mps" afterPath="$PROJECT_DIR$/languages/Kajak/languageModels/typesystem.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/Language.java" afterPath="$PROJECT_DIR$/languages/Kajak/source_gen/Kajak/Language.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/JavaKajak/JavaKajak.msd" afterPath="$PROJECT_DIR$/solutions/JavaKajak/JavaKajak.msd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Kajak.sandbox/Kajak.sandbox.msd" afterPath="$PROJECT_DIR$/solutions/Kajak.sandbox/Kajak.sandbox.msd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/JavaKajak/models/JavaKaja/runtime.mps" afterPath="$PROJECT_DIR$/solutions/JavaKajak/models/JavaKaja/runtime.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/JavaKajak/source_gen/JavaKaja/runtime/KajaFrame.java" afterPath="$PROJECT_DIR$/solutions/JavaKajak/source_gen/JavaKaja/runtime/KajaFrame.java" />
     </list>
     <ignored path="Kajak.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -647,15 +173,15 @@
         <entry file="mps://JavaKajak.runtime/KajaFrame">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="192">
+              <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="47" />
+                    <property name="caretXRelative" value="104" />
+                    <property name="caretX" value="591" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_l9yc2b_c0" cellNumber="0" isInList="false">
-                      <node model="r:f5e9b11f-5073-4786-8ed1-a9e42307c3f8(JavaKaja.runtime)" id="3308300503039569344" />
+                    <cellInfo cellId="property_value" cellNumber="0" isInList="false">
+                      <node model="r:f5e9b11f-5073-4786-8ed1-a9e42307c3f8(JavaKaja.runtime)" id="1904811872813999942" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -1256,11 +782,11 @@
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14865577" sideWeight="0.6712835" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871652" sideWeight="0.42698997" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871652" sideWeight="0.42540854" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993513" sideWeight="0.487612" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32871652" sideWeight="0.6694781" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871652" sideWeight="0.5709014" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1322,7 +848,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Visual distinction of library calls" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed to Kaja" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1350,6 +876,7 @@
     <MESSAGE value="Library definitions copy using a mapping script" />
     <MESSAGE value="Library proper copy and require constraints" />
     <MESSAGE value="Visual distinction of library calls" />
+    <MESSAGE value="Renamed to Kaja" />
   </component>
   <component name="editorHistoryManager">
     <entry file="mps://Kajak.structure/Repeat">
@@ -1594,15 +1121,15 @@
     <entry file="mps://JavaKajak.runtime/KajaFrame">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="192">
+          <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="47" />
+                <property name="caretXRelative" value="104" />
+                <property name="caretX" value="591" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_l9yc2b_c0" cellNumber="0" isInList="false">
-                  <node model="r:f5e9b11f-5073-4786-8ed1-a9e42307c3f8(JavaKaja.runtime)" id="3308300503039569344" />
+                <cellInfo cellId="property_value" cellNumber="0" isInList="false">
+                  <node model="r:f5e9b11f-5073-4786-8ed1-a9e42307c3f8(JavaKaja.runtime)" id="1904811872813999942" />
                 </cellInfo>
               </stackElement>
             </selectionStack>

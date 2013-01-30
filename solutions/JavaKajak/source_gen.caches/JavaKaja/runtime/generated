@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-4oj4drdt6hgllcrdi8vcmsyh68esg0o">
+<dependencies version="2" modelHash="2g1yzwi9k7aqk8fdnsuuudyvknhbhcf">
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-  <common hash="-c88clf8jxfcdhuvec4jkx3iziz9rbxl">
+  <common hash="-bhczb99b0lzg51brxjpe8tb06766m4a">
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   </common>
-  <source id="3308300503039473785" name="KajaFrame" hash="7sxpkipg35i281pv7thpa8z6zq4i1t4">
+  <source id="3308300503039473785" name="KajaFrame" hash="-b6mxco1v7yqdrumuaja74k3gve8vm20">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <file name="KajaFrame.java" />
