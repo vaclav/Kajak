@@ -23,6 +23,7 @@
     <node role="actionsBuilder" roleId="tpdg.1138079416599" type="tpdg.SideTransformHintSubstituteActionsBuilder" typeId="tpdg.1138079221458" id="1904811872814253599">
       <property name="transformTag" nameId="tpdg.1140829165817" value="ext_2_RTransform" />
       <property name="side" nameId="tpdg.1215605257730" value="left" />
+      <property name="description" nameId="tpdg.1158952484319" value="Hook and/or into the easy replacement mechanism of logical expressions" />
       <link role="applicableConcept" roleId="tpdg.1138079221462" targetNodeId="c2kz.3308300503039647681" resolveInfo="LogicalExpression" />
       <node role="part" roleId="tpdg.1177442283389" type="tpdg.AddMenuPart" typeId="tpdg.1177323996388" id="1904811872814253602">
         <link role="concept" roleId="tpdg.1177333551023" targetNodeId="c2kz.3308300503039647681" resolveInfo="LogicalExpression" />

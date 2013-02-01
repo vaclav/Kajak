@@ -9,6 +9,55 @@ public class Sample extends KajaFrame {
   }
 
   protected void perform() {
+    if (isMark()) {
+      if (canMove()) {
+        moveKaja();
+        pause();
+      } else {
+        reportError("Oops, There's a wall in front of me. I can't make a step forward.");
+      }
+    } else {
+    }
+  }
+
+  public void turnRight_from_library_Common_routine() {
+    for (int indexVariable_kf1bs5_a0a = 0; indexVariable_kf1bs5_a0a < 3; indexVariable_kf1bs5_a0a++) {
+      turnLeft();
+      pause();
+    }
+  }
+
+  public void turnAround_from_library_Common_routine() {
+    turnLeft();
+    pause();
+    turnLeft();
+    pause();
+  }
+
+  public void fetch_from_library_Common_routine() {
+    if (isMark()) {
+      if (isMark()) {
+        removeMark();
+        pause();
+      } else {
+        reportError("Nothing to pick. The cell is empty.");
+      }
+      turnAround_from_library_Common_routine();
+    } else {
+      if (canMove()) {
+        moveKaja();
+        pause();
+      } else {
+        reportError("Oops, There's a wall in front of me. I can't make a step forward.");
+      }
+      fetch_from_library_Common_routine();
+      if (canMove()) {
+        moveKaja();
+        pause();
+      } else {
+        reportError("Oops, There's a wall in front of me. I can't make a step forward.");
+      }
+    }
   }
 
   public static void main(String[] args) {

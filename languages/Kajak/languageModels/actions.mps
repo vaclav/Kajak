@@ -203,6 +203,7 @@
     <node role="actionsBuilder" roleId="tpdg.1138079416599" type="tpdg.SideTransformHintSubstituteActionsBuilder" typeId="tpdg.1138079221458" id="7446293342517269099">
       <property name="side" nameId="tpdg.1215605257730" value="left" />
       <property name="transformTag" nameId="tpdg.1140829165817" value="ext_2_RTransform" />
+      <property name="description" nameId="tpdg.1158952484319" value="Prepend not to logical expressions" />
       <link role="applicableConcept" roleId="tpdg.1138079221462" targetNodeId="c2kz.3308300503039647681" resolveInfo="LogicalExpression" />
       <node role="part" roleId="tpdg.1177442283389" type="tpdg.AddMenuPart" typeId="tpdg.1177323996388" id="7446293342517269146">
         <link role="concept" roleId="tpdg.1177333551023" targetNodeId="c2kz.3308300503039654064" resolveInfo="Not" />
@@ -263,6 +264,7 @@
     <node role="actionsBuilder" roleId="tpdg.1138079416599" type="tpdg.SideTransformHintSubstituteActionsBuilder" typeId="tpdg.1138079221458" id="7446293342517448131">
       <property name="side" nameId="tpdg.1215605257730" value="left" />
       <property name="transformTag" nameId="tpdg.1140829165817" value="ext_2_RTransform" />
+      <property name="description" nameId="tpdg.1158952484319" value="Easily turn one logical expression into another one" />
       <link role="applicableConcept" roleId="tpdg.1138079221462" targetNodeId="c2kz.3308300503039647681" resolveInfo="LogicalExpression" />
       <node role="part" roleId="tpdg.1177442283389" type="tpdg.AddMenuPart" typeId="tpdg.1177323996388" id="7446293342517448175">
         <link role="concept" roleId="tpdg.1177333551023" targetNodeId="c2kz.3308300503039647681" resolveInfo="LogicalExpression" />
