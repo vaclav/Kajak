@@ -119,8 +119,10 @@ public class QueriesGenerated {
               expression = SConceptOperations.createNewNode("Kaja.structure.IsMark", null);
             } else if ((item).equals("full")) {
               expression = SConceptOperations.createNewNode("Kaja.structure.IsFull", null);
-            } else {
+            } else if ((item).equals("wall")) {
               expression = SConceptOperations.createNewNode("Kaja.structure.IsWall", null);
+            } else {
+              throw new IllegalArgumentException("Cannot find a match for " + (item));
             }
             SNode node = SNodeOperations.replaceWithAnother(_context.getSourceNode(), expression);
             return node;

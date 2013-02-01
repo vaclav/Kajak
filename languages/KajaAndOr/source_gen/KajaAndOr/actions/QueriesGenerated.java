@@ -73,8 +73,10 @@ public class QueriesGenerated {
             SNode conjuction;
             if ((item).equals("and")) {
               conjuction = SNodeFactoryOperations.replaceWithNewChild(_context.getSourceNode(), "KajaAndOr.structure.And");
-            } else {
+            } else if ((item).equals("or")) {
               conjuction = SNodeFactoryOperations.replaceWithNewChild(_context.getSourceNode(), "KajaAndOr.structure.Or");
+            } else {
+              throw new IllegalArgumentException("Cannot find a match for " + (item));
             }
             SLinkOperations.setTarget(conjuction, "right", _context.getSourceNode(), true);
             return SLinkOperations.getTarget(conjuction, "left", true);
