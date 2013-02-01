@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
-  <dependency className="Kajak.Language" file="Language.java">
+  <dependency className="Kaja.Language" file="Language.java">
     <classNode dependClassName="Kaja.typesystem.TypesystemDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />

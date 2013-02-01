@@ -22,7 +22,6 @@ public class Karel extends KajaFrame {
       pause();
     } else {
       reportError("Cannot drop. The cell is already full.");
-      return;
     }
     safeStep_routine();
   }
@@ -37,7 +36,6 @@ public class Karel extends KajaFrame {
       pause();
     } else {
       reportError("Oops, There's a wall in front of me. I can't make a step forward.");
-      return;
     }
   }
 

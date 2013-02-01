@@ -4,12 +4,12 @@ package JavaKaja.runtime;
 
 import javax.swing.JPanel;
 import java.awt.GridLayout;
+import javax.swing.JFrame;
 import javax.swing.Icon;
 import javax.swing.UIManager;
 import javax.swing.plaf.metal.MetalLookAndFeel;
 import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.ImageIcon;
-import javax.swing.JFrame;
 import java.awt.Dimension;
 import java.awt.BorderLayout;
 import javax.swing.JOptionPane;
@@ -30,10 +30,12 @@ public abstract class KajaFrame {
   private Direction direction = Direction.east;
   private final Cell[][] world = new Cell[HEIGHT][WIDTH];
   private final VisualCell[][] visuals = new VisualCell[HEIGHT][WIDTH];
+  private final JFrame frame = new JFrame("Robot Kaja");
   private Icon karelIconNorth;
   private Icon karelIconEast;
   private Icon karelIconSouth;
   private Icon karelIconWest;
+  private boolean stopped = false;
 
   public KajaFrame() {
   }
@@ -62,7 +64,6 @@ public abstract class KajaFrame {
 
     }
     world[1][1].setKaja();
-    JFrame frame = new JFrame("Robot Kaja");
     frame.setPreferredSize(new Dimension(width, height));
     frame.setResizable(false);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -80,6 +81,7 @@ public abstract class KajaFrame {
 
   public void reportError(String msg) {
     JOptionPane.showMessageDialog(canvas, msg, "Error", JOptionPane.ERROR_MESSAGE);
+    stop();
   }
 
   protected Cell getCurrentCell() {
@@ -102,6 +104,9 @@ public abstract class KajaFrame {
   }
 
   protected void moveKaja() {
+    if (stopped) {
+      return;
+    }
     getCurrentCell().unsetKaja();
     switch (direction) {
       case north:
@@ -122,6 +127,9 @@ public abstract class KajaFrame {
   }
 
   protected void turnLeft() {
+    if (stopped) {
+      return;
+    }
     switch (direction) {
       case north:
         direction = Direction.west;
@@ -144,11 +152,17 @@ public abstract class KajaFrame {
   }
 
   protected void addMark() {
+    if (stopped) {
+      return;
+    }
     getCurrentCell().addMark();
     updateUI();
   }
 
   protected void removeMark() {
+    if (stopped) {
+      return;
+    }
     getCurrentCell().removeMark();
     updateUI();
   }
@@ -161,6 +175,10 @@ public abstract class KajaFrame {
     return getCurrentCell().getMarks() > 0;
   }
 
+  protected boolean isMark(int row, int col) {
+    return world[row][col].getMarks() > 0;
+  }
+
   protected boolean heading(Direction direction) {
     return this.direction == direction;
   }
@@ -169,11 +187,67 @@ public abstract class KajaFrame {
     return getCurrentCell().getMarks() == 8;
   }
 
+  protected boolean isFull(int row, int col) {
+    return world[row][col].getMarks() == 8;
+  }
+
   protected void pause() {
     try {
       Thread.sleep(500);
     } catch (InterruptedException e) {
     }
+  }
+
+  protected void minipause() {
+    try {
+      Thread.sleep(50);
+    } catch (InterruptedException e) {
+    }
+  }
+
+  protected void stop() {
+    stopped = true;
+    updateUI();
+  }
+
+  protected void addMark(int row, int col) {
+    if (stopped) {
+      return;
+    }
+    world[row][col].addMark();
+    updateUI();
+  }
+
+  protected void removeMark(int row, int col) {
+    if (stopped) {
+      return;
+    }
+    world[row][col].removeMark();
+    updateUI();
+  }
+
+  protected void addWall(int row, int col) {
+    if (stopped) {
+      return;
+    }
+    world[row][col].setWall();
+    updateUI();
+  }
+
+  protected void removeWall(int row, int col) {
+    if (stopped) {
+      return;
+    }
+    world[row][col].unsetWall();
+    updateUI();
+  }
+
+  protected boolean isAllowedRow(int row) {
+    return row > 0 && row < HEIGHT - 1;
+  }
+
+  protected boolean isAllowedCol(int col) {
+    return col > 0 && col < WIDTH - 1;
   }
 
   private void updateUI() {
@@ -210,9 +284,13 @@ public abstract class KajaFrame {
           ""
         );
         final Icon cellIcon = karelIcon;
+        final boolean isStopped = stopped;
         try {
           SwingUtilities.invokeAndWait(new Runnable() {
             public void run() {
+              if (isStopped) {
+                frame.setTitle("Robot Kaja - STOPPED");
+              }
               currentVisual.setBackground(cellValue);
               currentVisual.setIcon(cellIcon);
               currentVisual.setMarks(marksCaption);

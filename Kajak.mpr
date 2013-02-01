@@ -7,6 +7,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="${project}/languages/KajaAndOr/KajaAndOr.mpl" folder="" />
+      <modulePath path="${project}/languages/KajaSceneConstruction/KajaSceneConstruction.mpl" folder="" />
       <modulePath path="${project}/languages/Kajak/Kajak.mpl" />
       <modulePath path="${project}/solutions/JavaKajak/JavaKajak.msd" folder="" />
       <modulePath path="${project}/solutions/Kajak.sandbox/Kajak.sandbox.msd" />

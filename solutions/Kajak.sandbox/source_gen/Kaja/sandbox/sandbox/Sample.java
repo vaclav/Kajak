@@ -9,22 +9,72 @@ public class Sample extends KajaFrame {
   }
 
   protected void perform() {
+    if (isAllowedRow(1) && isAllowedCol(12)) {
+      addWall(1, 12);
+      minipause();
+
+    } else {
+      reportError("Attempted to build wall outside of the playground!");
+    }
+    if (isAllowedRow(3) && isAllowedCol(12)) {
+      if (!(isFull(3, 12))) {
+        addMark(3, 12);
+        minipause();
+      } else {
+        reportError("Cannot drop. The cell is already full.");
+        return;
+      }
+    } else {
+      reportError("Attempted to drop marks outside of the playground!");
+    }
+    if (isAllowedRow(3) && isAllowedCol(12)) {
+      if (!(isFull(3, 12))) {
+        addMark(3, 12);
+        minipause();
+      } else {
+        reportError("Cannot drop. The cell is already full.");
+        return;
+      }
+    } else {
+      reportError("Attempted to drop marks outside of the playground!");
+    }
+    if (isAllowedRow(4) && isAllowedCol(12)) {
+      if (!(isFull(4, 12))) {
+        addMark(4, 12);
+        minipause();
+      } else {
+        reportError("Cannot drop. The cell is already full.");
+        return;
+      }
+    } else {
+      reportError("Attempted to drop marks outside of the playground!");
+    }
+    if (isAllowedRow(2) && isAllowedCol(15)) {
+      if (!(isFull(2, 15))) {
+        addMark(2, 15);
+        minipause();
+      } else {
+        reportError("Cannot drop. The cell is already full.");
+        return;
+      }
+    } else {
+      reportError("Attempted to drop marks outside of the playground!");
+    }
     while ((!(isWall()) && !(isMark()))) {
       if (canMove()) {
         moveKaja();
         pause();
       } else {
         reportError("Oops, There's a wall in front of me. I can't make a step forward.");
-        return;
       }
     }
     turnRight_from_library_Common_routine();
-    if (canMove()) {
-      moveKaja();
-      pause();
+    if (isAllowedRow(1) && isAllowedCol(10)) {
+      addWall(1, 10);
+      minipause();
+
     } else {
-      reportError("Oops, There's a wall in front of me. I can't make a step forward.");
-      return;
+      reportError("Attempted to build wall outside of the playground!");
     }
     fillup_from_library_Filling_routine();
     if (canMove()) {
@@ -32,7 +82,6 @@ public class Sample extends KajaFrame {
       pause();
     } else {
       reportError("Oops, There's a wall in front of me. I can't make a step forward.");
-      return;
     }
     turnAround_from_library_Common_routine();
     if (canMove()) {
@@ -40,7 +89,6 @@ public class Sample extends KajaFrame {
       pause();
     } else {
       reportError("Oops, There's a wall in front of me. I can't make a step forward.");
-      return;
     }
     empty_from_library_Filling_routine();
     if (canMove()) {
@@ -48,7 +96,6 @@ public class Sample extends KajaFrame {
       pause();
     } else {
       reportError("Oops, There's a wall in front of me. I can't make a step forward.");
-      return;
     }
     turnAround_routine();
   }
@@ -61,14 +108,12 @@ public class Sample extends KajaFrame {
       pause();
     } else {
       reportError("Cannot drop. The cell is already full.");
-      return;
     }
     if (!(isFull())) {
       addMark();
       pause();
     } else {
       reportError("Cannot drop. The cell is already full.");
-      return;
     }
   }
 
@@ -93,7 +138,6 @@ public class Sample extends KajaFrame {
         pause();
       } else {
         reportError("Nothing to pick. The cell is empty.");
-        return;
       }
       turnAround_from_library_Common_routine();
     } else {
@@ -102,7 +146,6 @@ public class Sample extends KajaFrame {
         pause();
       } else {
         reportError("Oops, There's a wall in front of me. I can't make a step forward.");
-        return;
       }
       fetch_from_library_Common_routine();
       if (canMove()) {
@@ -110,7 +153,6 @@ public class Sample extends KajaFrame {
         pause();
       } else {
         reportError("Oops, There's a wall in front of me. I can't make a step forward.");
-        return;
       }
     }
   }
@@ -122,7 +164,6 @@ public class Sample extends KajaFrame {
         pause();
       } else {
         reportError("Cannot drop. The cell is already full.");
-        return;
       }
     }
   }
@@ -134,7 +175,6 @@ public class Sample extends KajaFrame {
         pause();
       } else {
         reportError("Nothing to pick. The cell is empty.");
-        return;
       }
     }
   }

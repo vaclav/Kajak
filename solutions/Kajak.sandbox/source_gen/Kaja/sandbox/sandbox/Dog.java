@@ -14,7 +14,6 @@ public class Dog extends KajaFrame {
       pause();
     } else {
       reportError("Oops, There's a wall in front of me. I can't make a step forward.");
-      return;
     }
     lay_routine();
     turnAround_routine();
@@ -30,7 +29,6 @@ public class Dog extends KajaFrame {
         pause();
       } else {
         reportError("Oops, There's a wall in front of me. I can't make a step forward.");
-        return;
       }
     }
     if (!(isFull())) {
@@ -38,7 +36,6 @@ public class Dog extends KajaFrame {
       pause();
     } else {
       reportError("Cannot drop. The cell is already full.");
-      return;
     }
     turnAround_routine();
     for (int indexVariable_qku_d0a = 0; indexVariable_qku_d0a < 5; indexVariable_qku_d0a++) {
@@ -47,7 +44,6 @@ public class Dog extends KajaFrame {
         pause();
       } else {
         reportError("Oops, There's a wall in front of me. I can't make a step forward.");
-        return;
       }
     }
   }
@@ -59,7 +55,6 @@ public class Dog extends KajaFrame {
         pause();
       } else {
         reportError("Nothing to pick. The cell is empty.");
-        return;
       }
       turnAround_routine();
     } else {
@@ -68,7 +63,6 @@ public class Dog extends KajaFrame {
         pause();
       } else {
         reportError("Oops, There's a wall in front of me. I can't make a step forward.");
-        return;
       }
       fetch_routine();
       if (canMove()) {
@@ -76,7 +70,6 @@ public class Dog extends KajaFrame {
         pause();
       } else {
         reportError("Oops, There's a wall in front of me. I can't make a step forward.");
-        return;
       }
     }
   }
@@ -95,7 +88,6 @@ public class Dog extends KajaFrame {
         pause();
       } else {
         reportError("Oops, There's a wall in front of me. I can't make a step forward.");
-        return;
       }
     }
   }

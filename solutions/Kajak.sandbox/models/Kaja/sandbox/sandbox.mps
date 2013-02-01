@@ -4,9 +4,11 @@
   <language namespace="049a08c5-1fe5-43cc-bd99-8b46d641d7f5(Kaja)" />
   <language namespace="4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)" />
   <language namespace="44306fd2-ef94-4b56-9806-d9ab509536db(KajaAndOr)" />
+  <language namespace="b56912a3-674f-4530-b0cf-55261b526a1f(KajaSceneConstruction)" />
   <import index="c2kz" modelUID="r:b567205c-7e17-4168-b413-945a6e17f37d(Kaja.structure)" version="4" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="6ms5" modelUID="r:d3eab93d-0231-40c7-b095-39bdf7a89e92(KajaAndOr.structure)" version="-1" implicit="yes" />
+  <import index="rvtb" modelUID="r:ce42c9d0-9778-4b7f-ba63-609d51a475fd(KajaSceneConstruction.structure)" version="-1" implicit="yes" />
   <roots>
     <node type="c2kz.Script" typeId="c2kz.3265739055509559110" id="3308300503039980203">
       <property name="name" nameId="tpck.1169194664001" value="Karel" />
@@ -93,6 +95,28 @@
   <root id="7446293342517103305">
     <node role="body" roleId="c2kz.3265739055509559116" type="c2kz.CommandList" typeId="c2kz.3308300503039896127" id="7446293342517103306">
       <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.EmptyLine" typeId="c2kz.3308300503039740438" id="1904811872814155006" />
+      <node role="commands" roleId="c2kz.3308300503039896128" type="rvtb.BuildWall" typeId="rvtb.3210697320273550864" id="3210697320273606907">
+        <property name="row" nameId="rvtb.3210697320273608256" value="1" />
+        <property name="col" nameId="rvtb.3210697320273608257" value="12" />
+      </node>
+      <node role="commands" roleId="c2kz.3308300503039896128" type="rvtb.DropMark" typeId="rvtb.3210697320273608254" id="3210697320273647729">
+        <property name="row" nameId="rvtb.3210697320273608256" value="3" />
+        <property name="col" nameId="rvtb.3210697320273608257" value="12" />
+      </node>
+      <node role="commands" roleId="c2kz.3308300503039896128" type="rvtb.DropMark" typeId="rvtb.3210697320273608254" id="3210697320273647730">
+        <property name="row" nameId="rvtb.3210697320273608256" value="3" />
+        <property name="col" nameId="rvtb.3210697320273608257" value="12" />
+      </node>
+      <node role="commands" roleId="c2kz.3308300503039896128" type="rvtb.DropMark" typeId="rvtb.3210697320273608254" id="3210697320273647733">
+        <property name="row" nameId="rvtb.3210697320273608256" value="4" />
+        <property name="col" nameId="rvtb.3210697320273608257" value="12" />
+      </node>
+      <node role="commands" roleId="c2kz.3308300503039896128" type="rvtb.DropMark" typeId="rvtb.3210697320273608254" id="3210697320273665597">
+        <property name="row" nameId="rvtb.3210697320273608256" value="2" />
+        <property name="col" nameId="rvtb.3210697320273608257" value="14" />
+      </node>
+      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.EmptyLine" typeId="c2kz.3308300503039740438" id="3210697320273647731" />
+      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.EmptyLine" typeId="c2kz.3308300503039740438" id="3210697320273647732" />
       <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.While" typeId="c2kz.3308300503039667424" id="1904811872814435441">
         <node role="body" roleId="c2kz.3308300503039667427" type="c2kz.CommandList" typeId="c2kz.3308300503039896127" id="1904811872814268021">
           <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.Step" typeId="c2kz.3265739055509559138" id="1904811872814435453" />
@@ -109,7 +133,10 @@
       <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.RoutineCall" typeId="c2kz.3308300503039700882" id="1904811872814435455">
         <link role="definition" roleId="c2kz.3308300503039730636" targetNodeId="4394627182934755443" resolveInfo="turnRight" />
       </node>
-      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.Step" typeId="c2kz.3265739055509559138" id="7446293342517498509" />
+      <node role="commands" roleId="c2kz.3308300503039896128" type="rvtb.BuildWall" typeId="rvtb.3210697320273550864" id="3210697320273606182">
+        <property name="row" nameId="rvtb.3210697320273608256" value="1" />
+        <property name="col" nameId="rvtb.3210697320273608257" value="10" />
+      </node>
       <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.Require" typeId="c2kz.4394627182934757449" id="4394627182935306135">
         <link role="library" roleId="c2kz.4394627182934757450" targetNodeId="4394627182934755441" resolveInfo="Common" />
       </node>

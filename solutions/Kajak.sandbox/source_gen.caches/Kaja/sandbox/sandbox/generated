@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="d2fg1cs9jic8h50n0lqkxp97r7y2mej">
+<dependencies version="2" modelHash="-49o2t17v1yhuiii251asr16ye2xqt9f">
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
-  <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kaja.generator.template.main@generator)" hash="cdwpfd75vnznxhrrji45dx6tjxz5hnt" />
+  <dep model="r:262b93f0-fe86-497c-93c5-efd684d05bc6(KajaSceneConstruction.generator.template.main@generator)" hash="9mqvz2iwxeacyjd1w9fd120vbvm5sp7" />
+  <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kaja.generator.template.main@generator)" hash="-8umusndpk6ngp2tcu75zznd3laztwh4" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-  <common hash="6mqwa86937q8tono6eks5vf6x8rhqt4">
+  <common hash="48ytdfh2n3r8in426uc0q2sku99z4y1">
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   </common>
   <source id="3308300503039980203" name="Karel" hash="-5px0o12kh1j67anryqwls0qccnh9ut">
@@ -13,9 +14,10 @@
     <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kaja.generator.template.main@generator)" />
     <file name="Karel.java" />
   </source>
-  <source id="7446293342517103305" name="Sample" hash="9aj5h6b88br5rwg87lh6sr1nr56olcg">
+  <source id="7446293342517103305" name="Sample" hash="40bpl3r7i30ff3qjuqtbbci5ihw8vwf">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <dep model="r:262b93f0-fe86-497c-93c5-efd684d05bc6(KajaSceneConstruction.generator.template.main@generator)" />
     <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kaja.generator.template.main@generator)" />
     <file name="Sample.java" />
   </source>
