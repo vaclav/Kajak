@@ -7,10 +7,10 @@ import jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
@@ -23,18 +23,21 @@ public class RoutineUniqueness_NonTypesystemRule extends AbstractNonTypesystemRu
   }
 
   public void applyRule(final SNode routineDefinition, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
+    if (SPropertyOperations.getString(routineDefinition, "name") == null) {
+      return;
+    }
     Iterable<SNode> defs;
     SNode parentScript = SNodeOperations.getAncestor(routineDefinition, "Kaja.structure.Script", false, false);
     if (parentScript != null) {
       defs = ListSequence.fromList(SNodeOperations.getDescendants(parentScript, "Kaja.structure.RoutineDefinition", false, new String[]{})).where(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
-          return SPropertyOperations.getString(it, "name").equals(SPropertyOperations.getString(routineDefinition, "name"));
+          return SPropertyOperations.getString(routineDefinition, "name").equals(SPropertyOperations.getString(it, "name"));
         }
       });
     } else {
       defs = ListSequence.fromList(SLinkOperations.getTargets(SNodeOperations.getAncestor(routineDefinition, "Kaja.structure.Library", false, false), "definitions", true)).where(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
-          return SPropertyOperations.getString(it, "name").equals(SPropertyOperations.getString(routineDefinition, "name"));
+          return SPropertyOperations.getString(routineDefinition, "name").equals(SPropertyOperations.getString(it, "name"));
         }
       });
     }

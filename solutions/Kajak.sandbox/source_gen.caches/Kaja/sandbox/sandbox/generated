@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-49o2t17v1yhuiii251asr16ye2xqt9f">
+<dependencies version="2" modelHash="9i0n5r0sie7isspbkxwjl4ivhp1ofux">
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
   <dep model="r:262b93f0-fe86-497c-93c5-efd684d05bc6(KajaSceneConstruction.generator.template.main@generator)" hash="9mqvz2iwxeacyjd1w9fd120vbvm5sp7" />
   <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kaja.generator.template.main@generator)" hash="-8umusndpk6ngp2tcu75zznd3laztwh4" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-  <common hash="48ytdfh2n3r8in426uc0q2sku99z4y1">
+  <common hash="-ej49o87wzn8ocz3xn19xvpt2ws3an8s">
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   </common>
   <source id="3308300503039980203" name="Karel" hash="-5px0o12kh1j67anryqwls0qccnh9ut">
@@ -14,7 +14,7 @@
     <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kaja.generator.template.main@generator)" />
     <file name="Karel.java" />
   </source>
-  <source id="7446293342517103305" name="Sample" hash="40bpl3r7i30ff3qjuqtbbci5ihw8vwf">
+  <source id="7446293342517103305" name="Sample" hash="-3brlbudv98zltmqkoezvnk4se7ihbgr">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <dep model="r:262b93f0-fe86-497c-93c5-efd684d05bc6(KajaSceneConstruction.generator.template.main@generator)" />
@@ -30,7 +30,10 @@
   <source id="4394627182934755441" name="Common" hash="1y8fq4ht2n7t64jj36cqukfcoseoqww">
     <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kaja.generator.template.main@generator)" />
   </source>
-  <source id="4394627182935280567" name="Filling" hash="-6sfsudzb3tm1mwhmdn6r72s1tz82i2o">
+  <source id="4394627182935280567" name="Filling" hash="3ch8pjathcbyxz5c5y5u8w4k2l9dt5p">
+    <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kaja.generator.template.main@generator)" />
+  </source>
+  <source id="3210697320273759353" name="PlaygroundDefinition" hash="3gmfvackl20fij8kc5dy87s0n7ov0e5">
     <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kaja.generator.template.main@generator)" />
   </source>
 </dependencies>
