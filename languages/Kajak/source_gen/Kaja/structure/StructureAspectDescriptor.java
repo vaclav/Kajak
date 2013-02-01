@@ -8,7 +8,7 @@ import jetbrains.mps.smodel.runtime.impl.CompiledConceptDescriptor;
 import jetbrains.mps.smodel.runtime.interpreted.StructureAspectInterpreted;
 
 public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.StructureAspectDescriptor {
-  private static String[] stringSwitchCases_1htk8d_a0a0a = new String[]{"Kaja.structure.AbstractCommand", "Kaja.structure.CommandList", "Kaja.structure.CommentLine", "Kaja.structure.Direction", "Kaja.structure.Drop", "Kaja.structure.East", "Kaja.structure.EmptyLine", "Kaja.structure.Heading", "Kaja.structure.IfStatement", "Kaja.structure.IsFull", "Kaja.structure.IsMark", "Kaja.structure.IsWall", "Kaja.structure.LeftTurn", "Kaja.structure.Library", "Kaja.structure.LogicalExpression", "Kaja.structure.North", "Kaja.structure.Not", "Kaja.structure.Pick", "Kaja.structure.Repeat", "Kaja.structure.Require", "Kaja.structure.RoutineCall", "Kaja.structure.RoutineDefinition", "Kaja.structure.Script", "Kaja.structure.South", "Kaja.structure.Step", "Kaja.structure.West", "Kaja.structure.While"};
+  private static String[] stringSwitchCases_1htk8d_a0a0a = new String[]{"Kaja.structure.AbstractCommand", "Kaja.structure.CommandList", "Kaja.structure.CommentLine", "Kaja.structure.Direction", "Kaja.structure.Drop", "Kaja.structure.East", "Kaja.structure.EmptyLine", "Kaja.structure.Heading", "Kaja.structure.IfStatement", "Kaja.structure.IsFull", "Kaja.structure.IsMark", "Kaja.structure.IsWall", "Kaja.structure.LeftTurn", "Kaja.structure.Library", "Kaja.structure.LogicalExpression", "Kaja.structure.North", "Kaja.structure.Not", "Kaja.structure.Pick", "Kaja.structure.Repeat", "Kaja.structure.Require", "Kaja.structure.RoutineCall", "Kaja.structure.RoutineDefinition", "Kaja.structure.Script", "Kaja.structure.South", "Kaja.structure.Step", "Kaja.structure.TraceMessage", "Kaja.structure.West", "Kaja.structure.While"};
 
   public StructureAspectDescriptor() {
   }
@@ -66,8 +66,10 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 24:
         return new CompiledConceptDescriptor("Kaja.structure.Step", "Kaja.structure.AbstractCommand", false, new String[]{"Kaja.structure.AbstractCommand"}, new String[]{}, new String[]{});
       case 25:
-        return new CompiledConceptDescriptor("Kaja.structure.West", "Kaja.structure.Direction", false, new String[]{"Kaja.structure.Direction"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("Kaja.structure.TraceMessage", "Kaja.structure.AbstractCommand", false, new String[]{"Kaja.structure.AbstractCommand"}, new String[]{"message"}, new String[]{});
       case 26:
+        return new CompiledConceptDescriptor("Kaja.structure.West", "Kaja.structure.Direction", false, new String[]{"Kaja.structure.Direction"}, new String[]{}, new String[]{});
+      case 27:
         return new CompiledConceptDescriptor("Kaja.structure.While", "Kaja.structure.AbstractCommand", false, new String[]{"Kaja.structure.AbstractCommand"}, new String[]{}, new String[]{});
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);

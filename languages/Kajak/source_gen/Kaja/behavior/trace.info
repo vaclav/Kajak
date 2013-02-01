@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="AbstractCommand_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Kaja.behavior.AbstractCommand_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="70" endPosition="0" unitName="Kaja.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="72" endPosition="0" unitName="Kaja.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="CommandList_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.CommandList_BehaviorDescriptor" />
   <unitInfo fileName="CommentLine_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.CommentLine_BehaviorDescriptor" />
   <unitInfo fileName="Direction_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="Kaja.behavior.Direction_BehaviorDescriptor" />
@@ -26,6 +26,7 @@
   <unitInfo fileName="Script_BehaviorDescriptor.java" startLine="12" startPosition="0" endLine="33" endPosition="0" unitName="Kaja.behavior.Script_BehaviorDescriptor" />
   <unitInfo fileName="South_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.South_BehaviorDescriptor" />
   <unitInfo fileName="Step_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.Step_BehaviorDescriptor" />
+  <unitInfo fileName="TraceMessage_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.TraceMessage_BehaviorDescriptor" />
   <unitInfo fileName="West_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.West_BehaviorDescriptor" />
   <unitInfo fileName="While_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="Kaja.behavior.While_BehaviorDescriptor" />
 </debugInfo>

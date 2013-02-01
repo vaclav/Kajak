@@ -84,6 +84,10 @@ public abstract class KajaFrame {
     stop();
   }
 
+  public void trace(String msg) {
+    JOptionPane.showMessageDialog(canvas, msg, "Trace", JOptionPane.INFORMATION_MESSAGE);
+  }
+
   protected Cell getCurrentCell() {
     return world[row][col];
   }

@@ -7,7 +7,7 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted;
 
 public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor {
-  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"Kaja.structure.CommandList", "Kaja.structure.CommentLine", "Kaja.structure.Drop", "Kaja.structure.East", "Kaja.structure.EmptyLine", "Kaja.structure.Heading", "Kaja.structure.IfStatement", "Kaja.structure.IsFull", "Kaja.structure.IsMark", "Kaja.structure.IsWall", "Kaja.structure.LeftTurn", "Kaja.structure.Library", "Kaja.structure.North", "Kaja.structure.Not", "Kaja.structure.Pick", "Kaja.structure.Repeat", "Kaja.structure.Require", "Kaja.structure.RoutineCall", "Kaja.structure.RoutineDefinition", "Kaja.structure.Script", "Kaja.structure.South", "Kaja.structure.Step", "Kaja.structure.West", "Kaja.structure.While"};
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"Kaja.structure.CommandList", "Kaja.structure.CommentLine", "Kaja.structure.Drop", "Kaja.structure.East", "Kaja.structure.EmptyLine", "Kaja.structure.Heading", "Kaja.structure.IfStatement", "Kaja.structure.IsFull", "Kaja.structure.IsMark", "Kaja.structure.IsWall", "Kaja.structure.LeftTurn", "Kaja.structure.Library", "Kaja.structure.North", "Kaja.structure.Not", "Kaja.structure.Pick", "Kaja.structure.Repeat", "Kaja.structure.Require", "Kaja.structure.RoutineCall", "Kaja.structure.RoutineDefinition", "Kaja.structure.Script", "Kaja.structure.South", "Kaja.structure.Step", "Kaja.structure.TraceMessage", "Kaja.structure.West", "Kaja.structure.While"};
 
   public BehaviorAspectDescriptor() {
   }
@@ -28,7 +28,7 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new Not_BehaviorDescriptor();
       case 15:
         return new Repeat_BehaviorDescriptor();
-      case 23:
+      case 24:
         return new While_BehaviorDescriptor();
       case 12:
         return new North_BehaviorDescriptor();
@@ -36,7 +36,7 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new East_BehaviorDescriptor();
       case 20:
         return new South_BehaviorDescriptor();
-      case 22:
+      case 23:
         return new West_BehaviorDescriptor();
       case 5:
         return new Heading_BehaviorDescriptor();
@@ -62,6 +62,8 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new Library_BehaviorDescriptor();
       case 16:
         return new Require_BehaviorDescriptor();
+      case 22:
+        return new TraceMessage_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }

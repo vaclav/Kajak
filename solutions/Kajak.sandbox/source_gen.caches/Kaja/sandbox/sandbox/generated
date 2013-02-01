@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="9i0n5r0sie7isspbkxwjl4ivhp1ofux">
+<dependencies version="2" modelHash="-7dnb9h41nnrcj8vxvm09vim7r9aupev">
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
   <dep model="r:262b93f0-fe86-497c-93c5-efd684d05bc6(KajaSceneConstruction.generator.template.main@generator)" hash="9mqvz2iwxeacyjd1w9fd120vbvm5sp7" />
-  <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kaja.generator.template.main@generator)" hash="-8umusndpk6ngp2tcu75zznd3laztwh4" />
+  <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kaja.generator.template.main@generator)" hash="-dgilyr6efb3r4jk49niuhdk1e7x6d95" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <common hash="-ej49o87wzn8ocz3xn19xvpt2ws3an8s">
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
@@ -14,10 +14,9 @@
     <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kaja.generator.template.main@generator)" />
     <file name="Karel.java" />
   </source>
-  <source id="7446293342517103305" name="Sample" hash="-3brlbudv98zltmqkoezvnk4se7ihbgr">
+  <source id="7446293342517103305" name="Sample" hash="b92gmeoq4jx8hnsvxqy0wb7m9gg8r1h">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
-    <dep model="r:262b93f0-fe86-497c-93c5-efd684d05bc6(KajaSceneConstruction.generator.template.main@generator)" />
     <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kaja.generator.template.main@generator)" />
     <file name="Sample.java" />
   </source>
@@ -35,6 +34,13 @@
   </source>
   <source id="3210697320273759353" name="PlaygroundDefinition" hash="3gmfvackl20fij8kc5dy87s0n7ov0e5">
     <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kaja.generator.template.main@generator)" />
+  </source>
+  <source id="3210697320273799179" name="MarkSniffer" hash="1zyfxkwduh93hmij1fdehzsou6hbgre">
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <dep model="r:262b93f0-fe86-497c-93c5-efd684d05bc6(KajaSceneConstruction.generator.template.main@generator)" />
+    <dep model="r:3ab3501c-2f4b-48e6-9b6c-e31ff8ef3185(Kaja.generator.template.main@generator)" />
+    <file name="MarkSniffer.java" />
   </source>
 </dependencies>
 

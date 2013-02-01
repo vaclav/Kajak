@@ -27,6 +27,9 @@
     <node type="c2kz.Library" typeId="c2kz.4394627182934741782" id="3210697320273759353">
       <property name="name" nameId="tpck.1169194664001" value="PlaygroundDefinition" />
     </node>
+    <node type="c2kz.Script" typeId="c2kz.3265739055509559110" id="3210697320273799179">
+      <property name="name" nameId="tpck.1169194664001" value="MarkSniffer" />
+    </node>
   </roots>
   <root id="3308300503039980203">
     <node role="body" roleId="c2kz.3265739055509559116" type="c2kz.CommandList" typeId="c2kz.3308300503039896127" id="3308300503039980204">
@@ -95,74 +98,7 @@
     </node>
   </root>
   <root id="7446293342517103305">
-    <node role="body" roleId="c2kz.3265739055509559116" type="c2kz.CommandList" typeId="c2kz.3308300503039896127" id="7446293342517103306">
-      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.Require" typeId="c2kz.4394627182934757449" id="3210697320273760828">
-        <link role="library" roleId="c2kz.4394627182934757450" targetNodeId="3210697320273759353" resolveInfo="PlaygroundDefinition" />
-      </node>
-      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.Require" typeId="c2kz.4394627182934757449" id="4394627182935306135">
-        <link role="library" roleId="c2kz.4394627182934757450" targetNodeId="4394627182934755441" resolveInfo="Common" />
-      </node>
-      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.Require" typeId="c2kz.4394627182934757449" id="4394627182935306702">
-        <link role="library" roleId="c2kz.4394627182934757450" targetNodeId="4394627182935280567" resolveInfo="Filling" />
-      </node>
-      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.EmptyLine" typeId="c2kz.3308300503039740438" id="3210697320273760873" />
-      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.RoutineCall" typeId="c2kz.3308300503039700882" id="3210697320273760830">
-        <link role="definition" roleId="c2kz.3308300503039730636" targetNodeId="3210697320273760071" resolveInfo="buildSimplePlayground" />
-      </node>
-      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.EmptyLine" typeId="c2kz.3308300503039740438" id="3210697320273760874" />
-      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.RoutineDefinition" typeId="c2kz.3308300503039700857" id="3210697320273760831">
-        <property name="name" nameId="tpck.1169194664001" value="safeStep" />
-        <node role="body" roleId="c2kz.3308300503039700860" type="c2kz.CommandList" typeId="c2kz.3308300503039896127" id="3210697320273760832">
-          <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.IfStatement" typeId="c2kz.3308300503039647678" id="3210697320273760834">
-            <node role="condition" roleId="c2kz.3308300503039647680" type="c2kz.Not" typeId="c2kz.3308300503039654064" id="3210697320273760838">
-              <node role="original" roleId="c2kz.3308300503039654067" type="c2kz.IsWall" typeId="c2kz.3308300503039647788" id="3210697320273760840" />
-            </node>
-            <node role="trueBranch" roleId="c2kz.3308300503039647684" type="c2kz.CommandList" typeId="c2kz.3308300503039896127" id="3210697320273760836">
-              <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.Step" typeId="c2kz.3265739055509559138" id="3210697320273760843" />
-            </node>
-            <node role="falseBranch" roleId="c2kz.3308300503039647685" type="c2kz.CommandList" typeId="c2kz.3308300503039896127" id="3210697320273760837">
-              <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.RoutineCall" typeId="c2kz.3308300503039700882" id="3210697320273760846">
-                <link role="definition" roleId="c2kz.3308300503039730636" targetNodeId="4394627182934755443" resolveInfo="turnRight" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.RoutineDefinition" typeId="c2kz.3308300503039700857" id="3210697320273760847">
-        <property name="name" nameId="tpck.1169194664001" value="searchForMark" />
-        <node role="body" roleId="c2kz.3308300503039700860" type="c2kz.CommandList" typeId="c2kz.3308300503039896127" id="3210697320273760848">
-          <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.IfStatement" typeId="c2kz.3308300503039647678" id="3210697320273760850">
-            <node role="condition" roleId="c2kz.3308300503039647680" type="c2kz.IsMark" typeId="c2kz.6405700485436186598" id="3210697320273760854" />
-            <node role="trueBranch" roleId="c2kz.3308300503039647684" type="c2kz.CommandList" typeId="c2kz.3308300503039896127" id="3210697320273760852">
-              <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.RoutineCall" typeId="c2kz.3308300503039700882" id="3210697320273760872">
-                <link role="definition" roleId="c2kz.3308300503039730636" targetNodeId="4394627182935306690" resolveInfo="pickAll" />
-              </node>
-              <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.While" typeId="c2kz.3308300503039667424" id="3210697320273760859">
-                <node role="condition" roleId="c2kz.3308300503039667426" type="c2kz.Not" typeId="c2kz.3308300503039654064" id="3210697320273760862">
-                  <node role="original" roleId="c2kz.3308300503039654067" type="c2kz.Heading" typeId="c2kz.3308300503039683649" id="3210697320273760864">
-                    <node role="direction" roleId="c2kz.3308300503039683650" type="c2kz.West" typeId="c2kz.3308300503039683644" id="3210697320273760866" />
-                  </node>
-                </node>
-                <node role="body" roleId="c2kz.3308300503039667427" type="c2kz.CommandList" typeId="c2kz.3308300503039896127" id="3210697320273760861">
-                  <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.LeftTurn" typeId="c2kz.3308300503039647627" id="3210697320273760868" />
-                </node>
-              </node>
-              <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.RoutineCall" typeId="c2kz.3308300503039700882" id="3210697320273760871">
-                <link role="definition" roleId="c2kz.3308300503039730636" targetNodeId="3210697320273760831" resolveInfo="safeStep" />
-              </node>
-              <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.RoutineCall" typeId="c2kz.3308300503039700882" id="3210697320273761937">
-                <link role="definition" roleId="c2kz.3308300503039730636" targetNodeId="3210697320273760847" resolveInfo="searchForMark" />
-              </node>
-            </node>
-            <node role="falseBranch" roleId="c2kz.3308300503039647685" type="c2kz.CommandList" typeId="c2kz.3308300503039896127" id="3210697320273760853" />
-          </node>
-        </node>
-      </node>
-      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.EmptyLine" typeId="c2kz.3308300503039740438" id="3210697320273760875" />
-      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.RoutineCall" typeId="c2kz.3308300503039700882" id="3210697320273760877">
-        <link role="definition" roleId="c2kz.3308300503039730636" targetNodeId="3210697320273760847" resolveInfo="searchForMark" />
-      </node>
-    </node>
+    <node role="body" roleId="c2kz.3265739055509559116" type="c2kz.CommandList" typeId="c2kz.3308300503039896127" id="7446293342517103306" />
   </root>
   <root id="859008965969243552">
     <node role="body" roleId="c2kz.3265739055509559116" type="c2kz.CommandList" typeId="c2kz.3308300503039896127" id="859008965969243553">
@@ -363,6 +299,88 @@
           <property name="row" nameId="rvtb.3210697320273608256" value="4" />
           <property name="col" nameId="rvtb.3210697320273608257" value="3" />
         </node>
+      </node>
+    </node>
+  </root>
+  <root id="3210697320273799179">
+    <node role="body" roleId="c2kz.3265739055509559116" type="c2kz.CommandList" typeId="c2kz.3308300503039896127" id="3210697320273799180">
+      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.EmptyLine" typeId="c2kz.3308300503039740438" id="3210697320273799215" />
+      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.CommentLine" typeId="c2kz.6405700485436287811" id="3210697320273799217">
+        <property name="text" nameId="c2kz.6405700485436287813" value="Searches for a mark on a custom playground, using a very primitive strategy" />
+      </node>
+      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.EmptyLine" typeId="c2kz.3308300503039740438" id="3210697320273799218" />
+      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.Require" typeId="c2kz.4394627182934757449" id="3210697320273799182">
+        <link role="library" roleId="c2kz.4394627182934757450" targetNodeId="3210697320273759353" resolveInfo="PlaygroundDefinition" />
+      </node>
+      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.Require" typeId="c2kz.4394627182934757449" id="3210697320273799183">
+        <link role="library" roleId="c2kz.4394627182934757450" targetNodeId="4394627182934755441" resolveInfo="Common" />
+      </node>
+      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.Require" typeId="c2kz.4394627182934757449" id="3210697320273799184">
+        <link role="library" roleId="c2kz.4394627182934757450" targetNodeId="4394627182935280567" resolveInfo="Filling" />
+      </node>
+      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.EmptyLine" typeId="c2kz.3308300503039740438" id="3210697320273799185" />
+      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.RoutineCall" typeId="c2kz.3308300503039700882" id="3210697320273799186">
+        <link role="definition" roleId="c2kz.3308300503039730636" targetNodeId="3210697320273760071" resolveInfo="buildSimplePlayground" />
+      </node>
+      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.EmptyLine" typeId="c2kz.3308300503039740438" id="3210697320273799187" />
+      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.RoutineDefinition" typeId="c2kz.3308300503039700857" id="3210697320273799188">
+        <property name="name" nameId="tpck.1169194664001" value="safeStep" />
+        <node role="body" roleId="c2kz.3308300503039700860" type="c2kz.CommandList" typeId="c2kz.3308300503039896127" id="3210697320273799189">
+          <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.IfStatement" typeId="c2kz.3308300503039647678" id="3210697320273799190">
+            <node role="condition" roleId="c2kz.3308300503039647680" type="c2kz.Not" typeId="c2kz.3308300503039654064" id="3210697320273799191">
+              <node role="original" roleId="c2kz.3308300503039654067" type="c2kz.IsWall" typeId="c2kz.3308300503039647788" id="3210697320273799192" />
+            </node>
+            <node role="trueBranch" roleId="c2kz.3308300503039647684" type="c2kz.CommandList" typeId="c2kz.3308300503039896127" id="3210697320273799193">
+              <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.Step" typeId="c2kz.3265739055509559138" id="3210697320273799194" />
+            </node>
+            <node role="falseBranch" roleId="c2kz.3308300503039647685" type="c2kz.CommandList" typeId="c2kz.3308300503039896127" id="3210697320273799195">
+              <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.RoutineCall" typeId="c2kz.3308300503039700882" id="3210697320273799196">
+                <link role="definition" roleId="c2kz.3308300503039730636" targetNodeId="4394627182934755443" resolveInfo="turnRight" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.RoutineDefinition" typeId="c2kz.3308300503039700857" id="3210697320273799197">
+        <property name="name" nameId="tpck.1169194664001" value="searchForMark" />
+        <node role="body" roleId="c2kz.3308300503039700860" type="c2kz.CommandList" typeId="c2kz.3308300503039896127" id="3210697320273799198">
+          <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.IfStatement" typeId="c2kz.3308300503039647678" id="3210697320273799199">
+            <node role="condition" roleId="c2kz.3308300503039647680" type="c2kz.IsMark" typeId="c2kz.6405700485436186598" id="3210697320273799200" />
+            <node role="trueBranch" roleId="c2kz.3308300503039647684" type="c2kz.CommandList" typeId="c2kz.3308300503039896127" id="3210697320273799201">
+              <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.RoutineCall" typeId="c2kz.3308300503039700882" id="3210697320273799202">
+                <link role="definition" roleId="c2kz.3308300503039730636" targetNodeId="4394627182935306690" resolveInfo="pickAll" />
+              </node>
+              <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.While" typeId="c2kz.3308300503039667424" id="3210697320273799203">
+                <node role="condition" roleId="c2kz.3308300503039667426" type="c2kz.Not" typeId="c2kz.3308300503039654064" id="3210697320273799204">
+                  <node role="original" roleId="c2kz.3308300503039654067" type="c2kz.Heading" typeId="c2kz.3308300503039683649" id="3210697320273799205">
+                    <node role="direction" roleId="c2kz.3308300503039683650" type="c2kz.West" typeId="c2kz.3308300503039683644" id="3210697320273799206" />
+                  </node>
+                </node>
+                <node role="body" roleId="c2kz.3308300503039667427" type="c2kz.CommandList" typeId="c2kz.3308300503039896127" id="3210697320273799207">
+                  <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.LeftTurn" typeId="c2kz.3308300503039647627" id="3210697320273799208" />
+                </node>
+              </node>
+            </node>
+            <node role="falseBranch" roleId="c2kz.3308300503039647685" type="c2kz.CommandList" typeId="c2kz.3308300503039896127" id="3210697320273799209">
+              <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.RoutineCall" typeId="c2kz.3308300503039700882" id="3210697320273799210">
+                <link role="definition" roleId="c2kz.3308300503039730636" targetNodeId="3210697320273799188" resolveInfo="safeStep" />
+              </node>
+              <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.RoutineCall" typeId="c2kz.3308300503039700882" id="3210697320273799211">
+                <link role="definition" roleId="c2kz.3308300503039730636" targetNodeId="3210697320273799197" resolveInfo="searchForMark" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.EmptyLine" typeId="c2kz.3308300503039740438" id="3210697320273799219" />
+      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.TraceMessage" typeId="c2kz.3210697320273763054" id="3210697320273799212">
+        <property name="message" nameId="c2kz.3210697320273763055" value="Playground is ready." />
+      </node>
+      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.RoutineCall" typeId="c2kz.3308300503039700882" id="3210697320273799213">
+        <link role="definition" roleId="c2kz.3308300503039730636" targetNodeId="3210697320273799197" resolveInfo="searchForMark" />
+      </node>
+      <node role="commands" roleId="c2kz.3308300503039896128" type="c2kz.TraceMessage" typeId="c2kz.3210697320273763054" id="3210697320273799214">
+        <property name="message" nameId="c2kz.3210697320273763055" value="Found a mark!" />
       </node>
     </node>
   </root>

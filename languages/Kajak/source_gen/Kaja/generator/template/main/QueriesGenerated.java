@@ -51,6 +51,10 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "text");
   }
 
+  public static Object propertyMacro_GetPropertyValue_3210697320273781186(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "message");
+  }
+
   public static Object referenceMacro_GetReferent_3308300503039701316(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "definition", false), "routines");
   }

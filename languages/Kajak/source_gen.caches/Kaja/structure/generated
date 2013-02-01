@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-2hrwalq6g77hg7ot70ub3bzztuzhl4y">
+<dependencies version="2" modelHash="-53ruhum8f2yzk1i1zkrb64dy6l5kakd">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -10,6 +10,7 @@
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
   <dep model="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" />
   <common hash="23xms8otgpavq60vo8gj29lqz1g0su">
+    <dep root="3210697320273763054" />
     <dep root="3265739055509559110" />
     <dep root="3265739055509559114" />
     <dep root="3265739055509559138" />
@@ -128,6 +129,9 @@
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="4394627182934757449" name="Require" hash="-d0xsydeoqk9ccc84sdvomn6pn159ifl">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="3210697320273763054" name="TraceMessage" hash="dbjy44fofj68d7fccns85n3g7t0t8bg">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
 </dependencies>

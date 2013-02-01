@@ -1,5 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <root nodeId="3210697320273763057" modelId="r:18c202d7-badd-41dd-bd9e-9d42a045e4f4(Kaja.editor)">
+    <nodeInfo nodeId="3210697320273763057" fileName="TraceMessage_Editor.java" startLine="19" startPosition="79" endLine="20" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3210697320273763059" fileName="TraceMessage_Editor.java" startLine="23" startPosition="89" endLine="24" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3210697320273763059" fileName="TraceMessage_Editor.java" startLine="24" startPosition="96" endLine="25" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3210697320273763059" fileName="TraceMessage_Editor.java" startLine="24" startPosition="96" endLine="25" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3210697320273763059" fileName="TraceMessage_Editor.java" startLine="25" startPosition="48" endLine="26" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3210697320273763059" fileName="TraceMessage_Editor.java" startLine="25" startPosition="48" endLine="26" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3210697320273763059" fileName="TraceMessage_Editor.java" startLine="26" startPosition="88" endLine="27" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3210697320273763059" fileName="TraceMessage_Editor.java" startLine="26" startPosition="88" endLine="27" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3210697320273763059" fileName="TraceMessage_Editor.java" startLine="27" startPosition="81" endLine="28" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3210697320273763059" fileName="TraceMessage_Editor.java" startLine="27" startPosition="81" endLine="28" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3210697320273763059" fileName="TraceMessage_Editor.java" startLine="28" startPosition="81" endLine="29" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3210697320273763059" fileName="TraceMessage_Editor.java" startLine="28" startPosition="81" endLine="29" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3210697320273763059" fileName="TraceMessage_Editor.java" startLine="29" startPosition="81" endLine="30" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3210697320273763066" fileName="TraceMessage_Editor.java" startLine="33" startPosition="88" endLine="34" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3210697320273763066" fileName="TraceMessage_Editor.java" startLine="34" startPosition="88" endLine="35" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3210697320273763066" fileName="TraceMessage_Editor.java" startLine="34" startPosition="88" endLine="35" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3210697320273763066" fileName="TraceMessage_Editor.java" startLine="35" startPosition="47" endLine="36" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3210697320273763066" fileName="TraceMessage_Editor.java" startLine="36" startPosition="34" endLine="37" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3210697320273763068" fileName="TraceMessage_Editor.java" startLine="40" startPosition="88" endLine="41" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3210697320273763068" fileName="TraceMessage_Editor.java" startLine="41" startPosition="88" endLine="42" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3210697320273763068" fileName="TraceMessage_Editor.java" startLine="41" startPosition="88" endLine="42" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3210697320273763068" fileName="TraceMessage_Editor.java" startLine="42" startPosition="47" endLine="43" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3210697320273763068" fileName="TraceMessage_Editor.java" startLine="43" startPosition="34" endLine="44" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3210697320273763064" fileName="TraceMessage_Editor.java" startLine="47" startPosition="88" endLine="48" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3210697320273763064" fileName="TraceMessage_Editor.java" startLine="48" startPosition="82" endLine="49" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3210697320273763064" fileName="TraceMessage_Editor.java" startLine="49" startPosition="32" endLine="50" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3210697320273763064" fileName="TraceMessage_Editor.java" startLine="50" startPosition="45" endLine="51" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3210697320273763064" fileName="TraceMessage_Editor.java" startLine="51" startPosition="26" endLine="52" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3210697320273763064" fileName="TraceMessage_Editor.java" startLine="52" startPosition="58" endLine="53" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3210697320273763064" fileName="TraceMessage_Editor.java" startLine="52" startPosition="58" endLine="53" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3210697320273763064" fileName="TraceMessage_Editor.java" startLine="53" startPosition="45" endLine="54" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3210697320273763064" fileName="TraceMessage_Editor.java" startLine="54" startPosition="73" endLine="55" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3210697320273763064" fileName="TraceMessage_Editor.java" startLine="55" startPosition="57" endLine="56" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3210697320273763064" fileName="TraceMessage_Editor.java" startLine="57" startPosition="35" endLine="58" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3210697320273763064" fileName="TraceMessage_Editor.java" startLine="58" startPosition="72" endLine="59" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3210697320273763064" fileName="TraceMessage_Editor.java" startLine="59" startPosition="78" endLine="60" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3210697320273763064" fileName="TraceMessage_Editor.java" startLine="61" startPosition="10" endLine="62" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3210697320273763062" fileName="TraceMessage_Editor.java" startLine="65" startPosition="95" endLine="66" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3210697320273763062" fileName="TraceMessage_Editor.java" startLine="66" startPosition="89" endLine="67" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3210697320273763062" fileName="TraceMessage_Editor.java" startLine="67" startPosition="30" endLine="68" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3210697320273763062" fileName="TraceMessage_Editor.java" startLine="68" startPosition="43" endLine="69" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3210697320273763062" fileName="TraceMessage_Editor.java" startLine="69" startPosition="26" endLine="70" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3210697320273763062" fileName="TraceMessage_Editor.java" startLine="70" startPosition="58" endLine="71" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3210697320273763062" fileName="TraceMessage_Editor.java" startLine="71" startPosition="50" endLine="72" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3210697320273763062" fileName="TraceMessage_Editor.java" startLine="72" startPosition="74" endLine="73" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3210697320273763062" fileName="TraceMessage_Editor.java" startLine="73" startPosition="73" endLine="74" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3210697320273763062" fileName="TraceMessage_Editor.java" startLine="74" startPosition="57" endLine="75" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3210697320273763062" fileName="TraceMessage_Editor.java" startLine="76" startPosition="35" endLine="77" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3210697320273763062" fileName="TraceMessage_Editor.java" startLine="77" startPosition="72" endLine="78" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3210697320273763062" fileName="TraceMessage_Editor.java" startLine="78" startPosition="78" endLine="79" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3210697320273763062" fileName="TraceMessage_Editor.java" startLine="80" startPosition="10" endLine="81" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3210697320273763062" fileName="TraceMessage_Editor.java" startLine="70" startPosition="58" endLine="72" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3210697320273763064" fileName="TraceMessage_Editor.java" startLine="51" startPosition="26" endLine="54" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3210697320273763057" fileName="TraceMessage_Editor.java" startLine="18" startPosition="60" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="3210697320273763062" fileName="TraceMessage_Editor.java" startLine="69" startPosition="26" endLine="73" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3210697320273763064" fileName="TraceMessage_Editor.java" startLine="56" startPosition="59" endLine="62" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3210697320273763062" fileName="TraceMessage_Editor.java" startLine="75" startPosition="59" endLine="81" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3210697320273763066" fileName="TraceMessage_Editor.java" startLine="32" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_y0rgyt_b0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="3210697320273763068" fileName="TraceMessage_Editor.java" startLine="39" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_y0rgyt_d0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="3210697320273763059" fileName="TraceMessage_Editor.java" startLine="22" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_y0rgyt_a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="3210697320273763064" fileName="TraceMessage_Editor.java" startLine="46" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_y0rgyt_c0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="3210697320273763062" fileName="TraceMessage_Editor.java" startLine="64" startPosition="0" endLine="83" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConceptProperty_y0rgyt_a0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <scopeInfo nodeId="3210697320273763057" fileName="TraceMessage_Editor.java" startLine="19" startPosition="79" endLine="20" endPosition="63" />
+    <scopeInfo nodeId="3210697320273763059" fileName="TraceMessage_Editor.java" startLine="24" startPosition="96" endLine="25" endPosition="48" />
+    <scopeInfo nodeId="3210697320273763059" fileName="TraceMessage_Editor.java" startLine="25" startPosition="48" endLine="26" endPosition="88" />
+    <scopeInfo nodeId="3210697320273763059" fileName="TraceMessage_Editor.java" startLine="26" startPosition="88" endLine="27" endPosition="81" />
+    <scopeInfo nodeId="3210697320273763059" fileName="TraceMessage_Editor.java" startLine="27" startPosition="81" endLine="28" endPosition="81" />
+    <scopeInfo nodeId="3210697320273763059" fileName="TraceMessage_Editor.java" startLine="28" startPosition="81" endLine="29" endPosition="81" />
+    <scopeInfo nodeId="3210697320273763066" fileName="TraceMessage_Editor.java" startLine="34" startPosition="88" endLine="35" endPosition="47" />
+    <scopeInfo nodeId="3210697320273763068" fileName="TraceMessage_Editor.java" startLine="41" startPosition="88" endLine="42" endPosition="47" />
+    <scopeInfo nodeId="3210697320273763064" fileName="TraceMessage_Editor.java" startLine="52" startPosition="58" endLine="53" endPosition="45" />
+    <scopeInfo nodeId="3210697320273763062" fileName="TraceMessage_Editor.java" startLine="70" startPosition="58" endLine="72" endPosition="74" />
+    <scopeInfo nodeId="3210697320273763064" fileName="TraceMessage_Editor.java" startLine="51" startPosition="26" endLine="54" endPosition="73" />
+    <scopeInfo nodeId="3210697320273763064" fileName="TraceMessage_Editor.java" startLine="57" startPosition="35" endLine="60" endPosition="105">
+      <varInfo nodeId="3210697320273763064" varName="manager" />
+      <varInfo nodeId="3210697320273763064" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="3210697320273763062" fileName="TraceMessage_Editor.java" startLine="76" startPosition="35" endLine="79" endPosition="105">
+      <varInfo nodeId="3210697320273763062" varName="manager" />
+      <varInfo nodeId="3210697320273763062" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="3210697320273763057" fileName="TraceMessage_Editor.java" startLine="18" startPosition="60" endLine="22" endPosition="0">
+      <varInfo nodeId="3210697320273763057" varName="editorContext" />
+      <varInfo nodeId="3210697320273763057" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3210697320273763066" fileName="TraceMessage_Editor.java" startLine="33" startPosition="88" endLine="37" endPosition="22">
+      <varInfo nodeId="3210697320273763066" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="3210697320273763068" fileName="TraceMessage_Editor.java" startLine="40" startPosition="88" endLine="44" endPosition="22">
+      <varInfo nodeId="3210697320273763068" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="3210697320273763062" fileName="TraceMessage_Editor.java" startLine="69" startPosition="26" endLine="73" endPosition="73" />
+    <scopeInfo nodeId="3210697320273763059" fileName="TraceMessage_Editor.java" startLine="23" startPosition="89" endLine="30" endPosition="22">
+      <varInfo nodeId="3210697320273763059" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="3210697320273763066" fileName="TraceMessage_Editor.java" startLine="32" startPosition="0" endLine="39" endPosition="0">
+      <varInfo nodeId="3210697320273763066" varName="editorContext" />
+      <varInfo nodeId="3210697320273763066" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3210697320273763068" fileName="TraceMessage_Editor.java" startLine="39" startPosition="0" endLine="46" endPosition="0">
+      <varInfo nodeId="3210697320273763068" varName="editorContext" />
+      <varInfo nodeId="3210697320273763068" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3210697320273763059" fileName="TraceMessage_Editor.java" startLine="22" startPosition="0" endLine="32" endPosition="0">
+      <varInfo nodeId="3210697320273763059" varName="editorContext" />
+      <varInfo nodeId="3210697320273763059" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3210697320273763064" fileName="TraceMessage_Editor.java" startLine="47" startPosition="88" endLine="62" endPosition="22">
+      <varInfo nodeId="3210697320273763064" varName="attributeConcept" />
+      <varInfo nodeId="3210697320273763064" varName="attributeKind" />
+      <varInfo nodeId="3210697320273763064" varName="editorCell" />
+      <varInfo nodeId="3210697320273763064" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="3210697320273763062" fileName="TraceMessage_Editor.java" startLine="65" startPosition="95" endLine="81" endPosition="22">
+      <varInfo nodeId="3210697320273763062" varName="attributeConcept" />
+      <varInfo nodeId="3210697320273763062" varName="attributeKind" />
+      <varInfo nodeId="3210697320273763062" varName="editorCell" />
+      <varInfo nodeId="3210697320273763062" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="3210697320273763064" fileName="TraceMessage_Editor.java" startLine="46" startPosition="0" endLine="64" endPosition="0">
+      <varInfo nodeId="3210697320273763064" varName="editorContext" />
+      <varInfo nodeId="3210697320273763064" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3210697320273763062" fileName="TraceMessage_Editor.java" startLine="64" startPosition="0" endLine="83" endPosition="0">
+      <varInfo nodeId="3210697320273763062" varName="editorContext" />
+      <varInfo nodeId="3210697320273763062" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="3210697320273763057" fileName="TraceMessage_Editor.java" startLine="18" startPosition="0" endLine="84" endPosition="0" unitName="Kaja.editor.TraceMessage_Editor" />
+  </root>
   <root nodeId="3265739055509559117" modelId="r:18c202d7-badd-41dd-bd9e-9d42a045e4f4(Kaja.editor)">
     <nodeInfo nodeId="3308300503040114641" fileName="Script_Editor.java" startLine="36" startPosition="5" endLine="36" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="3265739055509559117" fileName="Script_Editor.java" startLine="24" startPosition="79" endLine="25" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
