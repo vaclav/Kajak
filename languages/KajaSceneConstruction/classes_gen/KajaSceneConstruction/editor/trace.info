@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeId="3210697320273550868" modelId="r:c23c1e07-b721-429a-b911-f2771cc8a585(KajaSceneConstruction.editor)">
-    <nodeInfo nodeId="3210697320273612343" fileName="BuildWall_Editor.java" startLine="32" startPosition="69" endLine="32" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3210697320273870303" fileName="BuildWall_Editor.java" startLine="32" startPosition="69" endLine="32" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="3210697320273550868" fileName="BuildWall_Editor.java" startLine="18" startPosition="79" endLine="19" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3210697320273550870" fileName="BuildWall_Editor.java" startLine="22" startPosition="89" endLine="23" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="3210697320273550870" fileName="BuildWall_Editor.java" startLine="23" startPosition="96" endLine="24" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -11,9 +11,9 @@
     <nodeInfo nodeId="3210697320273550870" fileName="BuildWall_Editor.java" startLine="25" startPosition="88" endLine="26" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="3210697320273550870" fileName="BuildWall_Editor.java" startLine="25" startPosition="88" endLine="26" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3210697320273550870" fileName="BuildWall_Editor.java" startLine="26" startPosition="82" endLine="27" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3210697320273612343" fileName="BuildWall_Editor.java" startLine="30" startPosition="89" endLine="31" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3210697320273612343" fileName="BuildWall_Editor.java" startLine="31" startPosition="55" endLine="32" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3210697320273612343" fileName="BuildWall_Editor.java" startLine="32" startPosition="69" endLine="33" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3210697320273870303" fileName="BuildWall_Editor.java" startLine="30" startPosition="89" endLine="31" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3210697320273870303" fileName="BuildWall_Editor.java" startLine="31" startPosition="55" endLine="32" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3210697320273870303" fileName="BuildWall_Editor.java" startLine="32" startPosition="69" endLine="33" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3210697320273550873" fileName="BuildWall_Editor.java" startLine="36" startPosition="95" endLine="37" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="3210697320273550873" fileName="BuildWall_Editor.java" startLine="37" startPosition="89" endLine="38" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3210697320273550873" fileName="BuildWall_Editor.java" startLine="38" startPosition="30" endLine="39" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -31,19 +31,19 @@
     <nodeInfo nodeId="3210697320273550873" fileName="BuildWall_Editor.java" startLine="41" startPosition="58" endLine="43" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="3210697320273550868" fileName="BuildWall_Editor.java" startLine="17" startPosition="57" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="3210697320273550873" fileName="BuildWall_Editor.java" startLine="40" startPosition="26" endLine="44" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3210697320273612343" fileName="BuildWall_Editor.java" startLine="29" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_4yvtx6_b0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="3210697320273870303" fileName="BuildWall_Editor.java" startLine="29" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_4yvtx6_b0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="3210697320273550873" fileName="BuildWall_Editor.java" startLine="46" startPosition="59" endLine="52" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="3210697320273550870" fileName="BuildWall_Editor.java" startLine="21" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_4yvtx6_a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="3210697320273550873" fileName="BuildWall_Editor.java" startLine="35" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConceptProperty_4yvtx6_a0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <scopeInfo nodeId="3210697320273612343" fileName="BuildWall_Editor.java" startLine="32" startPosition="69" endLine="32" endPosition="69" />
+    <scopeInfo nodeId="3210697320273870303" fileName="BuildWall_Editor.java" startLine="32" startPosition="69" endLine="32" endPosition="69" />
     <scopeInfo nodeId="3210697320273550868" fileName="BuildWall_Editor.java" startLine="18" startPosition="79" endLine="19" endPosition="63" />
     <scopeInfo nodeId="3210697320273550870" fileName="BuildWall_Editor.java" startLine="23" startPosition="96" endLine="24" endPosition="48" />
     <scopeInfo nodeId="3210697320273550870" fileName="BuildWall_Editor.java" startLine="24" startPosition="48" endLine="25" endPosition="88" />
     <scopeInfo nodeId="3210697320273550870" fileName="BuildWall_Editor.java" startLine="25" startPosition="88" endLine="26" endPosition="82" />
     <scopeInfo nodeId="3210697320273550873" fileName="BuildWall_Editor.java" startLine="41" startPosition="58" endLine="43" endPosition="74" />
-    <scopeInfo nodeId="3210697320273612343" fileName="BuildWall_Editor.java" startLine="30" startPosition="89" endLine="33" endPosition="22">
-      <varInfo nodeId="3210697320273612343" varName="editorCell" />
-      <varInfo nodeId="3210697320273612343" varName="provider" />
+    <scopeInfo nodeId="3210697320273870303" fileName="BuildWall_Editor.java" startLine="30" startPosition="89" endLine="33" endPosition="22">
+      <varInfo nodeId="3210697320273870303" varName="editorCell" />
+      <varInfo nodeId="3210697320273870303" varName="provider" />
     </scopeInfo>
     <scopeInfo nodeId="3210697320273550873" fileName="BuildWall_Editor.java" startLine="47" startPosition="35" endLine="50" endPosition="105">
       <varInfo nodeId="3210697320273550873" varName="manager" />
@@ -57,9 +57,9 @@
     <scopeInfo nodeId="3210697320273550870" fileName="BuildWall_Editor.java" startLine="22" startPosition="89" endLine="27" endPosition="22">
       <varInfo nodeId="3210697320273550870" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="3210697320273612343" fileName="BuildWall_Editor.java" startLine="29" startPosition="0" endLine="35" endPosition="0">
-      <varInfo nodeId="3210697320273612343" varName="editorContext" />
-      <varInfo nodeId="3210697320273612343" varName="node" />
+    <scopeInfo nodeId="3210697320273870303" fileName="BuildWall_Editor.java" startLine="29" startPosition="0" endLine="35" endPosition="0">
+      <varInfo nodeId="3210697320273870303" varName="editorContext" />
+      <varInfo nodeId="3210697320273870303" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="3210697320273550870" fileName="BuildWall_Editor.java" startLine="21" startPosition="0" endLine="29" endPosition="0">
       <varInfo nodeId="3210697320273550870" varName="editorContext" />
